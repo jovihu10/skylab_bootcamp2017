@@ -30,7 +30,8 @@ Para acceder al terminal:
 
 ```
 GIT
-``
+```
+
 <ol>
     <li>Ir a la ruta</li>
     <li>git init</li>
@@ -62,6 +63,7 @@ cd ..
 Ponemos cd .. porque lo que hace es subir un directorio </li>
 <ol> 
 <br>
+
     **man ls ➡** es como un «help». Te dice todo lo que puedes hacer
     **quit ➡** para salir del man
     **mkdir ➡** Crea una nueva dirección en la working directory.(«make directory»)
