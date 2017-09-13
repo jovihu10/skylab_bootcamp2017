@@ -114,11 +114,9 @@ podemos usar tags de html. Para poner un link, también podemos usar a href
 ```
 command + alt + 1 (o 2, 3...depende del num de ventanas)
 ```
-<br>
-<br>
-
 
 Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git.
+<br>
 
 ### REPOSITORIOS Y TRABAJAR CON GIT LOCAL
 Hay tres estados.
@@ -130,7 +128,7 @@ Hay tres estados.
 <br>
 
 <ul>
-    <li>**git add** ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
+    <li><strong>git add</strong> ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
     Ej: git add NOMBRE ARCHIVO.extension</li>
     <li>**git commit -m**  "comentario" ➡ para guardar. Siempre será Git add y despueés git commit -m ""
     </li>
