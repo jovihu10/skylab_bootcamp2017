@@ -9,16 +9,16 @@
 <h3>HEMOS VISTO</h3
 
 <ol>
-    <li>* herramientas de trabajo</li>
-    <li> * Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
-    <li>* Command line</li>
-    <li>* Markdown</li>
+    <li> Herramientas de trabajo</li>
+    <li> Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
+    <li> Command line</li>
+    <li> Markdown</li>
 </ol>
 <br>
 
-```
-COMANDOS CONSOLA 
-```
+
+<h3>COMANDOS CONSOLA</h3> 
+
 
 Para acceder al terminal:
 <ol>
