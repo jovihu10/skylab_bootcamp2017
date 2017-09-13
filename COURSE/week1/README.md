@@ -21,10 +21,10 @@
 
 Para acceder al terminal:
 ```
-    <ol>
-    <li> cmd + space</li>
-    <li> Escribir "terminal"</li>
-    </ol>
+    
+    1. cmd + space
+    2. Escribir "terminal"
+    
 ```
 
 <br>
