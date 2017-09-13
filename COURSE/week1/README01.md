@@ -21,10 +21,10 @@ COMANDOS CONSOLA
 ```
 
 Para acceder a la consola:
-<ul>
-    <li>1º) cmd + space</li>
-    <li>2º) Escribir "terminal"</li>
-</ul>
+<ol>
+    <li> cmd + space</li>
+    <li> Escribir "terminal"</li>
+</ol>
 <br>
 
 
@@ -41,7 +41,7 @@ Para acceder a la consola:
 <br>
 
 ```
-En terminal
+<h2>En terminal<h2>
 ```
 **pwd ➡** nos dice donde está la carpeta ("print working directory")
 **ls ➡** usarlo después de pwd, para saber en l
@@ -54,43 +54,37 @@ ej: cd jan/memory
 cd ..
 Ponemos cd .. porque lo que hace es subir un directorio  
 <br>
-**man ls ➡** es como un «help». Te dice todo lo que puedes hacer
-**quit ➡** para salir del man
-
-
-**mkdir ➡** Crea una nueva dirección en la working directory.(«make directory»)
-**touch ➡** Crea un nuevo archivo en el working directory
-
-**cd/ ➡** (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)
-
-
-**echo ➡** permite que se muestre un valor en la pantalla
-**less ➡** es un comando que te permite visualizar de forma encadenada un fichero
-**subl ➡**
-**rm ➡**(remove) para borrar un fichero
-**clear ➡** para limpiar la consola
-**echo➡** Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
-
-
-
-
-
-
-
-
-
-
+<ul>
+    <li>**man ls ➡** es como un «help». Te dice todo lo que puedes hacer</li>
+    <li>**quit ➡** para salir del man</li>
+    <li>**mkdir ➡** Crea una nueva dirección en la working directory.(«make directory»)</li>
+    <li>**touch ➡** Crea un nuevo archivo en el working directory</li>
+    <li>**cd/ ➡** (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)</li>
+    <li>**echo ➡** permite que se muestre un valor en la pantalla</li>
+    <li>**less ➡** es un comando que te permite visualizar de forma encadenada un fichero</li>
+    <li>**subl ➡**</li>
+    <li>**rm ➡**(remove) para borrar un fichero</li>
+    <li>**clear ➡** para limpiar la consola</li>
+    <li>**echo➡** Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)</li>
+</ul>
+<br>
 ##MARKDOWN EN SUBLIME
 <table><td>Hola mundo</td></table>
-Para tachar algo ➡ ejemplo: 
+**Para tachar algo ➡** ejemplo: 
 ~~Hola que tal~~
 
+```
+**Para poner iconos de mac ➡**
+```
+CMD ALT SPACE 
+```
+**para poner cosas con estilos ➡** 
+```
+podemos usar tags de html. Para poner un link, también podemos usar a href
 
 
--para poner cosas con estilos podemos usar tags de html
-para poner un link, también podemos usar
-
-
+Para pantalla partida 
+command + alt + 1 (o 2, 3...depende del num de ventanas)
 
 
 
@@ -144,3 +138,8 @@ https://www.git-tower.com/blog/git-cheat-sheet/
 https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
+```
+Para pantalla partida
+```
+
+command + alt + 1 (o 2, 3...depende del num de ventanas)
