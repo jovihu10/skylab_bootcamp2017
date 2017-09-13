@@ -51,11 +51,11 @@ Para acceder al terminal:
 ## <h3>EN EL TERMINAL</h3>
 
 
-**pwd ➡** nos dice donde está la carpeta ("print working directory")
+**pwd    ➡** nos dice donde está la carpeta ("print working directory")
 
-**ls  ➡** usarlo después de pwd, para saber en l
+**ls     ➡** usarlo después de pwd, para saber en l
 
-**ls -l ➡** te lista todos los archivos y directorios como una tabla 
+**ls -l  ➡** te lista todos los archivos y directorios como una tabla 
 
 **cd ➡ cd ..** »changue directory. 
 <ol>
