@@ -5,9 +5,9 @@
 
 
 
-```
+
 <h3>HEMOS VISTO</h3
-```
+
 <ol>
     <li>* herramientas de trabajo</li>
     <li> * Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
