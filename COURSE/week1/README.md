@@ -127,6 +127,7 @@ Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre 
 <br>
 
 <h2> REPOSITORIOS Y TRABAJAR CON GIT LOCAL</h2>
+
 Hay tres estados.
 ```
 1. * Working directory (directorio de trabajo)
