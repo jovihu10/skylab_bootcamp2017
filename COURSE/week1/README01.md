@@ -5,8 +5,9 @@
 
 
 
-```
+
 HEMOS VISTO
+
 ```
 <ol>
     <li>* herramientas de trabajo</li>
@@ -14,24 +15,25 @@ HEMOS VISTO
     <li>* Command line</li>
     <li>* Markdown</li>
 </ol>
-<br>
+```
 
-```
+
+
 COMANDOS CONSOLA 
-```
 
 Para acceder al terminal:
+```
 <ol>
     <li> cmd + space</li>
     <li> Escribir "terminal"</li>
 </ol>
+```
 <br>
 
 
-```
+
 GIT
 ```
-
 <ol>
     <li>Ir a la ruta</li>
     <li>git init</li>
@@ -39,6 +41,7 @@ GIT
     <li>git commit -m "primer commit"</li>
     <li>git push -u</li>
 </ol>
+```
 <br>
 <br>
 <br>
