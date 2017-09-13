@@ -19,18 +19,18 @@
 
 <h3>COMANDOS CONSOLA</h3> 
 
-
 Para acceder al terminal:
 <ol>
     <li> cmd + space</li>
     <li> Escribir "terminal"</li>
 </ol>
+
 <br>
 
 
-```
-GIT
-```
+
+<h3>GIT</h3>
+
 
 <ol>
     <li>Ir a la ruta</li>
