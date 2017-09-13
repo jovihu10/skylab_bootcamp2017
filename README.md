@@ -2,6 +2,7 @@
 
 <h2>SKYLAB CODERS ACADEMY - SUMMER 2017</h2>
 
+
 <a href="https://skylabcoders.github.io/bootcamp-julio2017/"><h3>SLIDES FOR THE COURSE</h3></a>
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week1">WEEK 1 </a>- Basic JS
