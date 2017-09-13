@@ -44,7 +44,7 @@ Para acceder al terminal:
 <br>
 
 
-<h2>En terminal<h2>
+<h2>En terminal</h2>
 
 **pwd ➡** nos dice donde está la carpeta ("print working directory")
 **ls ➡** usarlo después de pwd, para saber en l
