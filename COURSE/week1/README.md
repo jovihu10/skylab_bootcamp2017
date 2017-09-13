@@ -90,10 +90,12 @@ echo➡</strong> Hola > readme  (para grabar el readme usamos el simbolo > y pon
 ```
 
 <br>
-##<h3>MARKDOWN EN SUBLIME</h3>
+##<h3>MARKDOWN EN GITHUB</h3>
 <table><td>Hola mundo</td></table>
 **Para tachar algo ➡** ejemplo: 
 ~~Hola que tal~~
+
+<a href="https://guides.github.com/features/mastering-markdown/">Exelente tutorial con toda la info de cómo hacerlo</a>
 
 
 **Para poner iconos de mac ➡**
@@ -111,7 +113,7 @@ podemos usar tags de html. Para poner un link, también podemos usar a href
 command + alt + 1 (o 2, 3...depende del num de ventanas)
 <br>
 <br>
-```
+``
 
 Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git
 ** Repositorios y trabajar con GIT LOCAL**
