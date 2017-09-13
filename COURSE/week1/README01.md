@@ -25,6 +25,7 @@ Para acceder a la consola:
     <li>2º) Escribir "terminal"</li>
 </ul>
 
+
 ## GIT
 <ol>
     <li>Ir a la ruta</li>
@@ -36,7 +37,7 @@ Para acceder a la consola:
 
 
 
-*En terminal*
+**En terminal**
 pwd ➡ nos dice donde está la carpeta ("print working directory")
 ls ➡ usarlo después de pwd, para saber en l
 ls -l ➡ te lista todos los archivos y directorios como una tabla 
