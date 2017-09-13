@@ -1,4 +1,6 @@
-#FULL STACK WEB DEVELOPER BOOTCAMP
+<h1>FULL STACK WEB DEVELOPER BOOTCAMP</h1>
+
+<h2>SKYLAB CODERS ACADEMY - SUMMER 2017</h2>
 
 <a href="https://skylabcoders.github.io/bootcamp-julio2017/">SLIDES FOR THE COURSE</a>
 
