@@ -95,7 +95,9 @@ Ponemos cd .. porque lo que hace es subir un directorio </li>
 <br>
 
 <h2>MARKDOWN EN GITHUB</h2>
-<a href="https://guides.github.com/features/mastering-markdown/">Exelente tutorial con toda la info de cómo hacerlo</a>
+<a href="https://guides.github.com/features/mastering-markdown/">Tutorial1</a>
+
+<a href="https://guides.github.com/features/mastering-markdown/">Tutorial2</a>
 <table><td>Hola mundo</td></table>
 **Para tachar algo ➡** ejemplo: 
 ~~Hola que tal~~
@@ -142,9 +144,10 @@ Hay tres estados.
 
 
 **GIT REMOTO**
-3º) git push ➡ para subirlo
+```
+git push ➡ para subirlo
 git pull ➡ para bajar
-
+```
 
 
 <strong>working copy</strong> ➡ nuestros ficheros en los que trabajamos.
