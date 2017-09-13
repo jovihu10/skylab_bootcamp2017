@@ -8,12 +8,13 @@
 ```
 HEMOS VISTO
 ```
-<ul>
+<ol>
     <li>* herramientas de trabajo</li>
     <li> * Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
     <li>* Command line</li>
     <li>* Markdown</li>
-</ul>
+</ol>
+<br>
 
 ```
 COMANDOS CONSOLA 
@@ -24,6 +25,7 @@ Para acceder a la consola:
     <li>1º) cmd + space</li>
     <li>2º) Escribir "terminal"</li>
 </ul>
+<br>
 
 
 ## GIT
