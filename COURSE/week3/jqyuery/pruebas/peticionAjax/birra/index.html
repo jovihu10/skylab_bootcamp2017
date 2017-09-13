@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>birra json</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="img/theme.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class=container>
+<div class="row">
+
+<div class="col-md-12 col-xs-12 hidden-md">
+<div class="backgroundH1">
+<h1>SUPER SEARCH ENGINE</h1>
+</div>
+<form action="/action_page.php">
+  SEARCH HERE:
+  <input id="formu" type="search" name="newsearch">
+  <input type="submit" id="send">
+</form>
+</div>
+</div>
+
+<div class="show">
+</div>
+</div>
+
+   
+
+
+
+
+
+<script type="text/javascript" src="js/index.js">
+</script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js">
+	</script>
+	<script type="text/javascript">
+	var url= 'https://quiet-inlet-67115.herokuapp.com/api/search/all?q=%3C%QUERY%%3E';
+
+
+
+
+	/*
+
+	$.getJSON(url)
+		.done(function(event) {
+			console.log('ok');
+			
+			//Con esta funcion data podemos obtener los datos, los cuales jquery ya nos los convierte en objetos y ya parseados
+			var general = event.data.items[0];
+			var tittle = general.tittle;
+			var thumbnail = general.thumbnail.default;
+
+			//así añadimos el texto del titulo
+    $("#titleh1").append(tittle);
+
+    */
+
+//ir a la carpeta donde esta el archivo con el terminal
+//poner en el terminal http-server
+
+	</script>
+
+
+	
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<!--usaremos siempre JSON para pedir una api -->
+	<script type="text/javascript">
+		var url= 'http://data.colorado.gov/resource/4ykn-tg5h.json?entitystatus=Good%20Standing&principalzipcode=80001';
+		//habitualmente usaremos el nombre xhr
+		var xhr = new XMLHttpRequest();
+		var data;
+
+		//onload es que cuando la peticion al servidor se ha ejecutado y haya ido bien, que haga una funcion
+		xhr.onload = function(){
+			console.log('ok');
+			//esto para que nos dé la información
+			console.log(xhr.responseText);
+
+			//Esto es para convertir lo que nos ha dado de info en un array de objetos
+			 startTime = new Date().getTime();
+			data = JSON.parse(xhr.responseText);
+		
+			console.log(data)
+			}	
+
+		//en caso de que la peticion haya fallado, que haga esto
+			xhr.onerror = function(){
+				console.error('ko')
+			}
+
+
+			xhr.open('GET', url, true);
+		
+
+				var startTime = new Date().getTime();
+					//enviamos la peticion
+					console.log(endTime - startTime)
+				xhr.send();
+		
+
+			// hasta aquí nos da OK a la peticion
+
+
+
+
+			</script>
+	
+</body>
+</html>

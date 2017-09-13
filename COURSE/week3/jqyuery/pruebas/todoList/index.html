@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+</head>
+
+<body>
+    <form>
+        <label>Input a to-do and hit enter!
+            <input text="text">
+            <ul>
+            </ul>
+    </form>
+    </label>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.slim.min.js">
+</script>
+<script type="text/javascript">
+//esto es para que me escriba el texto
+$('form').submit(function() {
+
+    //El trim es por si pones espacios vacios que te los quite
+    var todo = $('input').val().trim();
+
+
+    //Hacemos un if para si no escribes nada que no ponga nada ni añada un li
+    if (todo != '') {
+        //El &check es para que aparezca el simbolo de checkeado
+        $('ul').append('<li>' + todo + '<a href="#"> &check;</a> </li>')
+
+        $('input').val('');
+
+    }
+    return false;
+
+});
+//Esto es para que cuando clickemos a algun li nos diga que hemos clickado y nos lo borre
+$(document).on('click','a', function(){
+	console.log('anchor clicked!');
+	$(this).parent().remove()
+
+})
+</script>
+
+</html>

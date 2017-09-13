@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--Esto es lo mismo que en el index2, pero mucho más directo, ya que con JSON es más directo -->
+</head>
+<body>
+<h1 id="titleh1"></h1>
+
+
+<div id="videoYoutube">
+</div>
+
+<img id="image">
+</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js">
+	</script>
+	<script type="text/javascript">
+	var url= 'youtubeJson.json';
+		
+
+	$.getJSON(url)
+		.done(function(event) {
+			console.log('ok');
+			
+			//Con esta funcion data podemos obtener los datos, los cuales jquery ya nos los convierte en objetos y ya parseados
+			var general = event.data.items[0];
+			var tittle = general.tittle;
+			var thumbnail = general.thumbnail.default;
+
+			//así añadimos el texto del titulo
+    $("#titleh1").append(tittle);
+   
+
+   //Para añadir la imagen, creamos un img src en html sin src y en js hacemos servir el attr
+   //El attr requiere dos parametros, el tipo (en este caso src, i de donde proviene la info, en este caso la var thumbnail) 
+    $("img").attr('src', thumbnail);
+
+
+			
+		console.log(general);
+		console.log(tittle);
+		console.log(thumbnail);
+			
+//crear h1 id  y añadirlo con append
+			
+		})
+
+		.fail(function(){
+			console.log('fail')
+
+		});
+		//El ; en })solo lo usaremos al final del todo siempre en jquery para cortar la acción
+
+
+
+		//Para recibir los datos, jquery siempre nos pasa los datos con la función de callback
+	</script>
+</body>
+</html>

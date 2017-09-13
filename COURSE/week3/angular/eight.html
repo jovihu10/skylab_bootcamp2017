@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="testApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+
+<body>
+    <div ng-controller="TestCtrl as test">
+        <h2>{{ test.titulo }}</h2>
+        <p>{{ test.document }}</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script>
+    var app = angular.module("testApp", []);
+    app.controller("TestCtrl", function() {
+        this.titulo = "El Angular es.. BUFF";
+        this.document = "Angular al principio es complicado, despues ... te das cuenta que no cuesta tanto";
+
+    });
+    </script>
+</body>
+
+</html>

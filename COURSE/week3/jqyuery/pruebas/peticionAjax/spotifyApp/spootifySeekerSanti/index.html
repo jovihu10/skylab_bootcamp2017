@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es/ES">
+<head>
+	<meta charset="UTF-8">
+	<title>Music Seeker</title>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid header">
+		<div class="row top-page">
+			<div class="col-xs-2">
+				<a href="https://www.spotify.com/es/"><img class="logo" src="img/spotify.png"></a>
+			</div>
+			<div class="col-xs-offset-1 col-xs-6">
+				<div class="col-xs-offset-2">
+					<h1>Music Seeker</h1>
+				</div>
+				<div class="row">
+					<form class="col-xs-11">
+						<input id="artistSearch" class="form-control form-control-lg" type="text" name="artist" placeholder="Introduce the artist or group name">
+					</form>
+					<button class="searcher btn btn-warning"><span class="glyphicon glyphicon-search"></span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="background">
+		<div class="container body">
+			<div class="row">
+				<div class="col-xs-4 text-centred changecolor">
+					<h2 class="col-xs-offset-1">Artists</h2>
+					<ul id="artistsList">
+					</ul>
+				</div>
+				<div class="col-xs-4 text-centred changecolor">
+					<h2 class="col-xs-offset-2">Albums</h2>
+					<ul id="albumList">
+					</ul>
+				</div>
+				<div class="col-xs-4 text-centred changecolor">
+					<h2 class="col-xs-offset-1 moreright">Songs</h2>
+					<ul id="songsList">
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <p>To exit press anywhere outside this window</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container-fluid">
+		<span class="name col-xs-offset-1">Santi Velat <span>&copy;</span></span>   <a class="github" href="https://github.com/SantiVelat/">https://github.com/SantiVelat/</a>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

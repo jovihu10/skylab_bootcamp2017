@@ -1,0 +1,75 @@
+*{
+		font-family: 'Indie Flower', cursive;
+	}
+	h1{
+		font-family: 'sofia';
+		font-size: 400%;
+		font-weight: bold;
+	}
+	ul{
+		list-style-type: none;
+	}
+	.searcher{
+		float:left;
+	}
+	.top-page{
+		margin-top:2%;
+		margin-bottom: 5%;
+	}
+	.moreright{
+		padding-left: 2%
+	}
+	.header{
+		margin-top:0px;
+		padding-top:0px;
+		background-color: #1ED760;
+	}
+	.logo{background-image: url("../img/spotify.png")
+		width:200px;
+		height: 120px;
+		transform: rotate(-10deg);}
+	h2{
+		font-weight: bold;
+		text-decoration: underline;
+		}
+	.background{
+		background-color: #E6F3DD;
+		height:850px;
+		min-height: 100%;
+	}
+	a {
+		color: black;
+	}
+	a:link{
+		text-decoration: none;
+	}
+	a:hover{
+		font-size:150%;
+		color:black;	
+	}
+	a:active{
+		color:#1ED760;
+	}
+	a:focus{
+		color:#1ED760;		
+	}
+	.footer{
+	 	background-color: black;
+	 	color: white;
+	 	position:fixed;
+	 	width:100%;
+	 	bottom:0px;
+	 	font-size: 120%;
+	 }
+	 .name{float:left;}
+	 .github{float:right;
+	 		margin-right:5%;
+	 		color:white;}
+	 a.github:hover{
+	 	color:white;
+	 	font-size: 100%;
+	 }
+	 li:before{
+	 	content:"\00BB  ";
+	 	font-size:120%;
+	 }

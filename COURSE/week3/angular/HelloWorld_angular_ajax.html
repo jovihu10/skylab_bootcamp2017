@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!-- En ng-app le llamamos HelloWorldApp y esto lo incluira el modulo  de la var app y el controller-->
+<html ng-app="HelloWorldApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World</title>
+</head>
+<body>
+<!-- En este caso queremos que el controller esté en una div, pero podríamos ponerlo donde quisiésemos. Siempre le daremos el nombre que queramos acompañado de Ctrl -->
+<div ng-controller="HelloworldCtrl">
+
+<!--Pasar un número es genial para ver si coge el angular -->
+<span>hello {{Hello}}!</span>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+
+ <script type="text/javascript">
+
+ //dentro del modulo tengo que pasarle como parametro el nombre de la app, el array es por si le queremos pasar + módulos
+ var app = angular.module("HelloWorldApp", []);
+
+
+ //Creamos el controller. Una vez creado ya me hace la suma
+
+ app.controller("HelloworldCtrl", function($scope, $http){
+ 	$http.get('helloworld.json')
+ 	// el then catch es un if else
+ 	.then(function(resp){
+ 		//El scope su ruta en este caso es el parametro resp . data .hello. El scope es un objeto que crea objetos
+ 		$scope.hello = resp.data.hello;
+
+ 	})
+
+ 	.catch(function(err){
+ 		console.error('ko', err);
+ 	})
+
+ });
+ </script>
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<!-- beers app -->
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" style="margin-top: 100px;">
+            <input type="text" _value="mahou">
+            <button>search</button>
+        </div>
+        <div class="row">
+            <ul></ul>
+        </div>
+    </div>
+    <div id="modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $('button').click(function() {
+        var query = $('input').val();
+
+        search(query, list);
+    });
+
+    // $('button').click();
+
+    function search(query, callback) {
+        var url = 'https://quiet-inlet-67115.herokuapp.com/api/search/all?q=' + query;
+
+        $.getJSON(url)
+            .done(function(data) {
+                callback(data);
+            })
+            .fail(function() {
+                console.error('ko');
+            });
+    }
+
+    function list(items) {
+        var $ul = $('ul');
+
+        $ul.empty();
+
+        items.forEach(function(item) {
+            $ul.append('<li><a href="#" data-id=' + item.id + '>' + item.name + '</a></li>');
+        });
+
+        $('a').click(function(e) {
+            var id = $(this).attr('data-id');
+
+            show(id);
+
+            return false;
+        });
+    }
+
+    function show(id) {
+        var url = 'https://quiet-inlet-67115.herokuapp.com/api/beer/' + id;
+
+        $.getJSON(url)
+            .done(function(data) {
+                var title = data.name;
+                var description = data.style.description;
+
+                $('.modal-title').text(title);
+                $('.modal-body').text(description);
+
+                $('#modal').modal('show');
+            })
+            .fail(function() {
+                console.error('ko');
+            });
+    }
+    </script>
+</body>
+
+</html>

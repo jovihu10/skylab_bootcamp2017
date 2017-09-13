@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="helloworldApp">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+</head>
+
+<body>
+    <div ng-controller="HelloworldCtrl as helloworld">
+    <span>{{helloworld}}</span>
+
+
+    <div ng-controller="HelloworldCtrl">
+    <span>{{helloworld}}</span>
+    </div>
+</body>
+<!-- todo lo que pone ng-  se les llaman directivas. -->
+<!-- tenemos una caja grande que tiene el ng app. Tiene un scope y tiene un input que usa ng model para guardar el dato que introduzca aquí en yourName. -->
+  <!-- el h1 aquí hace la directiva de interporlacion. El h1 también busca el scope más cercano fuera, y como no hay ninguno, el más cercano fuera es el html ng app -->
+<script>
+//Vamos a crear un controller que guarde un dato y lo pueda poner donde quiera
+var app = angular.module('helloworldApp', []);
+app.controller('HelloworldApp',[]),
+app.controller('HelloworldCtrl',
+    function($scope) {
+        $scope.helloworld = 'Hello World';
+    });
+
+
+app.controller('Helloworld2Ctrl',
+
+    function($scope) {
+        $scope.helloworld2 = 'Hello World 2!';
+    });
+</script>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js">
+	</script>
+	<script tyoe="text/javascript">
+	var url= 'http://data.colorado.gov/resource/4ykn-tg5h.json?entitystatus=Good%20Standing&principalzipcode=80001';
+		
+
+
+		$.ajax({
+			url: url
+
+		})
+
+		//esto es para que se ejecute la peticion
+		.done(function(data) {
+			console.log('ok');
+			console.log(data);
+			//Con esta funcion data podemos obtener los datos, los cuales jquery ya nos los convierte en objetos y ya parseados
+			var firstnames = data.map(function(item){
+				return item.agentfirstname;
+			})
+			console.log(firstnames)
+		});
+		//en caso de que la conexion falle
+		.fail(function(){
+			console.log('fail')
+
+		});
+		//El ; en })solo lo usaremos al final del todo siempre en jquery para cortar la acción
+
+
+
+		//Para recibir los datos, jquery siempre nos pasa los datos con la función de callback
+	</script>
+</body>
+</html>

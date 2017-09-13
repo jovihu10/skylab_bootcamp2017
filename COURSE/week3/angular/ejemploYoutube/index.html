@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<!-- esto lo ponemos para que haga servir la app myApp que hemos creado -->
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<!-- Diciendo esto al body, le estamos diciendo que busque el controlador "mainController". 
+
+Puedo crear más controllers y asignarlos a divs o lo que sea. Debería crear un archivo controller.js y en esa div ponerle ng-controller="nombreDelController" -->
+<body ng-controller="mainController">
+
+<!-- para modificar cualquier atributo del scope usamos estas llaves y ponemos la característica que queramos del scope para que se imprima. (por ejemplo name)
+
+Siempre sin comillas
+-->
+{{ name}}
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="app/myApp.js"></script>
+	<script src="controllers/mainController.js"></script>
+
+	<!-- hasta el min 23 https://www.youtube.com/watch?v=M_iFp74qSYs -->
+	
+
+</body>
+</html>

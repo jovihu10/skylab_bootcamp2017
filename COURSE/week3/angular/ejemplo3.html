@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="helloworldApp">
+
+<head>
+    
+</head>
+
+<body>
+   <div ng-controller="ProfileCtrl as profile">
+   <span>{{profile.name}}</span>
+      <span>{{profile.surname}}</span>
+      <img src="{{profile.photo}}">
+      <button>Edit</button>
+      </div>
+      <div class="edit-profile">
+      </div>
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+</script>
+
+<script>
+var app = angular.module('helloworldApp', []);
+app.controller('ProfileCtrl', function(){
+    this.name = 'John';
+    this.surname = 'Doe';
+    this.photo 
+} )
+
+</script>
+
+</html>

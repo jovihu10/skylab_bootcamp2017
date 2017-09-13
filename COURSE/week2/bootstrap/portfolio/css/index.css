@@ -1,0 +1,63 @@
+body{
+	background: #EDEDED;
+
+
+
+}
+
+
+
+
+
+.photo{
+	width:50%;
+	border-radius: 100%;
+	border:1px solid black;
+	margin-top:-50%;
+	text-align:center;
+
+
+}
+
+header{
+
+	margin-top:6%;
+	background: white;
+	
+	
+	border: 1px solid #C1C1C1;
+}
+
+.colorJohn{
+	color:#3A5975;
+	
+}
+
+.header{
+	border:1px solid black;
+
+
+}
+
+.line{
+	width:100%;
+}
+
+
+section{
+	background: white;
+}
+
+.aboutMe{
+	color:#3A5975;
+
+}
+
+.aboutP{
+	margin-top:2%;
+}
+
+.education{
+		color:#3A5975;
+
+}

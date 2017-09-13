@@ -1,0 +1,30 @@
+db.tasks.insert({
+id:1,
+title: 'buy milk',
+done: false
+})
+
+
+db.tasks.insert({
+id:2,
+title: 'buy chocolat',
+done: false
+})
+
+
+db.tasks.insert({
+id:2,
+title: 'buy gold',
+done: true
+})
+
+
+
+db.tasks.update({
+id:1,
+title: 'buy gold',
+$set : {done: true}
+})
+
+
+db.tasks.remove({ title:"buy milk" })

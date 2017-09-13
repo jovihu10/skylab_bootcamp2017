@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="spotifyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <!--Aquí pondremos la logica de busqueda -->
+    <div ng-controller="SearchController as searchCtrl">
+        <input type="text" ng-model="searchCtrl.query">
+        <button ng-click="searchCtrl.search()">search</button>
+        <!-- todo lo que esté en search.query me lo pintas aquí -->
+        <span>{{ searchCtrl.beers }}</span>
+        <ul>
+            <!--PAra que repita el li en funcion de cuantos nombres tengamos, hacemos un li ng repeat -->
+            <!-- ponemos un anchor para que haga links -->
+            <li ng-repeat="item in searchCtrl.items"><a href="" ng-click="searchCtrl.show">{{ item.id }}</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script type="text/javascript">
+    var app = angular.module("spotifyApp", []);
+
+    app.controller("SearchController", function($http) {
+        var self = this;
+
+        //hemos creado una var vacia igualandola a this para llamarla.
+
+        //En el this lo estamos guardando
+        self.query = '';
+
+        //Esto es para definir qué haga el search
+        self.search = function() {
+
+            console.log("search " + this.query);
+
+            //var url = "https://quiet-inlet-67115.herokuapp.com/api/search/all?q=" + self.query;
+            var url = 'staff.json';
+
+            $http.get(url)
+                .then(function(response) {
+                    console.log(response);
+
+                    self.items = response.data.filter(function(item) {
+                        if (item.name.toLowerCase().indexOf(self.query.toLowerCase()) !== -1) {
+                            return item;
+                        }
+                    });
+
+                });
+            self.show = function(id) {
+                for (var i = 0; i < self.items.length; i++) {
+                    var item = self.items[i];
+                    if (item.id === id) {
+                        alert(item.name + ' ' + item.surname);
+                        break;
+                    }
+                }
+            }
+        }
+    });
+    //con esto estamos creando un servicio y metiendolo dentro de la caja
+    app.service('searchService', function(){
+    	
+    })
+
+    </script>
+</body>
+
+</html>

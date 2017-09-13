@@ -1,0 +1,58 @@
+* {
+	font-size: 50px;
+}
+
+input {
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border: 2px solid red;
+}
+
+.box {
+	border: 2px solid blue;
+	background-color: black;
+	width: 800px;
+	height: 100%;
+	margin-top: 8%;
+	margin-left: 15%;
+}
+
+.line1 button {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 2%;
+	border: 2px solid red;
+	
+}
+
+.line2 button {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 2%;
+	border: 2px solid red;
+
+	
+}
+
+.line3 button {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 2%;
+	border: 2px solid red;
+
+	
+}
+
+.line4 button {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 2%;
+	border: 2px solid red;
+
+}
+
+#igual {
+	width: 215px;
+
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery testfield</title>
+
+	<style type="text/css">
+		.box{
+		width:100px;
+		height: 100px;
+		background-color:skyblue;
+		}
+	</style>
+</head>
+<body>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+-->
+
+<div id="helloWorld" class="box">
+</div>
+
+<div id="helloWorld2" class="box">
+</div>
+<script
+  src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous">  	
+</script>
+
+
+<script type="text/javascript">
+
+
+var b1=document.getElementById('helloWorld');
+b1.onclick = helloWorld;
+
+var b2=document.getElementById('helloWorld2');
+b2.onclick = helloWorld;
+
+function helloWorld(){
+	console.log('hola mundo')
+}
+</script>
+	
+</body>
+</html>

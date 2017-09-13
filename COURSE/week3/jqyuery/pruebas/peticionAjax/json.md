@@ -1,0 +1,1 @@
+SOP = "Same origin policy"

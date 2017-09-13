@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <!-- esta ng-model guarda lo que le da el scope y lo envia donde hay las llaves con yourName -->
+      <!-- como no hay ningun controler, toma el controler por defecto que tiene ng-app. Siempre mira hacia fuera.  -->
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+  </body>
+
+  <!-- todo lo que pone ng-  se les llaman directivas. -->
+
+  <!-- tenemos una caja grande que tiene el ng app. Tiene un scope y tiene un input que usa ng model para guardar el dato que introduzca aquí en yourName.
+  <!-- el h1 aquí hace la directiva de interporlacion. El h1 también busca el scope más cercano fuera, y como no hay ninguno, el más cercano fuera es el html ng app -->
+
+</html>

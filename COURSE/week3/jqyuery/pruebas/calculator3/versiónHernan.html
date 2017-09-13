@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery calculator</title>
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="style/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>Calculator jQUERY</h1>
+	</header>
+
+	<div class="box">
+		<div>	
+			<input type="text" id="display">
+		</div>
+
+		<div class="line1">
+			<button class="num">1</button>
+			<button class="num">2</button>
+			<button class="num">3</button>
+			<button class="operator">+</button>
+			<button class="operator">-</button>
+		</div>
+		<div class="line2">
+			<button class="num">4</button>
+			<button class="num">5</button>
+			<button class="num">6</button>
+			<button class="operator">*</button>
+			<button class="operator">/</button>
+		</div>
+		<div class="line3">
+			<button class="num">7</button>
+			<button class="num">8</button>
+			<button class="num">9</button>
+			<button class="result">=</button>
+			<button class="clearmem">C</button>
+		</div>
+		<div class="line4">
+			<button class="num">0</button>
+		</div>
+
+	</div>
+
+
+
+	<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
+
+-----------------------------------------------------
+JS
+-----------------------------------
+
+
+var toeval = '';
+var total = 0;
+
+$('#display').focus();
+
+$('.num').click(function(){
+	console.log('Clicked on: ' + $(this).html());
+	$('#display').val($('#display').val() + $(this).html());
+});
+
+$('.operator').click(function(){
+	console.log('clicked on OPERATOR: ' + $(this).html());
+	toeval += $('#display').val() + $(this).html();	
+	console.log("sent to eval: " + toeval);
+	$('#display').val('');
+});
+
+$('.result').click(function(){
+	toeval += $('#display').val();
+	//total = eval(toeval);
+	$('#display').val(eval(toeval));
+});
+
+$('.clearmem').click(function(){
+	toeval = '';
+	$('#display').val('');
+	console.log("toeval should be 0... its: " + toeval);
+});
+

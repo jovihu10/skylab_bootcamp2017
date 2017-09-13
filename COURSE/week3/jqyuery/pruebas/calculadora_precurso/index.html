@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora HTML-CSS-JS</title>
+	<!-- CSS STYLES -->
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+	<h1>CalculatorJS</h1>
+	<div class="formCalculator">
+		<input id="num1" placeholder="Enter a number" type="number">
+		<input id="num2" placeholder="Enter a number" type="number">
+		<button class="button" onclick="reset()">Reset</button><br>
+		<button class="button" onclick="sum()">➕</button>
+		<button class="button" onclick="subs()">➖</button>
+		<button class="button" onclick="mult()">✖️</button>
+		<button class="button" onclick="div()">➗</button>
+		<p>Resultado:</p>
+		<p id="results"></p>
+			
+	</div>
+
+
+	<script src="app/app.js"></script>
+
+
+	<!--Versión Hernan
+
+HTML hernan
+
+
+	<button class="operator"> + </button><br><br>
+<button class="operator"> - </button><br><br>
+<button class="operator"> * </button><br><br>
+<button class="operator"> / </button><br><br>
+
+
+
+JS hernan
+
+$('.operator').click(function(){
+	$('.result').html(eval($('#num1').val() + $(this).html() + $('#num2').val()));
+
+});
+
+$('.reset').click(function(){
+	$('#num1').val('');
+	$('#num2').val('');
+	$('.result').html('');
+});
+
+
+
+</body>
+</html>
