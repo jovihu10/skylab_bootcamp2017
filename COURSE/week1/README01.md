@@ -64,17 +64,26 @@ Ponemos cd .. porque lo que hace es subir un directorio </li>
 </ol> 
 <br>
 
-    <strong>man ls ➡</strong> es como un «help». Te dice todo lo que puedes hacer
-    <strong>quit ➡</strong> para salir del man
-    <strong>mkdir ➡</strong> Crea una nueva dirección en la working directory.(«make directory»)
-    <strong>touch ➡</strong> Crea un nuevo archivo en el working directory
-    <strong>cd/ ➡</strong> (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)
-    <strong>echo ➡</strong> permite que se muestre un valor en la pantalla
-    <strong>less ➡</strong> es un comando que te permite visualizar de forma encadenada un fichero
-    <strong>subl ➡</strong>
-    <strong>rm ➡</strong>(remove) para borrar un fichero
-    <strong>clear ➡</strong>para limpiar la consola
-    echo➡</strong> Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
+<strong>man ls ➡</strong> es como un «help». Te dice todo lo que puedes hacer
+
+<strong>quit ➡</strong> para salir del man
+
+<strong>mkdir ➡</strong> Crea una nueva dirección en la working directory.(«make directory»)
+
+<strong>touch ➡</strong> Crea un nuevo archivo en el working directory
+
+<strong>cd/ ➡</strong> (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)
+
+<strong>echo ➡</strong> permite que se muestre un valor en la pantalla
+
+<strong>less ➡</strong> es un comando que te permite visualizar de forma encadenada un fichero
+
+<strong>subl ➡</strong>
+
+<strong>rm ➡</strong>(remove) para borrar un fichero
+
+<strong>clear ➡</strong>para limpiar la consola
+echo➡</strong> Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
 
 <br>
 ##MARKDOWN EN SUBLIME
