@@ -82,31 +82,33 @@ CMD ALT SPACE
 ```
 podemos usar tags de html. Para poner un link, también podemos usar a href
 
-
+```
 Para pantalla partida 
+```
 command + alt + 1 (o 2, 3...depende del num de ventanas)
-
-
+<br>
+<br>
 
 
 Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git
 ** Repositorios y trabajar con GIT LOCAL**
 Hay tres estados.
+<ol>
+    <li>* Working directory (directorio de trabajo)</li>
+    <li>* Stage area (previous directory, before to do commit)</li>
+    <li>* Repo "git commit -m "mensaje descriptivo" (Para añadir al repositorio)
+    *</li> 
+</ol>
+<br>
 
-* Working directory (directorio de trabajo)
-* Stage area (previous directory, before to do commit)
-* Repo "git commit -m "mensaje descriptivo" (Para añadir al repositorio)
-
-
-
-1) git add ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
-Ej: git add NOMBRE ARCHIVO.extension
-2) git commit -m  "comentario" ➡ para guardar
-README.md 
-
-Siempre será Git add y despueés git commit-s
-git status ➡ para ver el estado
-para guardar el archivo modificado git rm --cached README
+<ul>
+    <li>git add ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
+    Ej: git add NOMBRE ARCHIVO.extension</li>
+    <li>git commit -m  "comentario" ➡ para guardar. Siempre será Git add y despueés git commit -m ""
+    </li>
+    <li>git status ➡ para ver el estado</li>
+    <li>para guardar el archivo modificado git rm --cached README</li>
+</ul>
 
 
 **GIT REMOTO**
