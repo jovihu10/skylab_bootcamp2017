@@ -154,7 +154,8 @@ git pull ➡ para bajar
 <strong>git init</strong> ➡ ha creado la carpeta donde va a almacenar todos los cambios que quieras que controle
 <strong>git config</strong> ➡ --list
 <strong>git log</strong> ➡ para ver el historial de todas las acciones que hemos hecho
--------
+##
+
 ESTADOS: 
 <strong>modificado➡ </strong>
 <strong>untracked➡</strong>
