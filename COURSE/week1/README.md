@@ -94,7 +94,7 @@ Ponemos cd .. porque lo que hace es subir un directorio </li>
 
 <br>
 
-##MARKDOWN EN GITHUB
+<h2>MARKDOWN EN GITHUB</h2>
 <a href="https://guides.github.com/features/mastering-markdown/">Exelente tutorial con toda la info de cómo hacerlo</a>
 <table><td>Hola mundo</td></table>
 **Para tachar algo ➡** ejemplo: 
