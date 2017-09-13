@@ -28,7 +28,9 @@ Para acceder al terminal:
 <br>
 
 
-## GIT
+```
+GIT
+```
 <ol>
     <li>Ir a la ruta</li>
     <li>git init</li>
@@ -44,7 +46,7 @@ Para acceder al terminal:
 <br>
 
 
-<h2>En terminal</h2>
+## EN EL TERMINAL
 
 **pwd ➡** nos dice donde está la carpeta ("print working directory")
 
