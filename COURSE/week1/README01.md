@@ -48,6 +48,7 @@ GIT
 
 ## EN EL TERMINAL
 
+```
 **pwd ➡** nos dice donde está la carpeta ("print working directory")
 
 **ls ➡** usarlo después de pwd, para saber en l
