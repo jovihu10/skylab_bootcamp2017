@@ -5,19 +5,25 @@
 
 
 
+```
 HEMOS VISTO
-    * herramientas de trabajo
-    * Sublime Text. cómo instalar plugins (command + shift + p. Package control)
-    * Command line
-    * Markdown <a href"https://skylabcoders.github.io/bootcamp-julio2017/?full#MainCover"></a>
+```
+<ul>
+<li>* herramientas de trabajo</li>
+<li> * Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
+<li>* Command line</li>
+<li>* Markdown</li>
+</ul>
 
-
+```
 COMANDOS CONSOLA 
-
+```
 
 Para acceder a la consola:
-1º)cmd + space
-2º)Escribir "terminal"
+<ul>
+<li>1º) cmd + space</li>
+<li>2º) Escribir "terminal"</li>
+</ul>
 
 ## GIT
 Ir a la ruta
