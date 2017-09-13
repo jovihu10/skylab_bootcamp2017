@@ -30,7 +30,7 @@ Para acceder al terminal:
 
 ```
 GIT
-```
+``
 <ol>
     <li>Ir a la ruta</li>
     <li>git init</li>
@@ -42,8 +42,7 @@ GIT
 <br>
 <br>
 
-##
-<br>
+
 
 
 ## EN EL TERMINAL
@@ -63,20 +62,18 @@ cd ..
 Ponemos cd .. porque lo que hace es subir un directorio </li>
 <ol> 
 <br>
-<ul>
-    <li>
-    **man ls ➡** es como un «help». Te dice todo lo que puedes hacer</li>
-    <li><strong>quit ➡</strong> para salir del man</li>
-    <li><strong>mkdir ➡</strong> Crea una nueva dirección en la working directory.(«make directory»)</li>
-    <li><strong>touch ➡</strong> Crea un nuevo archivo en el working directory</li>
-    <li><strong>cd/ ➡</strong> (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)</li>
-    <li><strong>echo ➡</strong> permite que se muestre un valor en la pantalla</li>
-    <li><strong>less ➡</strong> es un comando que te permite visualizar de forma encadenada un fichero</li>
-    <li><strong>subl ➡</strong></li>
-    <li><strong>rm ➡</strong>(remove) para borrar un fichero</li>
-    <li><strong>clear ➡</strong> para limpiar la consola</li>
-    <li><strong>echo➡</strong> Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)</li>
-</ul>
+    **man ls ➡** es como un «help». Te dice todo lo que puedes hacer
+    **quit ➡** para salir del man
+    **mkdir ➡** Crea una nueva dirección en la working directory.(«make directory»)
+    **touch ➡** Crea un nuevo archivo en el working directory
+    **cd/ ➡** (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)
+    **echo ➡** permite que se muestre un valor en la pantalla
+    **less ➡** es un comando que te permite visualizar de forma encadenada un fichero
+    **subl ➡**
+    **rm ➡**(remove) para borrar un fichero
+    **clear ➡** para limpiar la consola
+    **echo➡** Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
+
 <br>
 ##MARKDOWN EN SUBLIME
 <table><td>Hola mundo</td></table>
