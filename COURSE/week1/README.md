@@ -123,6 +123,8 @@ command + alt + 1 (o 2, 3...depende del num de ventanas)
 
 Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git.
 <br>
+<br>
+<br>
 
 <h2> REPOSITORIOS Y TRABAJAR CON GIT LOCAL</h2>
 Hay tres estados.
