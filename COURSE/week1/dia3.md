@@ -1,7 +1,8 @@
 **CONCATENAR**
-+= tanto para strings como arrays
+```
++= ➡ tanto para strings como arrays
 var1.concat(var2)
-
+```
 
 
 
