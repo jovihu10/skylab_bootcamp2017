@@ -41,20 +41,23 @@ Para acceder al terminal:
 <br>
 
 ##
+<br>
 
-```
+
 <h2>En terminal<h2>
-```
+
 **pwd ➡** nos dice donde está la carpeta ("print working directory")
 **ls ➡** usarlo después de pwd, para saber en l
 **ls -l ➡** te lista todos los archivos y directorios como una tabla 
 
 **cd ➡ cd ..** »changue directory. 
-1º primero pondríamos la nueva ruta que quisiésemos
-ej: cd jan/memory
-2ºLuego para ver el working directory 
+<ol>
+    <li>primero pondríamos la nueva ruta que quisiésemos
+ej: cd jan/memory</li>
+    <li>Luego para ver el working directory 
 cd ..
-Ponemos cd .. porque lo que hace es subir un directorio  
+Ponemos cd .. porque lo que hace es subir un directorio </li>
+<ol> 
 <br>
 <ul>
     <li>
