@@ -34,37 +34,40 @@ Para acceder a la consola:
     <li>git commit -m "primer commit"</li>
     <li>git push -u</li>
 </ol>
+<br>
+<br>
+<br>
 
+```
+En terminal
+```
+**pwd ➡** nos dice donde está la carpeta ("print working directory")
+**ls ➡** usarlo después de pwd, para saber en l
+**ls -l ➡** te lista todos los archivos y directorios como una tabla 
 
-
-**En terminal**
-pwd ➡ nos dice donde está la carpeta ("print working directory")
-ls ➡ usarlo después de pwd, para saber en l
-ls -l ➡ te lista todos los archivos y directorios como una tabla 
-
-cd ➡ cd .. »changue directory. 
+**cd ➡ cd ..** »changue directory. 
 1º primero pondríamos la nueva ruta que quisiésemos
 ej: cd jan/memory
 2ºLuego para ver el working directory 
 cd ..
 Ponemos cd .. porque lo que hace es subir un directorio  
-
-man ls ➡ es como un «help». Te dice todo lo que puedes hacer
-quit ➡ para salir del man
-
-
-mkdir ➡ Crea una nueva dirección en la working directory.(«make directory»)
-touch ➡ Crea un nuevo archivo en el working directory
-
-cd/ (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)
+<br>
+**man ls ➡** es como un «help». Te dice todo lo que puedes hacer
+**quit ➡** para salir del man
 
 
-echo ➡ permite que se muestre un valor en la pantalla
-less ➡ es un comando que te permite visualizar de forma encadenada un fichero
-subl ➡
-rm ➡(remove) para borrar un fichero
-clear----para limpiar la consola
-echo Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
+**mkdir ➡** Crea una nueva dirección en la working directory.(«make directory»)
+**touch ➡** Crea un nuevo archivo en el working directory
+
+**cd/ ➡** (al poner la barra, es la raíz, con lo que iriamos a la raíz del directorio)
+
+
+**echo ➡** permite que se muestre un valor en la pantalla
+**less ➡** es un comando que te permite visualizar de forma encadenada un fichero
+**subl ➡**
+**rm ➡**(remove) para borrar un fichero
+**clear ➡** para limpiar la consola
+**echo➡** Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
 
 
 
