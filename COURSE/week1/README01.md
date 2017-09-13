@@ -9,10 +9,10 @@
 HEMOS VISTO
 ```
 <ul>
-<li>* herramientas de trabajo</li>
-<li> * Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
-<li>* Command line</li>
-<li>* Markdown</li>
+    <li>* herramientas de trabajo</li>
+    <li> * Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
+    <li>* Command line</li>
+    <li>* Markdown</li>
 </ul>
 
 ```
@@ -21,19 +21,18 @@ COMANDOS CONSOLA
 
 Para acceder a la consola:
 <ul>
-<li>1º) cmd + space</li>
-<li>2º) Escribir "terminal"</li>
+    <li>1º) cmd + space</li>
+    <li>2º) Escribir "terminal"</li>
 </ul>
 
 ## GIT
-Ir a la ruta
-
-git init
-git add --all
-git commit -m "primer commit"
-git push -u
-
-
+<ol>
+    <li>Ir a la ruta</li>
+    <li>git init</li>
+    <li>git add --all</li>
+    <li>git commit -m "primer commit"</li>
+    <li>git push -u</li>
+</ol>
 
 
 
