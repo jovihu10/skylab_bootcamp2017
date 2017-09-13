@@ -29,6 +29,10 @@ Para acceder al terminal:
 
 <br>
 
+##PARA PANTALLA PARTIDA EN SUBLIME
+```
+command + alt + 1 (o 2, 3...depende del num de ventanas)
+```
 
 
 <h3>GIT</h3>
@@ -88,8 +92,8 @@ Ponemos cd .. porque lo que hace es subir un directorio </li>
 **clear ➡**para limpiar la consola
 **echo➡** Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
 
-
 <br>
+
 ##MARKDOWN EN GITHUB
 <a href="https://guides.github.com/features/mastering-markdown/">Exelente tutorial con toda la info de cómo hacerlo</a>
 <table><td>Hola mundo</td></table>
@@ -130,10 +134,10 @@ Hay tres estados.
 <ul>
     <li><strong>git add</strong> ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
     Ej: git add NOMBRE ARCHIVO.extension</li>
-    <li>**git commit -m**  "comentario" ➡ para guardar. Siempre será Git add y despueés git commit -m ""
+    <li><strong>git commit -m</strong>  "comentario" ➡ para guardar. Siempre será Git add y despueés git commit -m ""
     </li>
-    <li>**git status** ➡ para ver el estado</li>
-    <li>**git rm --cached README** para guardar el archivo modificado</li>
+    <li><strong>git status</strong> ➡ para ver el estado</li>
+    <li><strong>git rm --cached README</strong> para guardar el archivo modificado</li>
 </ul>
 
 
@@ -143,18 +147,18 @@ git pull ➡ para bajar
 
 
 
-working copy ➡ nuestros ficheros en los que trabajamos.
-git init ➡ ha creado la carpeta donde va a almacenar todos los cambios que quieras que controle
-git config --list
-git log ➡ para ver el historial de todas las acciones que hemos hecho
+<strong>working copy</strong> ➡ nuestros ficheros en los que trabajamos.
+<strong>git init</strong> ➡ ha creado la carpeta donde va a almacenar todos los cambios que quieras que controle
+<strong>git config</strong> ➡ --list
+<strong>git log</strong> ➡ para ver el historial de todas las acciones que hemos hecho
 -------
 ESTADOS: 
-modificado➡ 
-untracked➡
+<strong>modificado➡ </strong>
+<strong>untracked➡</strong>
 
 
 
-stage ➡ Es una etapa previa a consolidar datos
+<strong>stage</strong> ➡ Es una etapa previa a consolidar datos
 
 
 
@@ -166,8 +170,4 @@ https://www.git-tower.com/blog/git-cheat-sheet/
 https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-```
-Para pantalla partida
-```
 
-command + alt + 1 (o 2, 3...depende del num de ventanas)
