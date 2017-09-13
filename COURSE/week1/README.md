@@ -6,9 +6,9 @@
 
 
 
-<h3>HEMOS VISTO</h3
+<h2>HEMOS VISTO</h2>
 
-<ol>
+    <ol>
     <li> Herramientas de trabajo</li>
     <li> Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
     <li> Command line</li>
@@ -20,10 +20,12 @@
 <h3>COMANDOS CONSOLA</h3> 
 
 Para acceder al terminal:
+```
 <ol>
-    <li> cmd + space</li>
-    <li> Escribir "terminal"</li>
+<li> cmd + space</li>
+<li> Escribir "terminal"</li>
 </ol>
+```
 
 <br>
 
