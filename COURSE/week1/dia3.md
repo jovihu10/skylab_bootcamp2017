@@ -25,8 +25,8 @@ A partir de F es el num 15
 
 
 
-3.5.2. Funciones útiles para arrays
-https://www.w3schools.com/js/js_array_methods.asp
+**<a href="https://www.w3schools.com/js/js_array_methods.asp">3.5.2. Métodos útiles para arrays</a>**
+
 
 A continuación se muestran algunas de las funciones más útiles para el manejo de arrays:
 
