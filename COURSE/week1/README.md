@@ -90,17 +90,18 @@ Ponemos cd .. porque lo que hace es subir un directorio </li>
 
 
 <br>
-##<h3>MARKDOWN EN GITHUB</h3>
+##MARKDOWN EN GITHUB
+<a href="https://guides.github.com/features/mastering-markdown/">Exelente tutorial con toda la info de cómo hacerlo</a>
 <table><td>Hola mundo</td></table>
 **Para tachar algo ➡** ejemplo: 
 ~~Hola que tal~~
 
-<a href="https://guides.github.com/features/mastering-markdown/">Exelente tutorial con toda la info de cómo hacerlo</a>
+
 
 
 **Para poner iconos de mac ➡**
 ```
-CMD ALT SPACE 
+CMD + ALT + SPACE 
 ```
 
 **para poner cosas con estilos ➡** 
@@ -108,22 +109,24 @@ CMD ALT SPACE
 podemos usar tags de html. Para poner un link, también podemos usar a href
 
 ```
+
 **Para pantalla partida** 
 ```
 command + alt + 1 (o 2, 3...depende del num de ventanas)
+```
 <br>
 <br>
-``
 
-Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git
-** Repositorios y trabajar con GIT LOCAL**
+
+Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git.
+
+### Repositorios y trabajar con GIT LOCAL
 Hay tres estados.
-<ol>
-    <li>* Working directory (directorio de trabajo)</li>
-    <li>* Stage area (previous directory, before to do commit)</li>
-    <li>* Repo "git commit -m "mensaje descriptivo" (Para añadir al repositorio)
-    *</li> 
-</ol>
+```
+1. * Working directory (directorio de trabajo)
+2. * Stage area (previous directory, before to do commit)
+3. * Repo "git commit -m "mensaje descriptivo" (Para añadir al repositorio)
+```
 <br>
 
 <ul>
