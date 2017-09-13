@@ -120,7 +120,7 @@ command + alt + 1 (o 2, 3...depende del num de ventanas)
 
 Cuando trabajemos en git, para cualquier comando hay que poner adelante siempre git.
 
-### Repositorios y trabajar con GIT LOCAL
+### REPOSITORIOS Y TRABAJAR CON GIT LOCAL
 Hay tres estados.
 ```
 1. * Working directory (directorio de trabajo)
@@ -130,12 +130,12 @@ Hay tres estados.
 <br>
 
 <ul>
-    <li>git add ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
+    <li>**git add** ➡ lo que modifiques, se añade en local. Cuando hagamos un git add, el nombre del archivo a modificar lo pondremos en mayúscula. 
     Ej: git add NOMBRE ARCHIVO.extension</li>
-    <li>git commit -m  "comentario" ➡ para guardar. Siempre será Git add y despueés git commit -m ""
+    <li>**git commit -m**  "comentario" ➡ para guardar. Siempre será Git add y despueés git commit -m ""
     </li>
-    <li>git status ➡ para ver el estado</li>
-    <li>para guardar el archivo modificado git rm --cached README</li>
+    <li>**git status** ➡ para ver el estado</li>
+    <li>**git rm --cached README** para guardar el archivo modificado</li>
 </ul>
 
 
