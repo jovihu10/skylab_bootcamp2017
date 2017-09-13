@@ -34,13 +34,13 @@ Para acceder al terminal:
 <h3>GIT</h3>
 
 
-<ol>
-    <li>Ir a la ruta</li>
-    <li>git init</li>
-    <li>git add --all</li>
-    <li>git commit -m "primer commit"</li>
-    <li>git push -u</li>
-</ol>
+
+    1. Ir a la ruta
+    2. git init
+    3. git add --all
+    4. git commit -m "primer commit"
+    5. git push -u
+
 <br>
 <br>
 <br>
