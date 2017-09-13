@@ -46,9 +46,9 @@ GIT
 
 
 
-## EN EL TERMINAL
+## <h3>EN EL TERMINAL</h3>
 
-```
+
 **pwd ➡** nos dice donde está la carpeta ("print working directory")
 
 **ls ➡** usarlo después de pwd, para saber en l
@@ -87,7 +87,7 @@ Ponemos cd .. porque lo que hace es subir un directorio </li>
 echo➡</strong> Hola > readme  (para grabar el readme usamos el simbolo > y ponemos el nombre del archivo que queremos crear)
 
 <br>
-##MARKDOWN EN SUBLIME
+##<h3>MARKDOWN EN SUBLIME</h3>
 <table><td>Hola mundo</td></table>
 **Para tachar algo ➡** ejemplo: 
 ~~Hola que tal~~
