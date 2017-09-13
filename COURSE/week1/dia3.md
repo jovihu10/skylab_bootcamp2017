@@ -5,22 +5,20 @@ var1.concat(var2)
 ```
 
 
-
-
-
 **HEXADECIMAL**
+```
 0...9ABC... F
 0...9,10,11..15
 A partir de F es el num 15
-
+```
 
 
 
 **BINARIO**
-
+```
   1  2  3  4   5   6   7
 0 1 10 11 100 101 110 111
-
+```
 
 
 
