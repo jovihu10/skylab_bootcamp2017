@@ -160,19 +160,17 @@ ESTADOS:
 <strong>modificado➡ </strong>
 <strong>untracked➡</strong>
 
-
-
 <strong>stage</strong> ➡ Es una etapa previa a consolidar datos
+<br>
 
+##
 
-
-
-**Chuletas de lo que hemos dado**
+**LINKS EXTERNOS**
 <ul>
-<li><a href="http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf">Git Cheat Sheet</a></li>
-<li><a href="https://docs.emmet.io/cheat-sheet/">Emmet Documentation</a></li>
-<li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">Git Cheat Sheet 2</a></li>
-<li><a href="https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html">giteveryday(7) Manual Page</a></li>
-<li><a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">Basic Git commands</a></li>
+    <li><a href="http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf">Git Cheat Sheet</a></li>
+    <li><a href="https://docs.emmet.io/cheat-sheet/">Emmet Documentation</a></li>
+    <li><a href="https://www.git-tower.com/blog/git-cheat-sheet/">Git Cheat Sheet 2</a></li>
+    <li><a href="https://www.kernel.org/pub/software/scm/git/docs/giteveryday.html">giteveryday(7) Manual Page</a></li>
+    <li><a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">Basic Git commands</a></li>
 <ul>
 
