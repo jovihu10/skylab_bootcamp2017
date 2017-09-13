@@ -8,12 +8,12 @@
 
 <h2>HEMOS VISTO</h2>
 
-
-1.Herramientas de trabajo
-2.Sublime Text. cómo instalar plugins (command + shift + p. Package control)
-3.Command line
-4.Markdown
-
+<ol>
+<li> Herramientas de trabajo</li>
+<li> Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
+<li> Command line</li>
+<li> Markdown</li>
+</ol>
 <br>
 
 
@@ -21,11 +21,11 @@
 
 Para acceder al terminal:
 ```
-<ol>
-<li> cmd + space</li>
-<li> Escribir "terminal"</li>
-</ol>
-``
+    <ol>
+    <li> cmd + space</li>
+    <li> Escribir "terminal"</li>
+    </ol>
+```
 
 <br>
 
