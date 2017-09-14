@@ -1,7 +1,7 @@
 <h1><a href="https://www.w3schools.com/js/js_objects.asp">OBJETOS</a></h1>
 
-Un objeto es como un array, pero con keys (nombre de las propiedades).
-Las propiedades de un objeto van separados por coma. El valor de la propiedad va con :
+Un **objeto** es como un ```array``, pero con keys (nombre de las propiedades).
+Las propiedades de un objeto van separados por coma. El valor de la propiedad va con ":"
 
 ```
 var hero = {
@@ -19,7 +19,7 @@ var o = {"prop": 1};
 var o = {'prop': 1};
 ```
 
-Cuando una propiedad contiene una función, decimos que esta propiedad es un método del objeto
+Cuando una propiedad contiene una función, decimos que esta propiedad es un **método del objeto**
 
 ```
 var dog = {
@@ -254,6 +254,6 @@ true
 >>> mydog === fido
 false
 ```
- 
+
 
 
