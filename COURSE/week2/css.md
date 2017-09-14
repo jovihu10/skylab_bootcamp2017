@@ -1,4 +1,4 @@
-<h1>CSS</h1>
+<h1>HTML</h1>
 
 **. html5** ➡ ```estructura```
 
@@ -14,17 +14,20 @@
 
 %i18n; = "Internationalitation " en inglés
 
+##
 
-**Head:** soporta scripts type, title 
-**span:** es lo mismo que una div pero para elementos en linea
+
+**Head:** ➡ ```soporta scripts type, title``` 
+
+**span:** ➡ ```es lo mismo que una div pero para elementos en linea```
 
 
 **Para table**
+```
 <caption>, <thead>, <tbody>, and <tfoot>.
+```
 
-border-collapse y border-spacing en CSS
-vertical-align para alinear verticalmente
-:last-child
+
 
 ------
 
@@ -41,7 +44,7 @@ placeholder: para el campo dentro del input
 
 
 
-**CSS**
+<h1>CSS</h1>
 
 **!important** ➡ para forzar en css
 
@@ -70,6 +73,13 @@ a:visited {...}
  <a href="https://www.w3schools.com/cssref/sel_last-child.asp">:last-child</a> 
 
   :only-child**
+
+
+  border-collapse y border-spacing en CSS
+vertical-align para alinear verticalmente
+:last-child
+
+
 The first structural and position based pseudo-classes one is likely to come across are the :first-child, :last-child, and :only-child pseudo-classes. The :first-child pseudo-class will select an element if it’s the first child within its parent, while the :last-child pseudo-class will select an element if it’s the last element within its parent. These pseudo-classes are prefect for selecting the first or last items in a list and so forth. Additionally, the :only-child will select an element if it is the only element within a parent. Alternately, the :only-child pseudo-class could be written as :first-child:last-child, however :only-child holds a lower specificity.
 
 Here the selector li:first-child identifies the first list item within a list, while the selector li:last-child identifies the last list item within a list, thus lines 2 and 10 are selected. The selector div:only-child is looking for a division which is the single child of a parent element, without any other other siblings. In this case line 4 is selected as it is the only division within the specific list item.
