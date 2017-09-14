@@ -1,20 +1,24 @@
-**OBJECTS**
-It's the same tiping new whatever to build a new object that word object ={}
-
-
 
 **REGULAR EXPRESSIONS**
-We will always use for this the method .test
+Siempre usaremos para esto el método .test
 
 
+**<a href="https://scotch.io/tutorials/understanding-hoisting-in-javascript">HOISTING</a>**
 
+En Javascript una variable puede ser declarada después de ser usada. Haciéndolo así, una variable siempre será global
 
-hacer esto
-https://www.freecodecamp.com/challenges/comment-your-javascript-code
+Ejemplo 1
+```
+x = 5; // Assign 5 to x
 
+elem = document.getElementById("demo"); // Find an element 
+elem.innerHTML = x;                     // Display x in the element
 
+var x; // Declare x
+```
 
-**HOISTING**
+Ejemplo 2
+```
 var v = 1;
 function fun() {
     console.log(v);
@@ -24,6 +28,7 @@ function fun() {
 }
 
 fun();
+``
 
 
 
