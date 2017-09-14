@@ -33,7 +33,7 @@ var dog = {
 
 En **JSON** siempre se usan comillas dobles.
 
-<br>
+##
 
 ➡➡➡ Hay dos maneras de acceder a las propiedades  de un objeto:
     . Con las brackets notation: ```hero[ocupation]```
@@ -77,7 +77,7 @@ true
 reference to undefined property hero.name
 ```
 
-Cuando estamos dentro de un method, la palabra especial this, apunta al objeto que posee el método ( “this object” )
+Cuando estamos dentro de un method, la palabra especial **this**, apunta al objeto que posee el método ( “this object” )
 
 ```
 var hero = {
