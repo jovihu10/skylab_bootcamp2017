@@ -13,6 +13,7 @@
 <li> Sublime Text. cómo instalar plugins (command + shift + p. Package control)</li>
 <li> Command line</li>
 <li> Markdown</li>
+<li> Métodos de array y objetos</li>
 </ol>
 <br>
 
