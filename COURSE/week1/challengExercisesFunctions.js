@@ -15,14 +15,14 @@ Define a function called add with a single argument input. The input to the func
 
 add(1,2,3,4) // => 10
 */
-function fibo(){
-	var fibo = [0,1]
-	for(var i = 0; i < 9; i++){
-		var res = (fibo[i] + fibo[i+1])
-		fibo.push(res)
-	}
-	
-	console.log(fibo[i])
+function fibo() {
+    var fibo = [0, 1]
+    for (var i = 0; i < 9; i++) {
+        var res = (fibo[i] + fibo[i + 1])
+        fibo.push(res)
+    }
+
+    console.log(fibo[i])
 
 }
 
@@ -67,8 +67,8 @@ function palindrome() {
 
 
 
-    console.log("Reverse num " +reverseNum);
-    
+    console.log("Reverse num " + reverseNum);
+
     if (valueToLowerCase === reverseNum) {
         return true
     } else {
@@ -93,21 +93,19 @@ palindrome()
 
 // Example string : 'dog' 
 // Expected Output : d,do,dog,o,og,g 
-function combinations(){
-	var string = 'dog';
-	var splitString = string.split("");
+function combinations() {
+    var string = 'dog';
+    var splitString = string.split("");
     var arrString = [];
-	console.log(splitString);
-	for(var i=0; (i<splitString) && (splitString[0].length === 1); i++){
-		console.log(splitString[i])
+    console.log(splitString);
+    for (var i = 0;
+        (i < splitString) && (splitString[0].length === 1); i++) {
+        console.log(splitString[i])
         arrString.push(splitString)
         var shiftSplitString = arrString.shift();
         console.log(arrString)
-	}
+    }
 
 
 }
 combinations()
-
-
-

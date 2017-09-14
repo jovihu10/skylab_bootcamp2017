@@ -144,8 +144,8 @@ function randomSum() {
 
 }
 randomSum()
-    // Result: The number is 1760
-    // 14
+// Result: The number is 1760
+// 14
 
 
 
@@ -166,14 +166,14 @@ function randomOne() {
         return parseInt(a) + parseInt(b)
     });
     //Importante, como los numeros están a string, aquí en la función anónima del reduce tenemos que decirle que lo pase a parseInt
-    console.log('Now we have '+ resulTwoNumbers);
+    console.log('Now we have ' + resulTwoNumbers);
 
     var definitiveArrNum = resulTwoNumbers.toString().split("");
     var result = definitiveArrNum.reduce(function(a, b) {
         return parseInt(a) + parseInt(b)
     });
-    return 'and the definitive number is '+ result
-        //Ahora tenemos dos numeros. Así que repetimos y lo convertimos a split y aplicamos reduce de nuevo
+    return 'and the definitive number is ' + result
+    //Ahora tenemos dos numeros. Así que repetimos y lo convertimos a split y aplicamos reduce de nuevo
 }
 randomOne()
 
@@ -208,9 +208,9 @@ randomSmallest(Math.floor((Math.random() * 10) + 0), Math.floor((Math.random() *
 //randomLeastCommon()
 //Randomizes two numbers and prints their least common multiplication of them. (use http://en.wikipedia.org/wiki/Least_common_multiple for details) Randomizes two numbers and prints their average and standard deviation.
 
-randomLeastCommon(){
-	var numRandom1 = Math.floor((Math.random() * 10) + 1);
-	var numRandom2 = Math.floor((Math.random() * 10) + 1);
+randomLeastCommon() {
+    var numRandom1 = Math.floor((Math.random() * 10) + 1);
+    var numRandom2 = Math.floor((Math.random() * 10) + 1);
 
 }
 randomLeastCommon()

@@ -1,28 +1,27 @@
 //Calculation
 
 //Escribe un programa que escribe en la consola todos los multiplos de 23 hasta 500 y al final escribe la suma de todos ellos
+function twentyThree() {
+    var number = 23;
+    var sum;;
+    var i;
+    do {
 
-function twentyThree(){
-var number = 23;
-var sum;;
-var i;
-do{
+        for (i = 0; i < 500; i += 23) {
 
-for(i = 0; i<500; i+=23){
-	
-	console.log(i);
-	
-		
-}
-var sum = i*i;
-console.log(sum);
-
-}
-while(i<500);
+            console.log(i);
 
 
-	//var result = number * number;
-	//console.log(result);
+        }
+        var sum = i * i;
+        console.log(sum);
+
+    }
+    while (i < 500);
+
+
+    //var result = number * number;
+    //console.log(result);
 
 
 

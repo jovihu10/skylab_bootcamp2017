@@ -33,6 +33,7 @@ var dog = {
 
 En **JSON** siempre se usan comillas dobles.
 
+<br>
 ##
 
 ➡➡➡ Hay dos maneras de acceder a las propiedades  de un objeto:
@@ -91,5 +92,33 @@ var hero = {
 ```
 
 
+<h2>CONSTRUCTOR FUNCTIONS</h2>
+Otra manera de construir objetos es con las constructor functions. Para crear objetos con estas funciones, tenemos que usar el operador ```new```. La ventaja que los constructor function tienen es que aceptan parámetros para la creación de objetos
 
+
+```
+function Hero(name) {
+  this.name = name;
+  this.occupation = 'Ninja';
+  this.whoAreYou = function() {
+    return "I'm " + this.name + " and I'm a " + this.occupation;
+  }
+}
+
+>>> var h1 = new Hero('Michelangelo');
+>>> var h2 = new Hero('Donatello');
+>>> h1.whoAreYou();
+"I'm Michelangelo and I'm a Ninja"
+>>> h2.whoAreYou();
+"I'm Donatello and I'm a Ninja"
+```
+
+##
+
+Todos los entornos de JS tienen un **global object** y todas las variables globales son propiedades de este objeto global. En el browser, este objeto global es llamado ```window```
  
+Entonces, podemos acceder a una variable global **"a"**:
+    . Como una variable ```a```
+    . Como una propiedad del objeto global: ```window['a']``` o ```window.a```
+
+    

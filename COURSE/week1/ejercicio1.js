@@ -1,19 +1,19 @@
 // EJERCICIO1
 
-function returnTwoNumbers (x1, x2) {
+function returnTwoNumbers(x1, x2) {
     // Escribe una funcion que teniendo 2 enteros x1 y x2 devuelva todos los enteros entre ellos.
     // Si  x2 es más pequeño que x1, debería devolver -1
-  var result = []
-  if (x1 < x2) {
-    for (var i = x1; i <= x2; i++) {
-      result.push(i)
+    var result = []
+    if (x1 < x2) {
+        for (var i = x1; i <= x2; i++) {
+            result.push(i)
+        }
+    } else {
+        for (var i = x1; i >= x2; i--) {
+            result.push(i)
+        }
     }
-  } else {
-    for (var i = x1; i >= x2; i--) {
-      result.push(i)
-    }
-  }
-  return result
+    return result
 }
 
 returnTwoNumbers(2, 3)
@@ -22,19 +22,19 @@ returnTwoNumbers(2, 3)
 
 // Tabla de multiplicar
 // Escribe una función que escribe en la consola la tabla de multiplicación del 1 al 10
-function table () {
-  var arResult = []
-  var i = 1
+function table() {
+    var arResult = []
+    var i = 1
 
-  for (i = 1; i <= 10; i++) {
-    var iString = ''
-    var count
-    for (count = 1; count <= 10; count++) {
-      var result = i * count
-      iString = iString.concat(result + ' ')
+    for (i = 1; i <= 10; i++) {
+        var iString = ''
+        var count
+        for (count = 1; count <= 10; count++) {
+            var result = i * count
+            iString = iString.concat(result + ' ')
+        }
+        console.log('\n' + iString)
     }
-    console.log('\n' + iString)
-  }
 }
 table()
 // REsult:
