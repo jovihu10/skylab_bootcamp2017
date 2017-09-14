@@ -1,5 +1,6 @@
 
 **REGULAR EXPRESSIONS**
+
 Siempre usaremos para esto el método .test
 
 
@@ -28,7 +29,7 @@ function fun() {
 }
 
 fun();
-``
+```
 
 
 

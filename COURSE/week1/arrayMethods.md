@@ -145,39 +145,3 @@ array.reverse();
 // ahora array = [3, 2, 1]
 ```
 
-
-**<a href="https://www.w3schools.com/js/js_objects.asp">OBJETOS</a>**
-
-Un objeto es como un array, pero con keys (nombre de las propiedades).
-Las propiedades de un objeto van separados por coma. El valor de la propiedad va con :
-```
-var hero = {
-  breed: 'Turtle',
-  occupation: 'Ninja'
-};
-```
-
-
-Las keys pueden ir entre comillas, pero no es recomendable definirlo de esta manera.
-```
-var o = {prop: 1};
-var o = {"prop": 1};
-var o = {'prop': 1};
-```
-
-Cuando una propiedad contiene una función, decimos que esta propiedad es un método del objeto
-```
-var dog = {
-  name: 'Benji',
-  talk: function(){
-    alert('Woof, woof!');
-  } 
-};
-```
-
-
-En JSON siempre se usan comillas dobles
-
-
-
-
