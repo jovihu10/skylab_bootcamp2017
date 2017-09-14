@@ -1,10 +1,10 @@
 <h1>CSS</h1>
 
-**html5** ➡ estructura
+**. html5** ➡ ```estructura```
 
-**css** ➡ diseño
+**. css** ➡ ```diseño```
 
-**js** ➡ interactividad, dinamismo
+**. js** ➡ ```interactividad, dinamismo``
 
 <a href="http://www.csszengarden.com/">Excelente página para ver ejemplos de diseño de CSS</a>
 
