@@ -23,9 +23,9 @@ A partir de F es el num 15
 
 
 
+##
 
-
-**<a href="https://www.w3schools.com/js/js_array_methods.asp">3.5.2. Métodos útiles para arrays</a>**
+**<a href="https://www.w3schools.com/js/js_array_methods.asp">3.5.2. MÉTODOS ÚTILES PARA ARRAYS</a>**
 
 
 A continuación se muestran algunas de las funciones más útiles para el manejo de arrays:
