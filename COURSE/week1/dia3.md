@@ -57,8 +57,6 @@ var numeroVocales = vocales.length; // numeroVocales = 5
 
 **<a href="https://www.w3schools.com/jsref/jsref_concat_array.asp">.concat()</a>**
 
-
-
 se emplea para concatenar los elementos de varios arrays
 ```
 var array1 = [1, 2, 3];
@@ -87,6 +85,7 @@ var ultimo = array.pop();
 
 
 **<a href="https://www.w3schools.com/jsref/jsref_push.asp">.push()</a>**
+
 Añade un elemento al final del array. El array original se modifica y aumenta su longitud en 1 elemento. (También es posible añadir más de un elemento a la vez)
 ```
 var array = [1, 2, 3];
@@ -102,6 +101,7 @@ Añade nuevos items y/o elimina en un array. El primer parámetro (2) dice la po
 
 
 **<a href="https://www.w3schools.com/jsref/jsref_shift.asp">.shift()</a>**
+
 Elimina el primer elemento del array y lo devuelve. El array original se ve modificado y su longitud disminuida en 1 elemento.
 ```
 var array = [1, 2, 3];
@@ -119,6 +119,7 @@ array.unshift(0);
 ```
 
 **<a href="https://www.w3schools.com/jsref/jsref_reverse.asp">.reverse()</a>**
+
 Modifica un array colocando sus elementos en el orden inverso a su posición original:
 ```
 var array = [1, 2, 3];
@@ -128,6 +129,7 @@ array.reverse();
 
 
 **<a href="https://www.w3schools.com/js/js_objects.asp">OBJETOS</a>**
+
 Un objeto es como un array, pero con keys (nombre de las propiedades).
 Las propiedades de un objeto van separados por coma. El valor de la propiedad va con :
 ```
