@@ -93,7 +93,7 @@ var hero = {
 
 
 <h2>CONSTRUCTOR FUNCTIONS</h2>
-Otra manera de construir objetos es con las constructor functions. Para crear objetos con estas funciones, tenemos que usar el operador ```new```. La ventaja que los constructor function tienen es que aceptan parámetros para la creación de objetos
+Otra manera de construir objetos es con las constructor functions. Para crear objetos con estas funciones, tenemos que usar el operador ```new``` . La ventaja que los constructor function tienen es que aceptan parámetros para la creación de objetos
 
 
 ```
@@ -239,7 +239,7 @@ Cuando copiamos un objeto o lo pasamos como parámetro de una función, estamos 
 ```
 
 <h3>Comparando objetos</h3>
-Cuando comparamos objetos, solo obtendremos ```true``` si comparamos dos referencias en el mismo objeto
+Cuando comparamos objetos, solo obtendremos **true**  si comparamos dos referencias en el mismo objeto
 
 ```
 >>> var fido = { breed: 'dog' };
