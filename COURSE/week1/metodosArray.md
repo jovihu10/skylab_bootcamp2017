@@ -1,8 +1,21 @@
-**CONCATENAR**
+#<a href="https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/05-arrays-objects">ARRAYS</a>
+Un array es una lista de valores. Los elementos de un array están indexados con números consecutivos empezando desde [0].
+
+Accederíamos así:
 ```
-+= ➡ tanto para strings como arrays
-var1.concat(var2)
+var a = [1,2,3];
+>>> a[0]
+1
+>>> a[1]
+2
 ```
+
+Un array se declara así:
+var carsAndOthers = ["Ferrari", "Porsche", 50]
+
+Se puede declarar un array vacío
+var carsAndOthers = []
+
 
 
 **HEXADECIMAL**
@@ -62,6 +75,11 @@ se emplea para concatenar los elementos de varios arrays
 var array1 = [1, 2, 3];
 array2 = array1.concat(4, 5, 6);   // array2 = [1, 2, 3, 4, 5, 6]
 array3 = array1.concat([4, 5, 6]); // array3 = [1, 2, 3, 4, 5, 6]
+```
+
+También se puede hacer así (válido para strings y arrays)
+```
++=
 ```
 
 **<a href="https://www.w3schools.com/jsref/jsref_join.asp">.join()</a>**
