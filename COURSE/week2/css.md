@@ -46,15 +46,15 @@ placeholder: para el campo dentro del input
 
 <h1>CSS</h1>
 
-**!important** ➡ para forzar en css
+**!important** ➡ ```para forzar en css```
 
-**General Sibling Selector** ➡   h2 ~ p {...} ----- para seleccionar todos los elementos que vienen del mismo padre
+**General Sibling Selector** ➡ ```h2 ~ p {...} ----- para seleccionar todos los elementos que vienen del mismo padre```
 
-**Adjacent Sibling Selector** ➡ h2 + p {...} ----Para seleccionar elementos que vienen después del elemento prioritario, en el cual ambos elementos comparten padre
+**Adjacent Sibling Selector** ➡ ```h2 + p {...} ----Para seleccionar elementos que vienen después del elemento prioritario, en el cual ambos elementos comparten padre```
 
-**Attribute Contains Selector** ➡ a[href*="login"] {...}
-**Attribute Begins With Selector** ➡ a[href^="https://"] {...}
-**Attribute Ends With Selector** ➡ a[href$=".pdf"] {...}
+**Attribute Contains Selector** ➡ ```a[href*="login"] {...}```
+**Attribute Begins With Selector** ➡ ```a[href^="https://"] {...}```
+**Attribute Ends With Selector** ➡ ```a[href$=".pdf"] {...}```
 
 
 
