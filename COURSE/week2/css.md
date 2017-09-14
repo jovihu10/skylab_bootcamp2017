@@ -4,7 +4,7 @@
 
 **. css** ➡ ```diseño```
 
-**. js** ➡ ```interactividad, dinamismo``
+**. js** ➡ ```interactividad, dinamismo```
 
 <a href="http://www.csszengarden.com/">Excelente página para ver ejemplos de diseño de CSS</a>
 
