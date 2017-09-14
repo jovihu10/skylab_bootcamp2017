@@ -31,7 +31,9 @@ var dog = {
 ```
 
 
-En JSON siempre se usan comillas dobles.
+En **JSON** siempre se usan comillas dobles.
+
+<br>
 
 ➡➡➡ Hay dos maneras de acceder a las propiedades  de un objeto:
     . Con las brackets notation: ```hero[ocupation]```
@@ -58,7 +60,7 @@ var book = {
 "Heller"
 ```
 
-Podemos definir un objeto vacío y luego añadir (y eliminar) sus propiedades y métodos
+Podemos definir un **objeto vacío** y luego **añadir (y eliminar) sus propiedades y métodos**
 
 ```
 >>> var hero = {};
