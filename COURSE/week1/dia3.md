@@ -29,6 +29,21 @@ A partir de F es el num 15
 
 
 A continuación se muestran algunas de las funciones más útiles para el manejo de arrays:
+<br>
+
+
+**<a href="https://www.w3schools.com/jsref/jsref_tostring_number.asp">.toString()</a>**
+
+Convierte un número a string
+```
+var num = 15;
+var n = num.toString();
+
+// n="15" 
+```
+
+
+
 
 **<a href="https://www.w3schools.com/jsref/jsref_length_array.asp">.length</a>**
  
@@ -70,13 +85,21 @@ var ultimo = array.pop();
 // ahora array = [1, 2], ultimo = 3
 ```
 
-**<a href="https://www.w3schools.com/jsref/jsref_push.asp"></a>.push()**
+
+**<a href="https://www.w3schools.com/jsref/jsref_push.asp">.push()</a>**
 Añade un elemento al final del array. El array original se modifica y aumenta su longitud en 1 elemento. (También es posible añadir más de un elemento a la vez)
 ```
 var array = [1, 2, 3];
 array.push(4);
 // ahora array = [1, 2, 3, 4]
 ```
+
+**<a href="https://www.w3schools.com/jsref/jsref_splice.asp">.splice()</a>**
+
+Añade nuevos items y/o elimina en un array. El primer parámetro (2) dice la posición donde los nuevos elementos han de ser añadidos. El segundo parámetro (0) dice cuantos elementos han de ser eliminados. El resto de parámetros ("Lemon" , "Kiwi") dice los elementos que se han de añadir
+
+
+
 
 **<a href="https://www.w3schools.com/jsref/jsref_shift.asp">.shift()</a>**
 Elimina el primer elemento del array y lo devuelve. El array original se ve modificado y su longitud disminuida en 1 elemento.
@@ -104,30 +127,33 @@ array.reverse();
 ```
 
 
-**OBJETOS**
+**<a href="https://www.w3schools.com/js/js_objects.asp">OBJETOS</a>**
+Un objeto es como un array, pero con keys (nombre de las propiedades).
+Las propiedades de un objeto van separados por coma. El valor de la propiedad va con :
+```
 var hero = {
   breed: 'Turtle',
   occupation: 'Ninja'
 };
-An objeto is like an array but where we define the indexes To define an object we use the braces {} ( object literal notation )
-The elements of an object ( properties ) are separated by commas
-The pair key/value is splitted by 2 dots
+```
 
-The keys (names of the properties) can go between quotes, but is not recommended define them in this way
 
+Las keys pueden ir entre comillas, pero no es recomendable definirlo de esta manera.
+```
 var o = {prop: 1};
 var o = {"prop": 1};
 var o = {'prop': 1};
-When a property contains a function, we say this property is a method of the object
+```
 
+Cuando una propiedad contiene una función, decimos que esta propiedad es un método del objeto
+```
 var dog = {
   name: 'Benji',
   talk: function(){
     alert('Woof, woof!');
   } 
 };
-
-
+```
 
 
 En JSON siempre se usan comillas dobles
