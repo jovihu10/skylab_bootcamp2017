@@ -5,3 +5,5 @@
 - <a href="https://v4-alpha.getbootstrap.com/utilities/flexbox/">FlexBox en Bootstrap</a> 
 
 - <a href="https://internetingishard.com/html-and-css/flexbox/">FlexBox Tutorial</a> 
+
+-<a href="http://jonibologna.com/content/images/flexboxsheet.pdf">Cheatsheet</a> 

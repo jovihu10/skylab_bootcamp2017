@@ -128,7 +128,7 @@ ___________
 
 - ```%``` ➡ Para casi todo, porque hará que se gradue el tamaño en función del tamaño.
 
--```EM`` ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
+-```EM``` ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
 
 
 
@@ -136,14 +136,23 @@ ___________
 ```@font-face``` ➡ para poner tipografías de letras externas
 ```text-overflow``` ➡ para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
 
+
+
 <h2>LINKS INTERESANTES</h2>
 
-```
-- https://webgradients.com/ ➡ Para poner gradientes
+``
+
+- https://tympanus.net/codrops/css_reference/ ➡ CSS Reference
+
+
 
 - https://glyphicons.com/ ➡ Librería iconos
 
 - http://fontawesome.io/ ➡ Librería iconos
+
+- https://learn-the-web.algonquindesign.ca/topics/css-selectors-units-cheat-sheet/ ➡ CSS Selectors
+
+- https://learn-the-web.algonquindesign.ca/topics/css-layout-cheat-sheet/ ➡ CSS layout
 
 - https://css-tricks.com/ ➡ Colección de trucos. Muy útil.
 
@@ -152,4 +161,12 @@ ___________
 - http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF ➡ Para gamas de colores en harmonía.
 
 - https://coolors.co/ ➡ Para crear paletas de colores.
-``
+```
+<h2>Links de efectos</h2>
+
+- http://learn.shayhowe.com/advanced-html-css/css-transforms/ ➡ Transformations 
+
+- https://webgradients.com/ ➡ Para poner gradientes
+
+- http://learn.shayhowe.com/advanced-html-css/transitions-animations/ ➡ Transformations and animations
+```
