@@ -100,6 +100,7 @@ Target Pseudo-class ➡ :target Para si una id tiene dentro una palabra en concr
 
 ```:before and :after generated content``` ➡ para que haga algo antes o después de tal elemento. Por ejemplo, tenemos una lista y queremos que ponga una estrellita antes de empezar la lista 
 
+</br>
 ##
 
 
@@ -127,7 +128,7 @@ ___________
 
 - ```%``` ➡ Para casi todo, porque hará que se gradue el tamaño en función del tamaño.
 
--```EM``` ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
+-```EM`` ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
 
 
 
