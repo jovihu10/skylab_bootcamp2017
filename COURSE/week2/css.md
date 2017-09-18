@@ -73,7 +73,8 @@ a:visited {...}
 
  <a href="https://www.w3schools.com/cssref/sel_last-child.asp">:last-child</a> 
 
-  ```:only-child``` ➡ Afectará a cada elemento que sólo es hijo de su padre.
+
+```:only-child``` ➡ Afectará a cada elemento que sólo es hijo de su padre.
 
 
 <a href="http://www.csszengarden.com/">Excelente página para ver ejemplos de diseño de CSS</a>
@@ -104,7 +105,7 @@ box-sizing: border-box; ➡ Quita los márgenes
 box-sizing: content-box; ➡ elimina border, padding y margin
 box-sizing: initial; ➡ le da a la propiedad los valores iniciales(resetea)
 box-sizing: inherit; ➡ hereda las propiedades del elemento padre
-``
+```
 
 ```clear:both``` ➡  para limpiar lo que hay en izq y derecha (solo limpia lo que son los float).
 
@@ -145,4 +146,4 @@ ___________
 - http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF ➡ Para gamas de colores en harmonía.
 
 - https://coolors.co/ ➡ Para crear paletas de colores.
-```
+``
