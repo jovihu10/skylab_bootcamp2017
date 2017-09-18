@@ -1,74 +1,62 @@
-
-
-
 .navbar-header .navbar-brand {
     color: #1cAA98;
 }
 
+
+
 .navbar-brand {}
 
-.navbar-default {
-
-}
+.navbar-default {}
 
 #backgroundImage {
     background-image: url("../img/site_showcase_bg.jpg");
     width: 100%;
-
-    
- 
     height: 300px;
 }
 
 #lifeSpan {
-	color:#1CAA98;
+    color: #1CAA98;
 }
 
-#captureSpan{
-	color: white;
-
-}
-#captureLife{
-	
-	}
-
-	#captureLife h1{
-		margin-left:5%;
-	}
-
-#captureH2{
-	color: white;
-	font-size:95%;
-	margin-left:5%;
-
+#captureSpan {
+    color: white;
 }
 
-#apple{
-	width: 30%;
-	padding-top:3%;
-	margin-left:5%;
+#captureLife {}
+
+#captureLife h1 {
+    margin-left: 5%;
 }
 
-#googlePlay{
-	width: 23%;
-	padding-top:3%;
-	margin-left:2%;
+#captureH2 {
+    color: white;
+    font-size: 95%;
+    margin-left: 5%;
 }
 
-#iphone img{
-	width: 30%;
-	margin-top:2.7%;
-
-		
-
-
+#apple {
+    width: 30%;
+    padding-top: 3%;
+    margin-left: 5%;
 }
-.container{
-	padding:0;
+
+#googlePlay {
+    width: 23%;
+    padding-top: 3%;
+    margin-left: 2%;
+}
+
+#iphone img {
+    width: 30%;
+    margin-top: 2.7%;
+}
+
+.container {
+    padding: 0;
 }
 
 #secondImages {
-   
+
     width: 80%;
     height: 30%;
 }
@@ -84,64 +72,56 @@
     padding: 3%;
 }
 
-section{
-	background: #1CAA98;
-	padding: 1%;
-
+section {
+    background: #1CAA98;
+    padding: 1%;
 }
 
-section h2{
-	color: white;
-	margin-left:15%;
-
+section h2 {
+    color: white;
+    margin-left: 15%;
 }
 
-section ul li{
-	text-decoration: none;
-	list-style: none;
-	color: white;
-	padding:1%;
-	margin-left:9%;
-
+section ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 1%;
+    margin-left: 9%;
 }
 
 
-#logo{
-	width: 40%;
-	margin-left:15%;
+#logo {
+    width: 40%;
+    margin-left: 15%;
 }
 
-footer{
-	background: #333333;
-
+footer {
+    background: #333333;
 }
 
-#nav2{
-	
+#nav2 {}
 
+#nav2 ul li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 3%;
 }
 
-#nav2 ul li{
-	color: white;
-	list-style: none;
-	display: inline-block;
-	padding:3%;
+#copyright {
+    padding: 2.7%;
+    margin-left: 10%;
 }
 
-#copyright{
-padding: 2.7%;
-margin-left: 10%;
-	
+#copyright a {
+    text-decoration: none;
+    color: white;
 }
 
-#copyright a{
-	text-decoration: none;
-	color: white;
+@media screen and (max-width: 620px) {
+	#captureLife{
+		display:block;
+	}
 
-	
-
-}
-
-
-
-
+	}

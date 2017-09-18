@@ -1,32 +1,33 @@
-
 .message {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
 }
 
 .success {
-  @extend .message;
-  border-color: green;
+    @extend .message;
+    border-color: green;
 }
 
 .error {
-  @extend .message;
-  border-color: red;
+    @extend .message;
+    border-color: red;
 }
 
 .warning {
-  @extend .message;
-  border-color: yellow;
+    @extend .message;
+    border-color: yellow;
 }
 
 
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
 }
 
-.box { @include border-radius(10px); }
+.box {
+    @include border-radius(10px);
+}

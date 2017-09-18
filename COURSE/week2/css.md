@@ -130,5 +130,8 @@ Si uso @media all and (max-width: 479px) afectará a todo
 
 @font-face ---> para poner tipografías de letras externas
 text-overflow ----> para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
+
+
+Poner los links que tengo de css guadados interesantes, como el de colores, gradients, etc
                 
 
