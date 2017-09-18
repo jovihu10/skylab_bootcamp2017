@@ -41,7 +41,7 @@ ej:Your Name: <input type="text" name="name" required>
 placeholder: para el campo dentro del input
 
 
-</br>
+
 
 
 
@@ -66,8 +66,6 @@ Define si un link ha sido visitado o no
 a:link {...}
 a:visited {...}
 ```
-
-</br>
 
 
 **<a href="https://www.w3schools.com/cssref/sel_firstchild.asp">:first-child</a>**
