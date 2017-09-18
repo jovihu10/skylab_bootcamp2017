@@ -80,7 +80,6 @@ a:visited {...}
 <a href="http://www.csszengarden.com/">Excelente página para ver ejemplos de diseño de CSS</a>
 
 
-
 ```:first-of-type```➡ el primero de tipo tal. Por ejemplo el primero de tipo p
 
 ```:last-of-type``` ➡ El último de tipo tal
@@ -100,6 +99,7 @@ Target Pseudo-class ➡ :target Para si una id tiene dentro una palabra en concr
 
 ```:before and :after generated content``` ➡ para que haga algo antes o después de tal elemento. Por ejemplo, tenemos una lista y queremos que ponga una estrellita antes de empezar la lista 
 
+```
 </br>
 
 
@@ -109,6 +109,7 @@ box-sizing: border-box; ➡ Quita los márgenes
 box-sizing: content-box; ➡ elimina border, padding y margin
 box-sizing: initial; ➡ le da a la propiedad los valores iniciales(resetea)
 box-sizing: inherit; ➡ hereda las propiedades del elemento padre
+```
 
 
 ```clear:both``` ➡  para limpiar lo que hay en izq y derecha (solo limpia lo que son los float).
@@ -171,4 +172,4 @@ ___________
 - https://webgradients.com/ ➡ Para poner gradientes
 
 - http://learn.shayhowe.com/advanced-html-css/transitions-animations/ ➡ Transformations and animations
-```
+``
