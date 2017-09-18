@@ -17,3 +17,5 @@ https://codepen.io/SitePoint/full/dPbaXo
 
 si ponemos container fluid, siempre estirará la pantalla y la adaptará. En cambio, con container, siempre que haya un media query, aplicará el corte y hará los cambios que le hayamos marcado.
 offset es una columna vacía
+
+Asegurarme de tener siempre en el head el meta viewport

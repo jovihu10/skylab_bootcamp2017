@@ -1,4 +1,4 @@
-<h1>SKYLAB CODERS BOOTCAMP - SUMMER 2017</h1>
+<h1>WEEK 1</h1>
 
 <a href="https://skylabcoders.github.io/bootcamp-julio2017/">SLIDES PARA EL BOOTCAMP</a>
 
