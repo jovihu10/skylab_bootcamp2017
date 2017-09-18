@@ -115,17 +115,19 @@ box-sizing: inherit; ➡ hereda las propiedades del elemento padre
 ```position: absolute``` ➡ se moverán todas las div en función del padre junto a él.
 
 ```z-index``` ➡ marca que capa quedará por delante
+
 ```box-shadow``` ➡ para poner sombra
-```opacity`` ➡ transparencia
+
+```opacity``` ➡ transparencia
 ___________
 
 <h2><a href="https://www.w3schools.com/cssref/css_units.asp">Unidades</a></h2>
 
-- Píxels ➡ Sólo lo usaremos para cosas puntuales, como los heights.
+```- Píxels``` ➡ Sólo lo usaremos para cosas puntuales, como los heights.
 
-- % ➡ Para casi todo, porque hará que se gradue el tamaño en función del tamaño.
+- ```%``` ➡ Para casi todo, porque hará que se gradue el tamaño en función del tamaño.
 
--EM ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
+-```EM``` ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
 
 
 
