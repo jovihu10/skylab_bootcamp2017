@@ -99,9 +99,9 @@ box-sizing: initial; ➡ le da a la propiedad los valores iniciales(resetea)
 box-sizing: inherit; ➡ hereda las propiedades del elemento padre
 
 
-**clear:both** ➡ para limpiar lo que hay en izq y derecha (solo limpia lo que son los float)
+```clear:both``` ➡  para limpiar lo que hay en izq y derecha (solo limpia lo que son los float).
 
-**position: absolute** ➡ se moverán todas las div en función del padre junto a él.
+position: absolute ➡ se moverán todas las div en función del padre junto a él.
 
 **z-index** ➡ marca que capa quedará por delante
 **box-shadow** ➡ para poner sombra
@@ -114,8 +114,8 @@ ___________
 
 
 
-``` **@font-face** `` ---> para poner tipografías de letras externas
-text-overflow ----> para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
+```@font-face``` ➡ para poner tipografías de letras externas
+```text-overflow``` ➡ para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
 
 
 Poner los links que tengo de css guadados interesantes, como el de colores, gradients, etc
