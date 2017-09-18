@@ -7,7 +7,7 @@
 <ol>
     <li><a href="">Jasmine</a></li>
     <li>CSS</li>
-    <li>Bootstrap</li>
+    <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week2/bootstrap.md">Bootstrap</a></li>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week2/mediaqueries.md">Media Queries</a></li>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week2/flexbox.md">FlexBox</a></li>
     <li></li>
