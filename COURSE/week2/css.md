@@ -104,19 +104,24 @@ box-sizing: border-box; ➡ Quita los márgenes
 box-sizing: content-box; ➡ elimina border, padding y margin
 box-sizing: initial; ➡ le da a la propiedad los valores iniciales(resetea)
 box-sizing: inherit; ➡ hereda las propiedades del elemento padre
-```
+``
 
 ```clear:both``` ➡  para limpiar lo que hay en izq y derecha (solo limpia lo que son los float).
 
-position: absolute ➡ se moverán todas las div en función del padre junto a él.
+```position: absolute``` ➡ se moverán todas las div en función del padre junto a él.
 
-**z-index** ➡ marca que capa quedará por delante
-**box-shadow** ➡ para poner sombra
-**opacity** ➡ transparencia
+```z-index``` ➡ marca que capa quedará por delante
+```box-shadow``` ➡ para poner sombra
+```opacity`` ➡ transparencia
 ___________
 
-**Length**
+<h2><a href="https://www.w3schools.com/cssref/css_units.asp">Unidades</a></h2>
 
+- Píxels ➡ Sólo lo usaremos para cosas puntuales, como los heights.
+
+- % ➡ Para casi todo, porque hará que se gradue el tamaño en función del tamaño.
+
+-EM ➡ Relativo al tamaño de la fuente (2em significa 2 veces el tamaño de la fuente actual)
 
 
 
@@ -124,7 +129,20 @@ ___________
 ```@font-face``` ➡ para poner tipografías de letras externas
 ```text-overflow``` ➡ para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
 
+<h2>LINKS INTERESANTES</h2>
 
-Poner los links que tengo de css guadados interesantes, como el de colores, gradients, etc
-                
+```
+- https://webgradients.com/ ➡ Para poner gradientes
 
+- https://glyphicons.com/ ➡ Librería iconos
+
+- http://fontawesome.io/ ➡ Librería iconos
+
+- https://css-tricks.com/ ➡ Colección de trucos. Muy útil.
+
+- https://www.w3schools.com/colors/colors_picker.asp ➡ Todas las gamas de colores en HEX.
+
+- http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF ➡ Para gamas de colores en harmonía.
+
+- https://coolors.co/ ➡ Para crear paletas de colores.
+```
