@@ -114,7 +114,7 @@ ___________
 
 
 
-**@font-face** ---> para poner tipografías de letras externas
+``` **@font-face** `` ---> para poner tipografías de letras externas
 text-overflow ----> para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
 
 
