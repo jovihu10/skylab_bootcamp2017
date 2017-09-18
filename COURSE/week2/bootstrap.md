@@ -5,7 +5,7 @@
 2. Poner los <a href="https://www.bootstrapcdn.com/">CDN</a> dentro de scripts y styles
 3. Cargar Jquery. Siempre **jquery primero** y luego el cdn de bootstrap
 4. La hoja de estilos propia cargarla **después** de la de bootstrap para que sobrescriba
-
+<br>
 
 
 **GRID**
@@ -20,7 +20,8 @@ https://scotch.io/tutorials/understanding-the-bootstrap-3-grid-system
 http://getbootstrap.com/examples/grid/
 
 https://codepen.io/SitePoint/full/dPbaXo
-``
+```
+
 
 - container fluid ➡ siempre estirará la pantalla y la adaptará. 
 
