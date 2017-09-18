@@ -136,15 +136,14 @@ ___________
 ```@font-face``` ➡ para poner tipografías de letras externas
 ```text-overflow``` ➡ para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
 
+```
 
 
 <h2>LINKS INTERESANTES</h2>
 
-``
+```
 
 - https://tympanus.net/codrops/css_reference/ ➡ CSS Reference
-
-
 
 - https://glyphicons.com/ ➡ Librería iconos
 
@@ -162,7 +161,10 @@ ___________
 
 - https://coolors.co/ ➡ Para crear paletas de colores.
 ```
+
 <h2>Links de efectos</h2>
+
+```
 
 - http://learn.shayhowe.com/advanced-html-css/css-transforms/ ➡ Transformations 
 
