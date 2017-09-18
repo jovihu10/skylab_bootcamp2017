@@ -73,31 +73,38 @@ a:visited {...}
 
  <a href="https://www.w3schools.com/cssref/sel_last-child.asp">:last-child</a> 
 
-  :only-child**
+  ```:only-child``` ➡ Afectará a cada elemento que sólo es hijo de su padre.
 
 
 <a href="http://www.csszengarden.com/">Excelente página para ver ejemplos de diseño de CSS</a>
 
 
 
-**:first-of-type, :last-of-type, & :only-of-type**
-irst-of-type ➡ el primero de tipo tal. Por ejemplo el primero de tipo p
+```:first-of-type```➡ el primero de tipo tal. Por ejemplo el primero de tipo p
+
+```:last-of-type``` ➡ El último de tipo tal
+
+```:only-of-type``` ➡ sólo los de tipo tal
 
 
 
 
-:nth-child(n), :nth-last-child(n), :nth-of-type(n), and :nth-last-of-type(n)
+
+```:nth-child(n)``` ➡ El primer hijo de
+
+ ```:nth-last-child(n), :nth-of-type(n), and :nth-last-of-type(n)```
 Target Pseudo-class ➡ :target Para si una id tiene dentro una palabra en concreto,que actúe el css
 
 
 
 :before and :after generated content ➡ para que haga algo antes o después de tal elemento. Por ejemplo, tenemos una lista y queremos que ponga una estrellita antes de empezar la lista 
 
+```
 box-sizing: border-box; ➡ Quita los márgenes
 box-sizing: content-box; ➡ elimina border, padding y margin
 box-sizing: initial; ➡ le da a la propiedad los valores iniciales(resetea)
 box-sizing: inherit; ➡ hereda las propiedades del elemento padre
-
+```
 
 ```clear:both``` ➡  para limpiar lo que hay en izq y derecha (solo limpia lo que son los float).
 
