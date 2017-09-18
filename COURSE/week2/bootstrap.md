@@ -8,7 +8,7 @@
 <br>
 
 
-**GRID**
+<h2>GRID</h2>
 
 ```
 el grid trabaja con 12 columnas.
