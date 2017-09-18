@@ -33,6 +33,7 @@
 
 
 para validar, poniendo "required":
+
 http://www.the-art-of-web.com/html/html5-form-validation/
 ej:Your Name: <input type="text" name="name" required>
 
@@ -77,40 +78,34 @@ a:visited {...}
 
 <a href="http://www.csszengarden.com/">Excelente página para ver ejemplos de diseño de CSS</a>
 
-  border-collapse y border-spacing en CSS
-vertical-align para alinear verticalmente
-:last-child
-
-
-
-
-
 
 
 **:first-of-type, :last-of-type, & :only-of-type**
-irst-of-type---->el primero de tipo tal. Por ejemplo el primero de tipo p
+irst-of-type ➡ el primero de tipo tal. Por ejemplo el primero de tipo p
 
 
 
 
 :nth-child(n), :nth-last-child(n), :nth-of-type(n), and :nth-last-of-type(n)
-Target Pseudo-class---> :target Para si una id tiene dentro una palabra en concreto,que actúe el css
+Target Pseudo-class ➡ :target Para si una id tiene dentro una palabra en concreto,que actúe el css
 
 
 
-:before and :after generated content ----> para que haga algo antes o después de tal elemento. Por ejemplo, tenemos una lista y queremos que ponga una estrellita antes de empezar la lista 
+:before and :after generated content ➡ para que haga algo antes o después de tal elemento. Por ejemplo, tenemos una lista y queremos que ponga una estrellita antes de empezar la lista 
 
-box-sizing: border-box; ---->Quita los márgenes
-box-sizing: content-box;----> elimina border, padding y margin
-box-sizing: initial;----->le da a la propiedad los valores iniciales(resetea)
-box-sizing: inherit;----->hereda las propiedades del elemento padre
+box-sizing: border-box; ➡ Quita los márgenes
+box-sizing: content-box; ➡ elimina border, padding y margin
+box-sizing: initial; ➡ le da a la propiedad los valores iniciales(resetea)
+box-sizing: inherit; ➡ hereda las propiedades del elemento padre
 
 
-clear:both --->para limpiar lo que hay en izq y derecha (solo limpia lo que son los float)
-position: absolute----> se moverán todas las div en función del padre junto a él
-<-index: marca que capa quedará por delante
-box-shadow--> para poner sombra
-opacity---->transparencia
+**clear:both** ➡ para limpiar lo que hay en izq y derecha (solo limpia lo que son los float)
+
+**position: absolute** ➡ se moverán todas las div en función del padre junto a él.
+
+**z-index** ➡ marca que capa quedará por delante
+**box-shadow** ➡ para poner sombra
+**opacity** ➡ transparencia
 ___________
 
 **Length**
@@ -119,7 +114,7 @@ ___________
 
 
 
-@font-face ---> para poner tipografías de letras externas
+**@font-face** ---> para poner tipografías de letras externas
 text-overflow ----> para decidir hasta donde se verá el texto. Si sobrepasa, se recortará en horizontal
 
 
