@@ -14,5 +14,6 @@ usar esos datos para, a través de JavaScript, modificar los contenidos de la
 página creando efectos dinámicos y rápidos.
 ```
 
+En el esquema anterior vemos las ideas en torno a Ajax de forma gráfica. En la parte superior hemos representado lo que sería **un esquema de comunicación tradicional:** ```el cliente solicita una página web completa al servidor. El servidor recibe la petición, se toma su tiempo para preparar la respuesta y la envía.``` El resultado, **una pequeña demora debido al tiempo que tarda en llegar la petición al servidor**, el tiempo que éste tarda en preparar la respuesta, y el tiempo que tarda en llegar la respuesta más recargarse en el navegador.
 
 <img src="https://www.aprenderaprogramar.com/images/stories/Cursos/CU011/CU01193E_1.png">
