@@ -16,8 +16,8 @@ propia aplicación web, de manera segura y confiable.
 
 Las apis pueden requerir TOKEN o no.
 
-- Explicación más profunda de <a href="https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82">qué es una API</a>
+- <a href="https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82">Explicación más profunda de qué es una API</a>
 
-- <a href="https://www.programmableweb.com/apis/directory">Directorio</a> de APIS 
+- <a href="https://www.programmableweb.com/apis/directory">Directorio de APIS </a> 
 
 - <a href="https://randomuser.me/">API open-source para recivir data aleatorio</a>
