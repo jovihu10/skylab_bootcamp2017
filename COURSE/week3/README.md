@@ -10,5 +10,4 @@
     <li><a href="">AJAX</a></li>
     <li><a href="">JQUERY</a></li>
     <li><a href="">ANGULAR</a></li>
-    <li><a href=""></a></li>
 </ol>
