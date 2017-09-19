@@ -34,3 +34,50 @@ c) Los pasos que antes podía ser necesario dar cargando varias páginas web pue
 
 una sola página que va cambiando gracias a Ajax y a la información recibida del servidor.
 ```
+
+
+<h2>INCONVENIENTES</h2>
+
+```
+a) El usuario puede perder la capacidad para hacer cosas que hacía con webs 
+
+tradicionales puesto que no hay cambio de página web. Por ejemplo usar los 
+
+botones de avance y retroceso del navegador o añadir una página a favoritos 
+
+puede dejar de ser posible. Esto en algunos casos no es deseable.
+
+
+b) El desarrollo de aplicaciones web se puede volver más complejo. Supongamos 
+
+que antes tuviéramos un proceso en el que avanzábamos a través de varias 
+
+páginas web como 1, 2, 3. De este modo la organización resulta sencilla. Si 
+
+condensamos todo en una sola página web: 1, escribir y depurar el código puede 
+
+volverse más complicado. En sitios complejos, puede ser muy difícil depurar errores.
+
+
+c) Existen problemas y restricciones de seguridad relacionados con el uso de 
+
+Ajax. Hay que tener en cuenta que por motivos de seguridad no todos los 
+
+procesos se pueden realizar del lado del cliente (que por su propia naturaleza 
+
+es “manipulable”). También existen restricciones de seguridad para impedir la 
+
+carga de contenidos mediante Ajax desde sitios de terceras partes.
+
+
+d) La indexación para los motores de búsqueda se ve dificultada, con lo cual 
+
+nuestros sitios web pueden perder visibilidad en los buscadores. No es lo 
+
+mismo un contenido “constante” o aproximadamente estático, fácilmente 
+
+rastreable para un buscador, que un contenido “cambiante” en función de la 
+
+ejecución de JavaScript, difícilmente rastreable para un buscador.
+
+```
