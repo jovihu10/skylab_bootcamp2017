@@ -28,14 +28,8 @@ En la parte inferior vemos lo que sería **un esquema de comunicación usando Aj
 a) No es necesario recargar y redibujar la página web completa, con lo que todo es más rápido.
 
 b) El usuario no percibe que haya demoras: está trabajando y al ser las 
-comunicaciones en 
-
-segundo plano no hay interrupciones.
+comunicaciones en segundo plano no hay interrupciones.
 
 c) Los pasos que antes podía ser necesario dar cargando varias páginas web 
-pueden quedar 
-
-condensados en una sola página que va cambiando gracias a Ajax y a la información 
-
-recibida del servidor.
+pueden quedar condensados en una sola página que va cambiando gracias a Ajax y a la información recibida del servidor.
 ```
