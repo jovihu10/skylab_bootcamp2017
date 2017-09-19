@@ -1,5 +1,7 @@
 <h1>AJAX (Asynchronous JavaScript And XML)</h1>
 
+<a href="https://github.com/juanmaguitar/javascript-notes/tree/master/markdown-en/14-AJAX">SLIDES</a>
+
 
 
 Realizar peticiones al servidor y esperar respuesta **puede consumir tiempo** (el tiempo necesario para recargar una página completa). **Para agilizar los desarrollos web surgió Ajax**, una tecnología que **busca evitar las demoras propias de las peticiones** y respuestas del servidor mediante la transmisión de datos en segundo plano usando un protocolo específicamente diseñado para la ```transmisión rápida de pequeños paquetes de datos```.
