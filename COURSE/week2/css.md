@@ -172,4 +172,6 @@ ___________
 - https://webgradients.com/ ➡ Para poner gradientes
 
 - http://learn.shayhowe.com/advanced-html-css/transitions-animations/ ➡ Transformations and animations
+
+- https://desandro.github.io/3dtransforms/ ➡ guía muy completa de efectos
 ``
