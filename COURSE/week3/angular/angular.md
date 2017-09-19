@@ -2,8 +2,15 @@
 
 <a href="https://skylabcoders.github.io/bootcamp-julio2017/?full#135">SLIDES ANGULAR</a>
 ```
-Angular es un FRAMEWORK de Google que nos permite ahorrar trabajo y código y modularizar una APP (controllers, services, directives, constants, filters, templates).
-a partir de la versión 2 va con Typescript. No es muy bueno con SEO, así que las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
+Angular es un FRAMEWORK de Google que nos permite ahorrar trabajo y código y
+
+modularizar una APP (controllers, services, directives, constants, filters, 
+
+templates).
+
+a partir de la versión 2 va con Typescript. No es muy bueno con SEO, así que 
+
+las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 ```
 
 
