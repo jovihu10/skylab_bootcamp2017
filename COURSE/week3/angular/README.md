@@ -50,7 +50,7 @@ Una aplicación de **Angular** consiste en:
 
     . Services: recupera datos del servidor (dependencias a los controles)
 
-<img src="img/z__angular-app-structure">
+<img src="img/z__angular-app-structure.png">
 
 
 
