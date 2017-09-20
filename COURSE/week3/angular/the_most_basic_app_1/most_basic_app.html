@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<!-- siempre será html ng-app y si hay un module, el nombre el nombre de la app -->
+<html ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>1. Most Basic App On Angular</title>
+	  
+</head>
+<body>
+	<div>
+		<label>Name:</label>
+		<input type="text" ng-model="yourName" placeholder="enter a name here">
+		<hr>
+		<!-- las llaves sirven para que nos muestre el contenido del ng-model llamado yourName -->
+		<h1>Hello {{ yourName }}!</h1>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+</body>
+</html>
