@@ -31,11 +31,11 @@ las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 
 **Dos Maneras de unir pattern (VM)**
 
-    La vista es una proyección del **modelo en todo momento**
+    La vista es una proyección del modelo en todo momento
 
     VM en AngularJS ➡ $scope del objeto
 
-<img src="https://gist.githubusercontent.com/juanmaguitar/c538d6cb108d27a37c73/raw/4733f4fb6101ef54de76eb9c2d9cc6004357050b/z__two-way-binding.png>"
+<img src="https://gist.githubusercontent.com/juanmaguitar/c538d6cb108d27a37c73/raw/4733f4fb6101ef54de76eb9c2d9cc6004357050b/z__two-way-binding.png">
 
 
 
