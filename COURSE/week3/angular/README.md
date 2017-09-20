@@ -15,19 +15,19 @@ las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 ```
 
 
-<h2>The MVC / MVVM Design Patterns</h2>
+<h2>1. The MVC / MVVM Design Patterns</h2>
 
 **MVC pattern**
 
 . Separación limpia entre: view (UI), controller (intermediario) y modelo (data)
 
 . Separación entre el manejo de datos y la presentación
-<img src="https://gist.githubusercontent.com/juanmaguitar/c538d6cb108d27a37c73/raw/4733f4fb6101ef54de76eb9c2d9cc6004357050b/z__MVC.png">
+<img src="img/z__MVC.png">
 
 
 **MVVM pattern**
 
-<img src="https://gist.githubusercontent.com/juanmaguitar/c538d6cb108d27a37c73/raw/4733f4fb6101ef54de76eb9c2d9cc6004357050b/z__MVVM.png">
+<img src="img/z__MVVM.png">
 
 **Dos Maneras de unir pattern (VM)**
 
@@ -35,7 +35,22 @@ las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 
     VM en AngularJS ➡ $scope del objeto
 
-<img src="https://gist.githubusercontent.com/juanmaguitar/c538d6cb108d27a37c73/raw/4733f4fb6101ef54de76eb9c2d9cc6004357050b/z__two-way-binding.png">
+<img src="img/z__two-way-binding.png">
+
+
+<h2>2. Angular application structure</h2>
+
+Una aplicación de **Angular** consiste en:
+
+    . Controllers: entrelaza entre modelo (service) y view (template)
+
+    . Templates: view
+
+    . Directives: componentes UI  o custom tag atributos.
+
+    . Services: recupera datos del servidor (dependencias a los controles)
+
+<img src="img/z__angular-app-structure">
 
 
 
