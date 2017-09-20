@@ -29,9 +29,9 @@ las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 
 <img src="img/z__MVVM.png">
 
-**Dos Maneras de unir pattern (VM)**
+**Dos Maneras de binding pattern (VM)**
 
-    La vista es una proyección del modelo en todo momento
+    La vista es una proyección del modelo en todo momento ({{}})
 
     VM en AngularJS ➡ $scope del objeto
 
@@ -75,6 +75,10 @@ project root/
             // any external libraries we wish to use e.g. bootstrap
             // angular, jquery etc
 ```
+
+<h2>3. Creando una aplicación de Angular</h2>
+
+
 
 
 
