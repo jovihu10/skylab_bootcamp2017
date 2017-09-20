@@ -86,6 +86,9 @@ project root/
 
 **<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/aplication_module-2">EX:2 Application module**</a>
 
+
+**<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/controller_module-3">EX:3 Controller module</a>**
+
 Añadir un controller module en controller.js, y añade algunos controllers ahí y también proper references en index.html(las referencias para que llame a cada cosa)
 
 
@@ -98,8 +101,9 @@ Añadir un controller module en controller.js, y añade algunos controllers ahí
 . Cada **controller** tiene su **propio $scope**
 
 ____
+**<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/scope-4">EX:4 $scope</a>**
 
-Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos en `index.html
+Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos en `index.html`
 
 
 **NG Controller** 
