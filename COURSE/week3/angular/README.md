@@ -79,12 +79,13 @@ project root/
 
 <h2>3. Creando una aplicación de Angular</h2>
 
-**<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/the_most_basic_app-1">Most simple app**</a>
+**<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/the_most_basic_app-1">Ex:1 Most simple app**</a>
 
 . Añadiendo `angular.js` y disfrutando de la magia (two way binding) del `ng-model`
 
 
-**<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/aplication_module-2">Application module**</a>
+**<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/aplication_module-2">EX:2 Application module**</a>
+
 Añadir un controller module en controller.js, y añade algunos controllers ahí y también proper references en index.html(las referencias para que llame a cada cosa)
 
 
@@ -92,9 +93,13 @@ Añadir un controller module en controller.js, y añade algunos controllers ahí
 
 **Uso del** `$scope`
 
-. El objeto $scope es el *viewModel* (es compartido por la vista (view) y el controller)
+. El objeto **$scope** es el **viewModel** (es compartido por la vista (view) y el controller)
 
-. Cada controller tiene su propio $scope
+. Cada **controller** tiene su **propio $scope**
+
+____
+
+Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos en `index.html
 
 
 **NG Controller** 

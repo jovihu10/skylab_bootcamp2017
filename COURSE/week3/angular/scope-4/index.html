@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3 - Controller Module </title>
+</head>
+
+<body>
+    <div>
+        <label>Name:</label>
+        <input type="text" ng-model="yourName" placeholder="Enter a name here">
+        <hr>
+        <h1>Hello {{yourName}}!</h1>
+    </div>
+    <!-- Ahora es cuando haremos trabajar los controllers creados en el ejercicio anterior, concretamente para nombres y apellidos -->
+    <div ng-controller="MyController">
+        <ul>
+            <li>Name : {{ firstName }}</li>
+            <li>Last Name : {{ LastName }}</li>
+        </ul>
+    </div>
+
+    <div ng-controller="myOtherController">
+    <ul>
+        <li>Name : {{ firstName }}</li>
+        <li>Last Name : {{ LastName }}</li>
+    </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
