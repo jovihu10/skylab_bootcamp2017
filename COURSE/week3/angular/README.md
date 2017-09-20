@@ -15,6 +15,7 @@ las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 ```
 
 
+
 <h2>1. The MVC / MVVM Design Patterns</h2>
 
 **MVC pattern**
@@ -80,7 +81,7 @@ project root/
 
 **<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/the_most_basic_app-1">Most simple app**</a>
 
-. Añadiendo ```angular.js``` y disfrutando de la magia (two way binding) del ````ng-model``` 
+. Añadiendo `angular.js` y disfrutando de la magia (two way binding) del `ng-model`
 
 
 **<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/aplication_module-2">Application module**</a>
@@ -89,9 +90,9 @@ Añadir un controller module en controller.js, y añade algunos controllers ahí
 
 <h2>5. Objeto $scope e integración de directivas</h2>
 
-**Uso del** ```$scope```
+**Uso del** `$scope`
 
-. El objeto $scope es el viewModel (es compartido por la vista (view) y el controller)
+. El objeto $scope es el *viewModel* (es compartido por la vista (view) y el controller)
 
 . Cada controller tiene su propio $scope
 
