@@ -1,6 +1,7 @@
 <h1>ANGULAR</h1>
 
 <a href="https://skylabcoders.github.io/bootcamp-julio2017/?full#135">SLIDES ANGULAR</a>
+
 ```
 Angular es un FRAMEWORK de Google que nos permite ahorrar trabajo y código y
 
@@ -15,7 +16,11 @@ las partes que nos interese indexar, hacerlas con PUG y las demás con ANGULAR
 
 
 
--ng controller- enmagatzema i envia on li diguem
+**NG Controller** 
+
+    Almacena y envía donde le digamos
+
+
 -Tot estarà enmagatzemat en càpsules
 
 **Presentation**      |    **Business**        |              **Data**
