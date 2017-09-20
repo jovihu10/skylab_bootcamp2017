@@ -1,5 +1,5 @@
-<h1>Controller Module</h1>
+<h1>Exercise 4 - $scope</h1>
 
-Add controller module in controller.js, add some controllers in it and add proper references in index.html
+Añade algunas propiedades en los controllers en controller.js y muéstralos en index.html
 
-<img src="img/controller_module.png">
+<img src="img/scope.png">
