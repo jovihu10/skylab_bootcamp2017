@@ -120,11 +120,14 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
 <a href="http://jsfiddle.net/lillylangtree/jja3fjt6/1/">EJEMPLO</a>
 
--Tot estarà enmagatzemat en càpsules
+-Todo estará almacenado en cápsulas.
 
 **Presentation**      |    **Business**        |              **Data**
+----------------------|------------------------|-------------------------------
     archich view      |    spoty service       |         API Spotify
+----------------------|------------------------|-------------------------------
 ---->                 |    ----->              |           ---->      
+----------------------|------------------------|-------------------------------
 templates, html       |                        |
 (siempre seguirá esta dirección)|              |
 ----------------------------------------------------------------------
