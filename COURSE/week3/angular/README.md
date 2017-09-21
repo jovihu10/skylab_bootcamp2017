@@ -151,6 +151,7 @@ cuando diseñas una app, tienes que pensar cuantas vistas vas a tener
 Ejemplo:
 
 **Funciones:**
+
     . Register
     . Login
     . Home
