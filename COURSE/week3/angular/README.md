@@ -95,6 +95,9 @@ Añadir un controller module en controller.js, y añade algunos controllers ahí
 
 <a href="https://www.w3schools.com/angular/angular_scopes.asp"><h2>5. Objeto $scope e integración de directivas</h2></a>
 
+</br>
+</br>
+
 **Uso del** `$scope`
 
 . El objeto **$scope** es el **viewModel** (es compartido por la vista (view) y el controller)
