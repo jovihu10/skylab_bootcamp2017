@@ -86,6 +86,7 @@ project root/
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/aplication_module-2">**EX:2 Application module**</a>
 
+.Ahora añadimos el `módulo mainApp` en el archivo `app.js
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/controller_module-3">**EX:3 Controller module**</a>
 
@@ -107,10 +108,17 @@ ____
 Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos en `index.html
 
 
-**NG Controller** 
 
-    Almacena y envía donde le digamos
 
+**ng-controller** 
+
+    .Crea un controller para controlar una parte de html que le digamos (view)Almacena y envía donde le digamos
+
+**ng-model**
+
+    .Crea datos two way binding (({{}})) entre el modo view y el controller 
+
+<a href="http://jsfiddle.net/lillylangtree/jja3fjt6/1/">EJEMPLO</a>
 
 -Tot estarà enmagatzemat en càpsules
 
