@@ -126,7 +126,7 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 ----------------------|------------------------|-------------------------------
 archich view          |    spoty service       |         API Spotify
 ----------------------|------------------------|-------------------------------
----->                 |    ----->              |           ---->      
+➡➡➡➡➡➡                |    ➡➡➡➡➡➡              |        ➡➡➡➡➡➡➡➡➡      
 ----------------------|------------------------|-------------------------------
 templates, html       |                        |
 (siempre seguirá esta dirección)|              |
