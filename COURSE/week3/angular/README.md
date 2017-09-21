@@ -122,15 +122,19 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
 -Todo estará almacenado en cápsulas.
 
+**EJEMPLO ANGULAR SPOTIFY**
+-------------------------------------------------------------------------------
+
 **Presentation**      |    **Business**        |              **Data**
 ----------------------|------------------------|-------------------------------
 archich view          |    spoty service       |         API Spotify         
 ➡➡➡➡➡➡                |    ➡➡➡➡➡➡              |        ➡➡➡➡➡➡➡➡➡      
 templates, html       |                        |(siempre seguirá esta dirección)
-    artist view2      |                        |       
+artist view2          |                        |       
 
 
 Siempre es `de presentation a data, para tener + visibilidad`
+
 
 **vista (html)**      |     **control**        |      **model**
 -------------------------------------------------------------------
