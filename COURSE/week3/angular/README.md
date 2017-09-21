@@ -141,9 +141,11 @@ Siempre es `de presentation a data, para tener + visibilidad`
 
 
 
-scope será nuestro model (trabaja con cosa que manejan la vista)
-cuando diseñas una app, tienes que pensar cuantas vistas vas a tener
 
+```
+$scope será nuestro model (trabaja con cosa que manejan la vista)
+cuando diseñas una app, tienes que pensar cuantas vistas vas a tener
+```
 
 
 Ejemplo:
