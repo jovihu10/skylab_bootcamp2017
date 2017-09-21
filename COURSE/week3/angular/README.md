@@ -124,7 +124,7 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
 **Presentation**      |    **Business**        |              **Data**
 ----------------------|------------------------|-------------------------------
-    archich view      |    spoty service       |         API Spotify
+archich view          |    spoty service       |         API Spotify
 ----------------------|------------------------|-------------------------------
 ---->                 |    ----->              |           ---->      
 ----------------------|------------------------|-------------------------------
