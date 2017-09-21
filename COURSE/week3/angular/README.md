@@ -93,7 +93,7 @@ project root/
 Añadir un controller module en controller.js, y añade algunos controllers ahí y también proper references en index.html(las referencias para que llame a cada cosa)
 
 
-<h2>5. Objeto $scope e integración de directivas</h2>
+<a href="https://www.w3schools.com/angular/angular_scopes.asp"><h2>5. Objeto $scope e integración de directivas</h2></a>
 
 **Uso del** `$scope`
 
@@ -108,19 +108,29 @@ ____
 Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos en `index.html
 
 
-**ng-controller** 
+<a href="https://www.w3schools.com/angular/ng_ng-controller.asp">**ng-controller** </a>
 
-    .Crea un controller para controlar una parte de html que le digamos (view)Almacena y envía donde le digamos
+    . Añade un controller para controlar una parte de html que le digamos (view)Almacena y envía donde le digamos
 
-**ng-model**
+<a href="https://www.w3schools.com/angular/angular_model.asp">**ng-model**</a>
 
-    .Crea datos two way binding (({{}})) entre el modo view y el controller 
+    . Crea datos two way binding (({{}})) entre el modo view y el controller 
 
 <a href="http://jsfiddle.net/lillylangtree/jja3fjt6/1/">EJEMPLO</a>
 
 -Todo estará almacenado en cápsulas.
 
-<a href="">**Step:5 Añadiendo métodos al $scope**</a>
+<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/scope_methods-5">**Step:5 Añadiendo métodos al $scope**</a>
+
+
+
+**<a href="https://www.w3schools.com/angular/ng_ng-repeat.asp">ng-repeat</a>**
+
+    . Esta directiva repite una parte de HTML un número de veces determinado
+
+
+
+
 
 
 **EJEMPLO ANGULAR SPOTIFY**
@@ -163,7 +173,10 @@ Sería como pensar en templates
 
 
 
-API services funcionan con $http recipe
+API services funcionan con `$http recipe`
+
+
+
 app.config ---> me permite configurar cosas
 -----
 ngRoute --- componente para rutear cosas. para ello debemos importar la libreria angular route y ponerla en un script
