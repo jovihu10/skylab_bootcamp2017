@@ -139,7 +139,7 @@ Siempre es `de presentation a data, para tener + visibilidad`
 ----------------------|------------------------|-------------------
 
 
-
+<br>
 
 
 ```
@@ -150,13 +150,13 @@ cuando diseñas una app, tienes que pensar cuantas vistas vas a tener
 
 Ejemplo:
 
-Funciones:
--Register
--Login
--Home
--Profile
+**Funciones:**
+    . Register
+    . Login
+    . Home
+    . Profile
 
-En este ejemplo serían 4 vistas generales y cada sección tendría subvistas. Cada vista tendrá su scope. Un controller se encarga de un grupo funcional. Lo standar sería un controller para cada vista.
+En este ejemplo serían **4 vistas generales** y cada sección tendría **subvistas**. Cada vista tendrá **su scope**. **Un controller se encarga de un grupo funcional**. Lo standar sería **un controller para cada vista**.
 Sería como pensar en templates
 
 
