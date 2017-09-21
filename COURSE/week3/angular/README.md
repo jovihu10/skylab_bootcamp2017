@@ -57,6 +57,8 @@ Una aplicación de **Angular** consiste en:
 **Angular application structure (MVVM)**
 <img src="img/z__angular-app-structure-mvvm.png">
 
+</br>
+</br>
 
 **Directory Structure**
 
@@ -77,6 +79,8 @@ project root/
             // angular, jquery etc
 ```
 
+</br>
+
 <h2>3. Creando una aplicación de Angular</h2>
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/the_most_basic_app-1">**Step:1 Most simple app**</a>
@@ -92,11 +96,12 @@ project root/
 
 Añadir un controller module en controller.js, y añade algunos controllers ahí y también proper references en index.html(las referencias para que llame a cada cosa)
 
+</br>
+</br>
 
 <a href="https://www.w3schools.com/angular/angular_scopes.asp"><h2>5. Objeto $scope e integración de directivas</h2></a>
 
-</br>
-</br>
+
 
 **Uso del** `$scope`
 
@@ -131,7 +136,10 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
     . Esta directiva repite una parte de HTML un número de veces determinado
 
-
+</br>
+</br>
+</br>
+</br>
 
 
 
@@ -178,7 +186,8 @@ Sería como pensar en templates
 
 API services funcionan con `$http recipe`
 
-
+</br>
+</br>
 
 app.config ---> me permite configurar cosas
 -----
