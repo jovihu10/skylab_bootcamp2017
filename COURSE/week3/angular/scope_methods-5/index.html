@@ -3,7 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Step 4 - $scope </title>
+    <title>Step 5 - $scope methods </title>
+    <style>
+    div {
+        border: 1px solid #CCC;
+        padding: 10px;
+    }
+
+    div:nth-child(2) {
+        background: #E3F2FD;
+        ;
+    }
+
+    div:nth-child(3) {
+        background: #FFEBEE;
+    }
+    </style>
 </head>
 
 <body>
@@ -19,6 +34,7 @@
             <li>Name : {{ firstName }}</li>
             <li>Last Name : {{ LastName }}</li>
         </ul>
+        <p>{{ greeting() }}</p>
     </div>
     <div ng-controller="myOtherController">
         <ul>

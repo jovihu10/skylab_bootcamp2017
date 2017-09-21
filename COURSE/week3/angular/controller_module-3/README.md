@@ -1,4 +1,4 @@
-<h1>Exercise 3 - Controller Module</h1>
+<h1>Step 3 - Controller Module</h1>
 
 Add controller module in controller.js, add some controllers in it and add proper references in index.html
 

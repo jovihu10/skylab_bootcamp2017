@@ -1,4 +1,4 @@
-<h1>Exercise 4 - $scope</h1>
+<h1>Step 4 - $scope</h1>
 
 Añade algunas propiedades en los controllers en controller.js y muéstralos en index.html
 

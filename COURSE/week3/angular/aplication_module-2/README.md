@@ -1,4 +1,4 @@
-<h1>Exercise 2 - APLICATION MODULE</h1>
+<h1>Step 2 - APLICATION MODULE</h1>
 
 . Hacer un input y que mediante data binding nos muestre el nombre que pongamos.
 
