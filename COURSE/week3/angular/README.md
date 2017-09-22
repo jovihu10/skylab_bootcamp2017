@@ -115,10 +115,13 @@ ____
 
 Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos en `index.html
 
+</br>
 
 <a href="https://www.w3schools.com/angular/ng_ng-controller.asp">**ng-controller** </a>
 
     . Añade un controller para controlar una parte de html que le digamos (view)Almacena y envía donde le digamos
+
+</br>
 
 <a href="https://www.w3schools.com/angular/angular_model.asp">**ng-model**</a>
 
@@ -128,6 +131,7 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
 -Todo estará almacenado en cápsulas.
 
+
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/scope_methods-5">**Step:5 Añadiendo métodos al $scope**</a>
 
 
@@ -135,6 +139,8 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 **<a href="https://www.w3schools.com/angular/ng_ng-repeat.asp">ng-repeat</a>**
 
     . Esta directiva repite una parte de HTML un número de veces determinado
+
+<a href="">**Step:6 ng-repeat**</a>
 
 </br>
 </br>
