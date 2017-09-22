@@ -131,6 +131,7 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
 -Todo estará almacenado en cápsulas.
 
+</br>
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/scope_methods-5">**Step:5 Añadiendo métodos al $scope**</a>
 
