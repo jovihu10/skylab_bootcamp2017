@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="collegeApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Step 6 - ng-hide / ng-show </title>
+</head>
+
+<body>
+    <div ng-controller="StudentController">
+        <h3>Full list</h3>
+        <ul>
+            <!--Aquí haremos que se repita el contenido -->
+            <!--Siempre ha de ser en singular, aunque en el controller lo pondremos en plural. En este caso, "subject" -->
+            <li ng-repeat="subject in student.subjects" ng-hide="{{ subject.marks < 70 }}">
+                result for: <strong>{{ subject.name }}</strong> = <em> {{ subject.marks }}</em></li>
+        </ul>
+
+        <h3>Less than 70</h3>
+        <ul>
+            <!-- Muestra sólo los elementos que cumplen esta condición -->
+            <li ng-repeat="subject in student.subjects">
+            result for :<strong>{{" " + subject.name }}</strong> = <em> {{ subject.marks }}</em>
+            </li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>

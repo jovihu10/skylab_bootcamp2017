@@ -141,7 +141,14 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
     . Esta directiva repite una parte de HTML un número de veces determinado
 
-<a href="">**Step:6 ng-repeat**</a>
+<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/ng_repeat-6">**Step:6 ng-repeat**</a>
+
+Añade un controller para una sección de html (view)
+
+<a href="">**ng-hide/ ng-show**</a>
+
+    . Ocultará o mostrará esos elementos que cumplan una condición
+
 
 </br>
 </br>
