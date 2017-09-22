@@ -149,7 +149,7 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
     . Ocultará o mostrará esos elementos que cumplan una condición
 
-<a href="">**Step:7 ng-hide/ ng-show**</a>
+<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/ng_hide_ng_show-7">**Step:7 ng-hide/ ng-show**</a>
 
 Añade un controller para una sección de html (view)
 
@@ -157,7 +157,8 @@ Añade un controller para una sección de html (view)
 
     . Ejecutará alguna función definida en el $scope cuando clickemos el elemento
 
-
+<a href="">**Step 8: ng-click**</a>
+ 
 
 
 
