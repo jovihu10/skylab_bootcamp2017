@@ -143,11 +143,22 @@ Ej: Añade algunas propiedades a los controllers en controller.js y muéstralos 
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/angular/ng_repeat-6">**Step:6 ng-repeat**</a>
 
-Añade un controller para una sección de html (view)
+</br>
 
-<a href="">**ng-hide/ ng-show**</a>
+<a href="https://www.w3schools.com/angular/ng_ng-hide.asp">**ng-hide/**</a> <a href="https://www.w3schools.com/angular/ng_ng-show.asp">**ng-show**</a>
 
     . Ocultará o mostrará esos elementos que cumplan una condición
+
+<a href="">**Step:7 ng-hide/ ng-show**</a>
+
+Añade un controller para una sección de html (view)
+
+<a href="https://www.w3schools.com/angular/ng_ng-click.asp">**ng-click**</a>
+
+    . Ejecutará alguna función definida en el $scope cuando clickemos el elemento
+
+
+
 
 
 </br>
