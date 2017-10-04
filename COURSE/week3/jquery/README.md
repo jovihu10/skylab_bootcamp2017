@@ -1,12 +1,12 @@
-#JQUERY
+<h1>JQUERY</h1>
 
-##BOM (Browser Object Model)
+<h2>BOM (Browser Object Model)</h2>
 
 `Es formado por todos los objetos que están fuera del archivo cargado y son parte del objeto window`
 
 <img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/img/bom.png">
 
-##<a href="https://www.w3.org/DOM/">DOM (Document Object Model)</a>
+<a href="https://www.w3.org/DOM/"><h2>DOM (Document Object Model)</h2></a>
 
 Es una manera de representar el archivo html como un árbol de nodos.
 Usando los métodos del DOM y sus propiedades, podemos acceder a los elementos de la página, modificarlos, eliminarlos o añadir nuevos
@@ -60,7 +60,7 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 ```
 
 . Cada nodo puede tener #nodos hijo:
-    . `hasChildNodes()` :Este método nos devolverá <strong>true</strong> si el nodo tiene hijos nodo.
+    . `hasChildNodes() :Este método nos devolverá <strong>true</strong> si el nodo tiene hijos nodo.
 
  
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
