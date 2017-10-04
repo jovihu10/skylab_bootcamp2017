@@ -209,7 +209,7 @@ Comment length=21 nodeName=#comment
 "your"
 ```
 
-. Los elementos tienen la propiedad `style[https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style]`, que podemos usar para modificar `sus estilos`
+. Los elementos tienen la propiedad `style`, que podemos usar para modificar <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style">sus estilos</a>
 
  
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
