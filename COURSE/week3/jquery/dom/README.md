@@ -163,10 +163,10 @@ True
 
 . Desde El nodo podemos acceder a sus hermanos y el primero o el último de sus hijos.
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling">```nextSibling```</a>: Devuelve el siguiente hermano</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling">`previousSibling`</a>: Devuelve el hermano previo</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild">`firstChild`</a>: Devuelve el primer hijo</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild">`lastChild`</a>: Devuelve el último hijo</li>
+  <li>[`nextSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling): Devuelve el siguiente hermano</li>
+  <li>[`previousSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling): Devuelve el hermano previo</li>
+  <li>[`firstChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild): Devuelve el primer hijo</li>
+  <li>[`lastChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild): Devuelve el último hijo</li>
 </ul> 
 
 ```
@@ -194,7 +194,7 @@ Comment length=21 nodeName=#comment
 " and that's about it "
 ```
 
-<h2><a href="https://www.elated.com/articles/changing-page-elements-with-the-dom/">Modificando los nodos</a></h2>
+##[Modificando los nodos] (https://www.elated.com/articles/changing-page-elements-with-the-dom/)
 
 . Para cambiar el contenido de una etiqueta, `podemos cambiar el contenido de innerHTML
 
@@ -209,7 +209,7 @@ Comment length=21 nodeName=#comment
 "your"
 ```
 
-. Los elementos tienen la propiedad `style`, que podemos usar para modificar <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style">sus estilos</a>
+. Los elementos tienen la propiedad [`style`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style), que podemos usar para modificar sus estilos.
 
 https://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-ElementCSSInlineStyle
 
@@ -236,9 +236,9 @@ https://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-ElementCSSInlineStyle
 
 <h2>Creando y modificando nodos</h2>
 
-. Para crear elementos podemos usar los métodos <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">createElement</a> y <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode">createTextNode</a>
+. Para crear elementos podemos usar los métodos [`createElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) y [`createTextNode`] (https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode)
 
-Una vez han sido creados, podemos añadirlos al `DOM` con <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild">appendchild</a>
+Una vez han sido creados, podemos añadirlos al `DOM` con [`appendchild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
 ```
 >>> var myp = document.createElement('p');
@@ -252,7 +252,7 @@ CSSStyleDeclaration length=0
 <p style="border: 2px dotted blue;">
 ```
 
-. También podemos copiar elementos existentes con [`cloneNode()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)
+. También podemos copiar elementos existentes con [`cloneNode()](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)
 
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
 
