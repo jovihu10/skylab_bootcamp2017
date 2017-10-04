@@ -1,6 +1,4 @@
-<h1>JQUERY</h1>
-
-<h2>BOM (Browser Object Model)</h2>
+<h1>BOM (Browser Object Model)</h1>
 
 `Es formado por todos los objetos que están fuera del archivo cargado y son parte del objeto window`
 
@@ -135,6 +133,13 @@ True
 "first paragraph"
 ```
 
+.Podemos **acceder directamente en algunos elementos** sin la necesidad de repasar todo el árbol de nodos:
+<ul>
+
+<li><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">getElementsByTagName()</a></li>
+
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName">getElementsByName()</a>: Devuelve un **array** con todos los elementos con el **nombre** pasado como parámetro.</li>
+</ul>
 
  
 - http://learn.jquery.com/using-jquery-core/selecting-elements/

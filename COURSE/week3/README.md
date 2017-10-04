@@ -7,6 +7,7 @@
 <ol>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/apis">APIS</a></li>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/propiedades_window">Propiedades de window</a></li>
+    <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/dom">DOM</a></li>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/ajax">AJAX</a></li>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/json">JSON</a></li>
     <li><a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery">JQUERY</a></li>
