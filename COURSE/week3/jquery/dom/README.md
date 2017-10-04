@@ -194,7 +194,22 @@ Comment length=21 nodeName=#comment
 " and that's about it "
 ```
 
+<h2><a href="https://www.elated.com/articles/changing-page-elements-with-the-dom/">Modificando los nodos</a></h2>
 
+. Para cambiar el contenido de una etiqueta, podemos cambiar el contenido de innerHTML
+
+```
+>>> var my = document.getElementById('closer');
+>>> my.innerHTML = '<em>my</em> final';
+>>> my.firstChild
+<em>
+>>> my.firstChild.firstChild
+"my"
+>>> my.firstChild.firstChild.nodeValue = 'your';
+"your"
+```
+
+. Los elementos tienen la propiedad `style[https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style]`, que podemos usar para modificar `sus estilos`
 
  
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
