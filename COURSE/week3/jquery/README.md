@@ -4,10 +4,12 @@
 
 `Es formado por todos los objetos que están fuera del archivo cargado y son parte del objeto window`
 
+<img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/img/bom.png">
 
 
 
 
+ 
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
 
 - http://learn.jquery.com/using-jquery-core/
