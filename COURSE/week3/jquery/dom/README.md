@@ -44,7 +44,9 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 . Todos los nodos tienen las siguientes propiedades:
 
 - [`nodeType`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType): Hay 13 tipos de nodos representados por números (1=element, 22=attribute, 3=text...)
+
 - [`nodeName`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName): Para las etiquetas HTML es el nombre de la etiqueta, y para los nodos de texto es #text
+
 - [`nodeValue`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue): Para nodos de texto, será el texto.
 
 . El nodo <strong>documentElement</strong> es el <strong>nodo raíz</strong>. Para `documentos HTML` es la etiqueta `<html>`
@@ -163,10 +165,14 @@ True
 </br>
 
 . Desde El nodo podemos acceder a sus hermanos y el primero o el último de sus hijos.
-  . [`nextSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling): Devuelve el siguiente hermano.
-  . [`previousSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling): Devuelve el hermano previo.
-  . [`firstChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild): Devuelve el primer hijo.
-  . [`lastChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild): Devuelve el último hijo.
+
+-[`nextSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling): Devuelve el siguiente hermano.
+  
+-[`previousSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling): Devuelve el hermano previo.
+  
+-[`firstChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild): Devuelve el primer hijo.
+  
+-[`lastChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild): Devuelve el último hijo.
 
 
 ```
