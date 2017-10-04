@@ -135,10 +135,8 @@ True
 
 .Podemos **acceder directamente en algunos elementos** sin la necesidad de repasar todo el árbol de nodos:
 <ul>
-
-<li><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">getElementsByTagName()</a></li>
-
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName">getElementsByName()</a>: Devuelve un **array** con todos los elementos con el **nombre** pasado como parámetro.</li>
+  <li><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">getElementsByTagName()</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName">getElementsByName()</a>: Devuelve un **array** con todos los elementos con el **nombre** pasado como parámetro.</li>
 </ul>
 
  
