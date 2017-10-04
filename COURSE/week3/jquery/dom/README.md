@@ -163,9 +163,8 @@ True
 
 . Desde El nodo podemos acceder a sus hermanos y el primero o el último de sus hijos.
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling">`nextSibling`</a>: Devuelve el siguiente hermano</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling">`previousSibling`</a>Devuelve el hermano previo</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild"></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling">```nextSibling```</a>: Devuelve el siguiente hermano</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling">`previousSibling`</a>: Devuelve el hermano previo</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild">`firstChild`</a>: Devuelve el primer hijo</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild">`lastChild`</a>: Devuelve el último hijo</li>
 </ul> 
