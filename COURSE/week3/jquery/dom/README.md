@@ -194,7 +194,7 @@ Comment length=21 nodeName=#comment
 " and that's about it "
 ```
 
-##[Modificando los nodos] (https://www.elated.com/articles/changing-page-elements-with-the-dom/)
+<h2>[Modificando los nodos]</h2> (https://www.elated.com/articles/changing-page-elements-with-the-dom/)
 
 . Para cambiar el contenido de una etiqueta, `podemos cambiar el contenido de innerHTML
 
