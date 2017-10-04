@@ -28,7 +28,9 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 
 <img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/img/dom.png">
 
-##Accediendo a los nodos
+</br>
+
+<h3>Accediendo a los nodos</h3>
 
 ```
 <body>
