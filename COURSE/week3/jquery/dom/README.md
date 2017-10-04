@@ -39,13 +39,13 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 </body>
 ```
 
-. El <a href="https://developer.mozilla.org/en-US/docs/Web/API/document">documento</a> node nos da acceso al documento (el punto de partida)
+. El [`documento`](https://developer.mozilla.org/en-US/docs/Web/API/document) node nos da acceso al documento (el punto de partida)
 
 . Todos los nodos tienen las siguientes propiedades:
 
-- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType">nodeType</a>: Hay 13 tipos de nodos representados por números (1=element, 22=attribute, 3=text...)
-- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName">nodeName</a>: Para las etiquetas HTML es el nombre de la etiqueta, y para los nodos de texto es #text
-- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue">nodeValue</a>: Para nodos de texto, será el texto.
+- [`nodeType`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType): Hay 13 tipos de nodos representados por números (1=element, 22=attribute, 3=text...)
+- [`nodeName`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName): Para las etiquetas HTML es el nombre de la etiqueta, y para los nodos de texto es #text
+- [`nodeValue`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue): Para nodos de texto, será el texto.
 
 . El nodo <strong>documentElement</strong> es el <strong>nodo raíz</strong>. Para `documentos HTML` es la etiqueta `<html>`
 
@@ -62,11 +62,11 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 
 . Cada nodo puede tener <strong>nodos hijo:</strong>
     
-  - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes">hasChildNodes()</a> :Este método nos devolverá <strong>true</strong> si el nodo tiene hijos nodo.
+  - [`hasChildNodes()`] (https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes) :Este método nos devolverá <strong>true</strong> si el nodo tiene hijos nodo.
   
-  - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes">childNodes</a>: Devolverá un array de todos los nodos hijo de un elemento. Al ser un <strong>array</strong>, podemos saber el número de hijos nodo con `childNodes.length`
+  - [`childNodes`](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes): Devolverá un array de todos los nodos hijo de un elemento. Al ser un <strong>array</strong>, podemos saber el número de hijos nodo con `childNodes.length`
   
-  - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode">parentNode</a>: Nos devolverá el `nodo padre` de un hijo nodo.
+  - [`parentNode`](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode): Nos devolverá el `nodo padre` de un hijo nodo.
 
 ```
 >>> document.documentElement.hasChildNodes()
@@ -85,9 +85,8 @@ True
 ```
 
 .Podemos comprobar la existencia de atributos y acceder a sus atributos.
-  .<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element.hasAttributes()">hasAttributes()</a>: Devuelve true si el elemento tiene atributos.
-
-  .<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute">getAttribute</a> : Devuelve el contenido de un atributo.
+  .[`hasAttributes()`](https://developer.mozilla.org/en-US/docs/Web/API/Element.hasAttributes()): Devuelve true si el elemento tiene atributos.
+  .[`getAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute) : Devuelve el contenido de un atributo.
 
   ```
   >>> bd.childNodes[1]
@@ -110,9 +109,9 @@ True
 
   . Podemos acceder al contenido de una etiqueta:
 
-   - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent">TextContent</a>: Esta propiedad nos da el texto plano que hay dentro de una etiqueta. En **Internet Explorer** esta propiedad no existe (hemos de usar innerText).
+   - [`TextContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent): Esta propiedad nos da el texto plano que hay dentro de una etiqueta. En **Internet Explorer** esta propiedad no existe (hemos de usar innerText).
 
-   - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML">innerHTML</a>: Esta propiedad nos da el **contenido del html** qque hay dentro de una etiqueta.
+   - [`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML): Esta propiedad nos da el **contenido del html** qque hay dentro de una etiqueta.
 
 ```
 >>> bd.childNodes[1].nodeName
@@ -134,11 +133,13 @@ True
 ```
 
 .Podemos **acceder directamente en algunos elementos** sin la necesidad de repasar todo el árbol de nodos:
-<ul>
-  <li><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">`getElementsByTagName()`</a> Devuelve un array con todos los elementos al pasar la etiqueta como parámetro</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName">`getElementsByName()`</a>: Devuelve un <strong>array</strong> con todos los elementos al pasar el <strong>nombre</strong> como parámetro.</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById">`getElementById()`</a>: Devuelve un elemento al pasar la ID como parámetro</li>
-</ul>
+
+.[`getElementsByTagName()`](https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp): Devuelve un array con todos los elementos al pasar la etiqueta como parámetro.
+
+.[`getElementsByName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName): Devuelve un <strong>array</strong> con todos los elementos al pasar el <strong>nombre</strong> como parámetro.
+
+.[`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById"): Devuelve un elemento al pasar la ID como parámetro.
+
 
 ```
 >>> document.getElementsByTagName('p').length
@@ -162,12 +163,11 @@ True
 </br>
 
 . Desde El nodo podemos acceder a sus hermanos y el primero o el último de sus hijos.
-<ul>
-  <li>[`nextSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling): Devuelve el siguiente hermano</li>
-  <li>[`previousSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling): Devuelve el hermano previo</li>
-  <li>[`firstChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild): Devuelve el primer hijo</li>
-  <li>[`lastChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild): Devuelve el último hijo</li>
-</ul> 
+  . [`nextSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling): Devuelve el siguiente hermano.
+  . [`previousSibling`](https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling): Devuelve el hermano previo.
+  . [`firstChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild): Devuelve el primer hijo.
+  . [`lastChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild): Devuelve el último hijo.
+
 
 ```
 >>> var para = document.getElementById('closer')
@@ -194,9 +194,9 @@ Comment length=21 nodeName=#comment
 " and that's about it "
 ```
 
-<h2>[Modificando los nodos]</h2> (https://www.elated.com/articles/changing-page-elements-with-the-dom/)
+<a href="https://www.elated.com/articles/changing-page-elements-with-the-dom/"> Modificando los nodos</a>
 
-. Para cambiar el contenido de una etiqueta, `podemos cambiar el contenido de innerHTML
+. Para cambiar el contenido de una etiqueta, `podemos cambiar el contenido de innerHTML`
 
 ```
 >>> var my = document.getElementById('closer');
