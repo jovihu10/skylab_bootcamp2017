@@ -196,7 +196,7 @@ Comment length=21 nodeName=#comment
 
 <h2><a href="https://www.elated.com/articles/changing-page-elements-with-the-dom/">Modificando los nodos</a></h2>
 
-. Para cambiar el contenido de una etiqueta, podemos cambiar el contenido de innerHTML
+. Para cambiar el contenido de una etiqueta, `podemos cambiar el contenido de innerHTML
 
 ```
 >>> var my = document.getElementById('closer');
@@ -211,7 +211,49 @@ Comment length=21 nodeName=#comment
 
 . Los elementos tienen la propiedad `style`, que podemos usar para modificar <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style">sus estilos</a>
 
- 
+https://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-ElementCSSInlineStyle
+
+```
+>>> my.style.border = "1px solid red";
+"1px solid red"
+```
+
+. También podemos modificar atributos, tanto si existen como si no
+
+```
+>>> my.align = "right";
+"right"
+>>> my.name
+>>> my.name = 'myname';
+"myname"
+>>> my.id
+"closer"
+>>> my.id = 'further'
+"further"
+```
+
+</br>
+
+<h2>Creando y modificando nodos</h2>
+
+. Para crear elementos podemos usar los métodos <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">createElement</a> y <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode">createTextNode</a>
+
+Una vez han sido creados, podemos añadirlos al `DOM` con <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild">appendchild</a>
+
+```
+>>> var myp = document.createElement('p');
+>>> myp.innerHTML = 'yet another';
+"yet another"
+>>> myp.style
+CSSStyleDeclaration length=0
+>>> myp.style.border = '2px dotted blue'
+"2px dotted blue"
+>>> document.body.appendChild(myp)
+<p style="border: 2px dotted blue;">
+```
+
+. También podemos copiar elementos existentes con [`cloneNode()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)
+
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
 
 - http://learn.jquery.com/using-jquery-core/
