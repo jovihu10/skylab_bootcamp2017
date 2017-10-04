@@ -1,4 +1,12 @@
-<h1>JQUERY</h1>
+#JQUERY
+
+##BOM (Browser Object Model)
+
+`Es formado por todos los objetos que están fuera del archivo cargado y son parte del objeto window`
+
+
+
+
 
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
 

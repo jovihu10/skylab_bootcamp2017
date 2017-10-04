@@ -157,8 +157,14 @@ Añade un controller para una sección de html (view)
 
     . Ejecutará alguna función definida en el $scope cuando clickemos el elemento
 
-<a href="">**Step 8: ng-click**</a>
- 
+</br>
+
+<h2>Angular Filters</h2>
+    
+    .Filters seleccionan una subselección de elementos mostrados  con  **ng-repeat**
+
+    .El objeto 'alias'(sujeto en ng-repeat="subject in student.subjects") es pasado al filtro con su función por defecto. 
+
 
 
 

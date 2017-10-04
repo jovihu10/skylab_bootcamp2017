@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="collegeApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Step 9 - filters </title>
+</head>
+
+<body>
+    <div ng-controller="StudentController">
+        
+        <button ng-click="showResults()">{{ }} Results</button>
+
+        <div ng-show="results">
+            <div class="filtered-info">
+            <form>
+            <p>Filter (Subject Name) selected: {{}}</p>
+            </form>
+            </div>
+        </div>
+      
+
+        <h3>Less than 70</h3>
+        <ul>
+            <!-- Muestra sólo los elementos que cumplen esta condición -->
+            <li ng-repeat="subject in student.subjects">
+            result for :<strong>{{" " + subject.name }}</strong> = <em> {{ subject.marks }}</em>
+            </li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
