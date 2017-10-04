@@ -135,9 +135,67 @@ True
 
 .Podemos **acceder directamente en algunos elementos** sin la necesidad de repasar todo el árbol de nodos:
 <ul>
-  <li><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">getElementsByTagName()</a></li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName">getElementsByName()</a>: Devuelve un **array** con todos los elementos con el <strong>nombre</strong> pasado como parámetro.</li>
+  <li><a href="https://www.w3schools.com/jsref/met_document_getelementsbytagname.asp">`getElementsByTagName()`</a> Devuelve un array con todos los elementos al pasar la etiqueta como parámetro</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName">`getElementsByName()`</a>: Devuelve un <strong>array</strong> con todos los elementos al pasar el <strong>nombre</strong> como parámetro.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById">`getElementById()`</a>: Devuelve un elemento al pasar la ID como parámetro</li>
 </ul>
+
+```
+>>> document.getElementsByTagName('p').length
+3
+>>> document.getElementsByTagName('p')[0]
+<p class="opener">
+>>> document.getElementsByTagName('p')[0].innerHTML
+"first paragraph"
+>>> document.getElementsByTagName('p')[2]
+<p id="closer">
+>>> document.getElementsByTagName('p')[2].id
+"closer"
+>>> document.getElementsByTagName('p')[0].className
+"opener"
+>>> document.getElementById('closer')
+<p id="closer">
+```
+
+<img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/img/parent-child.png">
+
+</br>
+
+. Desde El nodo podemos acceder a sus hermanos y el primero o el último de sus hijos.
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling">`nextSibling`</a>: Devuelve el siguiente hermano</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling">`previousSibling`</a>Devuelve el hermano previo</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild"></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild">`firstChild`</a>: Devuelve el primer hijo</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild">`lastChild`</a>: Devuelve el último hijo</li>
+</ul> 
+
+```
+>>> var para = document.getElementById('closer')
+>>> para.nextSibling
+"\n "
+>>> para.previousSibling
+"\n "
+>>> para.previousSibling.previousSibling
+<p>
+>>> para.previousSibling.previousSibling.previousSibling
+"\n "
+>>>
+para.previousSibling.previousSibling.nextSibling.nextSibling
+<p id="closer">
+>>> document.body.previousSibling
+<head>
+>>> document.body.firstChild
+"\n "
+>>> document.body.lastChild
+"\n "
+>>> document.body.lastChild.previousSibling
+Comment length=21 nodeName=#comment
+>>> document.body.lastChild.previousSibling.nodeValue
+" and that's about it "
+```
+
+
 
  
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
