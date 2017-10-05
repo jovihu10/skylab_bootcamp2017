@@ -425,15 +425,15 @@ undefined
 >>> $('#footer_contents')[0].className
 "clearfix"
 >>> $('#footer_contents')[0].attr("class");
- TypeError: $("#footer_contents")[0].attr is not a function
+TypeError: $("#footer_contents")[0].attr is not a function
 
- >>> $('div.hidden')
- jQuery(div#ads_section_textlinks.clearfix, div#top_sales.top_box,
- div#top_valuated.top_box, div.list_container, div.ac_results)
+>>> $('div.hidden')
+jQuery(div#ads_section_textlinks.clearfix, div#top_sales.top_box,
+div#top_valuated.top_box, div.list_container, div.ac_results)
 
- >>> $('div.hidden').toArray()
- [div#ads_section_textlinks.clearfix, div#top_sales.top_box,
- div#top_valuated.top_box, div.list_container, div.ac_results]
+>>> $('div.hidden').toArray()
+[div#ads_section_textlinks.clearfix, div#top_sales.top_box,
+div#top_valuated.top_box, div.list_container, div.ac_results]
 
  >>> $('div.hidden').toArray()[0]
  <div id="ads_section_textlinks" class="clearfix
