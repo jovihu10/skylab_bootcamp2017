@@ -116,4 +116,14 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
     .trigger( eventType, extraParameters )
 ```
 
+- [`$().toggle()`](http://api.jquery.com/toggle-event/): Adjunta muchas funciones a un elemento que será ejecutado en muchos clicks
+
+`.toggle( handler(eventObject), handler(eventObject), [ handler(eventObject) ] )`]
+
+- [`event.preventDefault()`](http://api.jquery.com/event.preventDefault/):el cross-browsing `e.preventDefault`
+- [`event.stopPropagation()`](http://api.jquery.com/event.stopPropagation/): el cross-browsing `e.stopPropagation`
+- [`event.stopImmediatePropagation()`](http://api.jquery.com/event.stopImmediatePropagation/): Además de hacer cross-browsing, `e.stopPropagation` para el resto de handlers asociados al mismo evento.
+- [`event.target`](http://api.jquery.com/event.target/): El cross-browsing `e.target` (elemento que ha activado el evento)
+- [`event.type`](http://api.jquery.com/event.type/): El tipo de evento iniciado
+
 
