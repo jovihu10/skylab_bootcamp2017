@@ -346,23 +346,106 @@ Esto no cambia el contenido de la etiqueta `title`.
 
 <h2>Selección avanzada de elementos</h2>
 
-<h4>http://mootools.net/slickspeed/</h4>
+http://mootools.net/slickspeed/
 
-<h4>http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier</h4>
+http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
 
-<h4>http://www.quirksmode.org/css/contents.html</h4>
+http://www.quirksmode.org/css/contents.html
 
+.[`document.images`](https://developer.mozilla.org/en/DOM/document.images): `document.getElementsByTagName(‘img’)`
 
+.[`rows`](https://developer.mozilla.org/en/DOM/table.rows) y [`cells`](https://developer.mozilla.org/en/DOM/HTMLTableRowElement): Una vez tenemos un elemento de `table`, podemos acceder a sus rows, y desde las rows podemos acceder a sus celdas con sus selectores.
 
+ ```javascript
+ >>> oTable = document.getElementsByTagName(‘table’)[0];
+ >>> aRows = oTable.rows;ñ
+ >>> oFirstRow = aRows[0];
+ >>> oLastRow = aRows[oRows.length-1];
+ >>> aCells = oFirstRow.cells;
+ >>> oFirstCell = aCells[0];
+ >>> oLastCell = aCells[aCells.length-1];
+ ```
+ 
 
-- http://learn.jquery.com/using-jquery-core/selecting-elements/
+ </br>
 
-- http://learn.jquery.com/using-jquery-core/
+.[`options`](https://developer.mozilla.org/en/DOM/HTMLSelectElement): Desde un [`select`](https://developer.mozilla.org/en/HTML/Element/select) podemos acceder al array de sus `options`
 
-- http://learn.jquery.com/using-jquery-core/manipulating-elements/
+ ```javascript
+>>> document.getElementsByTagName('select')[0].options;
+[option.windows, option.movil, option.aplicaciones-web, option.mac,
+option.linux, option.palm, option.pocketpc, option.blog]
+ ```
 
-- http://learn.jquery.com/using-jquery-core/utility-methods/
+.[`querySelector`](https://developer.mozilla.org/En/DOM/Element.querySelector) y [`querySelectorAll`](https://developer.mozilla.org/En/DOM/Element.querySelectorAll): Devuelve elementos del DOM desde un selector CSS.
 
-- http://learn.jquery.com/using-jquery-core/iterating/
+`querySelector()`: Devuelve el primer elemento encontrado.
+`querySelectorAll()`: Devuelve un array de elementos.
 
+http://javascript.nwbox.com/NWMatcher/release/test/css3-compat/
 
+```javascript
+ >>> oMyElem = document.querySelector("#myid");
+ >>> aMyHiddenElems = document.body.querySelectorAll(".hidden");
+```
+
+</br>
+
+$() o [`jQuery()`](http://api.jquery.com/jQuery/): Con jQuery, tenemos [una poderosa herramienta para seleccionar elementos](http://sizzlejs.com/)
+
+http://www.neeraj.name/2010/02/15/how-jquery-selects-elements-using-sizzle.html
+
+http://refcardz.dzone.com/refcardz/jquery-selectors
+
+Para obtener los elementos, usamos `$()` o `jQuery()` , pasándole nuestro [`selector CSS`](http://api.jquery.com/category/selectors/) entre comillas.
+
+`$()` devuelve un [`objeto de jQuery](http://api.jquery.com/Types/#jQuery) (que no es un elemento del DOM y tiene acceso a sus propios métodos de jQuery).
+
+Podemos convertir un objeto de jQuery en un DOM selector:
+
+- Para un elemento: `$('#container') -> $('#container')[0]`
+
+- Para un grupo de elementos: `document.links -> $(document.links);`
+
+```javascript
+>>> $('#container');
+jQuery(div#container)
+>>> $('#container')[0]
+
+<div id="container">
+>>> $('#footer_contents')
+jQuery(div#footer_contents.clearfix)
+>>> $('#footer_contents')[0]
+
+<div id="footer_contents" class="clearfix">
+>>> $('#footer_contents').attr("class");
+"clearfix"
+>>> $('#footer_contents').className
+undefined
+>>> $('#footer_contents')[0].className
+"clearfix"
+>>> $('#footer_contents')[0].attr("class");
+ TypeError: $("#footer_contents")[0].attr is not a function
+
+ >>> $('div.hidden')
+ jQuery(div#ads_section_textlinks.clearfix, div#top_sales.top_box,
+ div#top_valuated.top_box, div.list_container, div.ac_results)
+
+ >>> $('div.hidden').toArray()
+ [div#ads_section_textlinks.clearfix, div#top_sales.top_box,
+ div#top_valuated.top_box, div.list_container, div.ac_results]
+
+ >>> $('div.hidden').toArray()[0]
+ <div id="ads_section_textlinks" class="clearfix
+ hidden" style="display: block;">
+
+ >>> document.getElementById('ads_section_textlinks');
+ <div id="ads_section_textlinks" class="clearfix
+ hidden" style="display: block;">
+
+ >>> $(document.getElementById('ads_section_textlinks'));
+ jQuery(div#ads_section_textlinks.clearfix)
+
+ >>> $(document.querySelectorAll('div.hidden')[0]);
+ jQuery(div#ads_section_textlinks.clearfix)
+```
