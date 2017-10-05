@@ -64,7 +64,7 @@ Pasamos 2 parámetros:
 
 El [`soporte a addEventListener](http://caniuse.com/#feat=addeventlistener) es bastante extendido en todos los navegadores más populares, y por ello su `uso es altamente recomendado`
 
-<h2>Parando el flujo de los eventos</h2>
+<div id="parando-flujo-eventos"><h2>Parando el flujo de los eventos</h2></div>
 
 - Algunos elementos tienen un `comportamiento por defecto` (por ejemplo cuando clickamos un link, la página carga su URL).
 

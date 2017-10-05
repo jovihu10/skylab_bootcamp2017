@@ -26,3 +26,4 @@ Algunos [`ejemplos`](http://jsfiddle.net/juanma/pp3h1hpo/)
 
     - [Cómo funcionan los eventos en el DOM?](https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/eventos)
     - [capturando eventos](https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/eventos#capturando-eventos)
+    - [`Parando el flujo de los eventos`](https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/eventos#parando-flujo-eventos)
