@@ -346,6 +346,13 @@ Esto no cambia el contenido de la etiqueta `title`.
 
 <h2>Selección avanzada de elementos</h2>
 
+http://mootools.net/slickspeed/
+
+http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
+
+http://www.quirksmode.org/css/contents.html
+
+
 
 
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
