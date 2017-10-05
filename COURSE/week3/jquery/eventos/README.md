@@ -79,8 +79,8 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
 
 <h2>Delegación de eventos</h2>
 
-<h6>http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/</h6>
-<h6>http://lab.distilldesign.com/event-delegation/</h6>
+<h6>http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/
+http://lab.distilldesign.com/event-delegation/</h6>
 
 .Hablando de la ventaja de la propagación de eventos y la detección del target_ , podemos optimizar (en algunos casos) nuestro control de eventos con el **event s delegation**.
 
