@@ -286,6 +286,10 @@ document.body.insertBefore(
 `replaceChild()` y `removeChild()` devuelven el nodo eliminado.
 
 `
+
+
+
+
 >>> var myp = document.getElementsByTagName('p')[1];
 >>> var removed = document.body.removeChild(myp);
 >>> removed
@@ -298,6 +302,10 @@ document.body.insertBefore(
 >>> var replaced = document.body.replaceChild(removed, p);
 >>> replaced
 <p id="closer">
+
+
+
+
 `
 
 
