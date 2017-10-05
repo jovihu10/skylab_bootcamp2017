@@ -25,4 +25,4 @@ Algunos [`ejemplos`](http://jsfiddle.net/juanma/pp3h1hpo/)
 - [`10- Eventos`](http://learn.jquery.com/events/)
 
     - [Cómo funcionan los eventos en el DOM?](https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/eventos)
-    - [capturando eventos](https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/eventos#capturando-elementos)
+    - [capturando eventos](https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3/jquery/eventos#capturando-eventos)
