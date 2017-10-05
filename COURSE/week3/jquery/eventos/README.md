@@ -1,7 +1,7 @@
 <h1>Eventos</h1>
 
-######http://www.quirksmode.org/js/introevents.html
-http://www.sprymedia.co.uk/article/Visual+Event
+<h6>http://www.quirksmode.org/js/introevents.html</h6>
+<h6>http://www.sprymedia.co.uk/article/Visual+Event</h6>
 
 . Cada acción (click, change..) que sucede en el navegador es comunicado(a quien lo quiere recibir) como un `evento`. Desde Javascript podemos escuchar esos eventos y **asociarlos a una función** (incluso un handler), que será ejecutado cuando el evento sucede.
 
@@ -11,13 +11,13 @@ http://www.sprymedia.co.uk/article/Visual+Event
 
 <h2>Capturando eventos</h2>
 
-http://ejohn.org/projects/flexible-javascript-events/
+<h6>http://ejohn.org/projects/flexible-javascript-events/</h6>
 
-http://www.webmonkey.com/2010/02/javascript_events/
+<h6>http://www.webmonkey.com/2010/02/javascript_events/</h6>
 
-http://www.elated.com/articles/events-and-event-handlers/
+<h6>http://www.elated.com/articles/events-and-event-handlers/</h6>
 
-http://www.anieto2k.com/2006/10/16/gestion-de-eventos-en-javascript/
+<h6>http://www.anieto2k.com/2006/10/16/gestion-de-eventos-en-javascript/</h6>
 
 ```js
 function callback(evt) {
