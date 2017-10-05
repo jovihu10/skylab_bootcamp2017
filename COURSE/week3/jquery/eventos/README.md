@@ -88,8 +88,9 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
 
 . Las principales ventajas de este sistema son:
 
-1- Muchas menos definiciones de eventos. Menos espacio de memoria y mejor eficiencia.
-2- No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
+    1- Muchas menos definiciones de eventos. Menos espacio de memoria y mejor eficiencia.
+
+    2- No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
 
 
 
