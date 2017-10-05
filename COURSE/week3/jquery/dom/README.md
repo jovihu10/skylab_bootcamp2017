@@ -11,7 +11,7 @@
 Es una manera de representar el archivo html como un árbol de nodos.
 Usando los métodos del DOM y sus propiedades, podemos acceder a los elementos de la página, modificarlos, eliminarlos o añadir nuevos
 
-```
+```javascript
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/
 xhtml1/DTD/xhtml1-transitional.dtd">
@@ -32,7 +32,7 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 
 <h3>Accediendo a los nodos</h3>
 
-```
+```html
 <body>
     <p class="opener">first paragraph</p>
     <p><em>second</em> paragraph</p>
@@ -40,6 +40,7 @@ xhtml1/DTD/xhtml1-transitional.dtd">
     <!-- and that's about it -->
 </body>
 ```
+
 
 . El [`documento`](https://developer.mozilla.org/en-US/docs/Web/API/document) node nos da acceso al documento (el punto de partida)
 
@@ -53,7 +54,7 @@ xhtml1/DTD/xhtml1-transitional.dtd">
 
 . El nodo <strong>documentElement</strong> es el <strong>nodo raíz</strong>. Para `documentos HTML` es la etiqueta `<html>`
 
-```
+```javascript
 >>> document.documentElement
 <html>
 >>> document.documentElement.nodeType
@@ -72,7 +73,7 @@ xhtml1/DTD/xhtml1-transitional.dtd">
   
   - [`parentNode`](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode): Nos devolverá el `nodo padre` de un hijo nodo.
 
-```
+```javascript
 >>> document.documentElement.hasChildNodes()
 True
 >>> document.documentElement.childNodes.length
@@ -92,22 +93,22 @@ True
   .[`hasAttributes()`](https://developer.mozilla.org/en-US/docs/Web/API/Element.hasAttributes()): Devuelve true si el elemento tiene atributos.
   .[`getAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute) : Devuelve el contenido de un atributo.
 
-  ```
-  >>> bd.childNodes[1]
-  <p class="opener">
-  >>> bd.childNodes[1].hasAttributes()
-  True
-  >>> bd.childNodes[1].attributes.length
-  1
-  >>> bd.childNodes[1].attributes[0].nodeName
-  "class"
-  >>> bd.childNodes[1].attributes[0].nodeValue
-  "opener"
-  >>> bd.childNodes[1].attributes['class'].nodeValue
-  "opener"
-  >>> bd.childNodes[1].getAttribute('class')
-  "opener"
-  ```
+```html
+   bd.childNodes[1]
+   <p class="opener">
+   bd.childNodes[1].hasAttributes()
+   True
+   bd.childNodes[1].attributes.length
+   1
+   bd.childNodes[1].attributes[0].nodeName
+   "class"
+   bd.childNodes[1].attributes[0].nodeValue
+   "opener"
+   bd.childNodes[1].attributes['class'].nodeValue
+   "opener"
+   bd.childNodes[1].getAttribute('class')
+   "opener"
+```
 
 </br>
 
@@ -117,7 +118,7 @@ True
 
    - [`innerHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML): Esta propiedad nos da el **contenido del html** qque hay dentro de una etiqueta.
 
-```
+```javascript
 >>> bd.childNodes[1].nodeName
 "P"
 >>> bg.childNodes[1].textContent
@@ -145,7 +146,7 @@ True
 .[`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById"): Devuelve un elemento al pasar la ID como parámetro.
 
 
-```
+```html
 >>> document.getElementsByTagName('p').length
 3
 >>> document.getElementsByTagName('p')[0]
@@ -177,7 +178,7 @@ True
 -[`lastChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild): Devuelve el último hijo.
 
 
-```
+```javascript
 >>> var para = document.getElementById('closer')
 >>> para.nextSibling
 "\n "
@@ -206,7 +207,7 @@ Comment length=21 nodeName=#comment
 
 . Para cambiar el contenido de una etiqueta, `podemos cambiar el contenido de innerHTML`
 
-```
+```javascript
 >>> var my = document.getElementById('closer');
 >>> my.innerHTML = '<em>my</em> final';
 >>> my.firstChild
@@ -221,14 +222,14 @@ Comment length=21 nodeName=#comment
 
 https://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-ElementCSSInlineStyle
 
-```
+```javascript
 >>> my.style.border = "1px solid red";
 "1px solid red"
 ```
 
 . También podemos modificar atributos, tanto si existen como si no
 
-```
+```javascript
 >>> my.align = "right";
 "right"
 >>> my.name
@@ -248,7 +249,7 @@ https://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-ElementCSSInlineStyle
 
 Una vez han sido creados, podemos añadirlos al `DOM` con [`appendchild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
-```
+```javascript
 >>> var myp = document.createElement('p');
 >>> myp.innerHTML = 'yet another';
 "yet another"
@@ -262,7 +263,7 @@ CSSStyleDeclaration length=0
 
 . También podemos copiar elementos existentes con [`cloneNode()``](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode). `cloneNode` acepta uun parámetro boleano (Si es `true`, copia de verdad el nodo con todos sus hijos, y si es `false`, sólo copia el nodo)
 
-```
+```javascript
 >>> var el = document.getElementsByTagName('p')[1];
 <p><em>second</em> paragraph</p>
 >>> document.body.appendChild(el.cloneNode(false))
@@ -272,7 +273,7 @@ CSSStyleDeclaration length=0
 
 . Con [`insertBefore()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore), podemos especificar el elemento después del cual queremos insertar los nuestros.
 
-```
+```javascript
 document.body.insertBefore(
     document.createTextNode('boo!'), 
     document.body.firstChild
@@ -286,7 +287,8 @@ document.body.insertBefore(
 `replaceChild()` y `removeChild()` devuelven el nodo eliminado.
 
 
-```>>> var myp = document.getElementsByTagName('p')[1];
+```javascript
+>>> var myp = document.getElementsByTagName('p')[1];
 >>> var removed = document.body.removeChild(myp);
 >>> removed
 <p>
