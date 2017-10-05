@@ -11,7 +11,7 @@
 Es una manera de representar el archivo html como un árbol de nodos.
 Usando los métodos del DOM y sus propiedades, podemos acceder a los elementos de la página, modificarlos, eliminarlos o añadir nuevos
 
-```javascript
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/
 xhtml1/DTD/xhtml1-transitional.dtd">
@@ -94,21 +94,22 @@ True
   .[`getAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute) : Devuelve el contenido de un atributo.
 
 ```html
-   bd.childNodes[1]
-   <p class="opener">
-   bd.childNodes[1].hasAttributes()
-   True
-   bd.childNodes[1].attributes.length
-   1
-   bd.childNodes[1].attributes[0].nodeName
-   "class"
-   bd.childNodes[1].attributes[0].nodeValue
-   "opener"
-   bd.childNodes[1].attributes['class'].nodeValue
-   "opener"
-   bd.childNodes[1].getAttribute('class')
-   "opener"
+   >>> bd.childNodes[1]
+<p class="opener">
+>>> bd.childNodes[1].hasAttributes()
+True
+>>> bd.childNodes[1].attributes.length
+1
+>>> bd.childNodes[1].attributes[0].nodeName
+"class"
+>>> bd.childNodes[1].attributes[0].nodeValue
+"opener"
+>>> bd.childNodes[1].attributes['class'].nodeValue
+"opener"
+>>> bd.childNodes[1].getAttribute('class')
+"opener"
 ```
+
 
 </br>
 
@@ -301,6 +302,49 @@ document.body.insertBefore(
 >>> replaced
 <p id="closer">
 ```
+
+<h2>Objetos del DOM sólo para html</h2>
+
+. En el DOM tenemos disponible un conjunto de selectores y colecciones sólo para `html`:
+
+-[`document.body`](https://developer.mozilla.org/en-US/docs/Web/API/Document/body): `document.getElementsByTagName(‘body’)[0]`
+
+-[`document.images`](https://developer.mozilla.org/en-US/docs/Web/API/document/images): `document.getElementsByTagName(‘img’)`
+
+-[`document.applets`](https://developer.mozilla.org/en/DOM/document.applets): `document.getElementsByTagName(‘applet’)`
+
+-[`document.links`](https://developer.mozilla.org/en-US/docs/Web/API/Document/links): Devuelve un array de todos los links con atributo `href`
+
+-[`document.anchors`](https://developer.mozilla.org/en/DOM/document.anchors): Devuelve un array con todos los links con atributo `name`
+
+-[`document.forms`](https://developer.mozilla.org/en/DOM/document.forms): `document.getElementsByTagName('form')`
+Podemos acceder a los elementos del formulario(inputs, buttons) con `elements`
+
+```js
+>>> document.forms[0]
+>>> document.getElementsByTagName('forms')[0]
+>>> document.forms[0].elements[0]
+>>> document.forms[0].elements[0].value = 'me@example.org'
+"me@example.org"
+>>> document.forms[0].elements[0].disabled = true;
+>>> document.forms[0].elements['search']; // array notation
+>>> document.forms[0].elements.search; // object property
+```
+
+. Tenemos tambien disponible el método `document.write()` pero su uso no está recomendado ;-)
+
+. Algunas propiedades del objeto del documento son:
+
+-`document.cookies`:Contiene una string de texto con los cookies asociados al documento.
+
+-[`document.title`](https://developer.mozilla.org/en/DOM/document.title): Nos permite cambiar el título de una página que aparece en el browser. 
+Esto no cambia el contenido de la etiqueta `title`.
+
+-[`document.referrer`](https://developer.mozilla.org/en/DOM/document.referrer): Contiene la URL con la que accedemos a la página.
+
+-[`document.domain`](https://developer.mozilla.org/en/document.domain):Contiene el dominio de la página.
+
+<h2>Selección avanzada de elementos</h2>
 
 
 
