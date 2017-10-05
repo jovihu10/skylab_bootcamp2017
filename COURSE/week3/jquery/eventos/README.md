@@ -93,4 +93,26 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
     - No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
 
 
+<h2>Eventos de jQuery</h2>
+
+<h6>http://api.jquery.com/category/events/</h6>
+
+<h6>http://jqfundamentals.com/book/index.html#chapter-5</h6>
+
+- Con jQuery podemos hacer manejo de eventos sin preocuparnos sobre las diferencias de cada browser.
+    - [`$().on()`](http://api.jquery.com/on) y [`$().off()`](http://api.jquery.com/off/): con los métodos `addEventListener` / `removeEventListener`
+
+    ```
+    .on( events [, selector ] [, data ], handler )
+    .off( events [, selector ] [, handler ] )
+    ```
+
+    - El handler(manipulador) recibe un [`evento`](http://api.jquery.com/category/events/event-object/) objeto exclusivo de jQuery.
+    - los tipos de evento que podemos capturar son: `blur`, `focus`, `focusin`, `focusout`, `load`, `resize`, `scroll`, `unload`, `click`, `dblclick`, `mousedown`, `mouseup`, `mousemove`, `mousemove`, `mouseover`, `mouseout`, `mouseenter`, `mouseleave`, `change`, `select`, `submit`, `keydown`, `keypress`, `keyup`, `error`
+    - También podemos crear [nuestro propio tipo de evento](http://api.jquery.com/category/events/event-object/)
+- [`$().trigger()`](http://api.jquery.com/trigger): Nos permit ejecutar todos los handlers asociados a un evento.
+
+    .trigger( eventType, extraParameters )
+    
+
 
