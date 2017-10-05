@@ -41,15 +41,35 @@ function callback(evt) {
 
 . Podemos capturar eventos de la [manera tradicional](https://www.quirksmode.org/js/events_tradmod.html)
 
-    Este modelo consiste en asignar una función a la propiedad onclick, onchange,... del elemento del DOM. Con este método podemos asignar SÓLO UNA FUNCIÓN a cada elemento. 
+Este modelo consiste en **asignar una función a la propiedad onclick**, onchange,... del elemento del DOM. Con este método podemos asignar `SÓLO UNA FUNCIÓN a cada elemento. 
 
-    Este método funciona igual en todos los navegadores.
+Este método **funciona igual** en todos los **navegadores**.
 
 
 . También podemos capturar eventos con el [modelo avanzado](https://www.quirksmode.org/js/events_advanced.html)
     
-    Con este método, podemos asignar muchas funciones al mismo evento.
+Con este método, podemos asignar muchas funciones al mismo evento.
 
-    Para linkar/deslinkar una función a un evento con este modelo, podemos usar:
+Para linkar/deslinkar una función a un evento con este modelo, podemos usar:
 
-    [`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) y [`removeEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.removeEventListener)
+[`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) y [`removeEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.removeEventListener)
+
+
+Pasamos 2 parámetros:
+
+1. Tipo de evento: `click`, `change`,...
+
+2. Función a ejecutar(handler, callback): Recibe un objeto `e` con información sobre el evento.
+    . En `e.target` tenemos el [elemento que dispara el evento](https://www.w3.org/TR/DOM-Level-2-Events/events.html#Events-Event)
+
+El [`soporte a addEventListener](http://caniuse.com/#feat=addeventlistener) es bastante extendido en todos los navegadores más populares, y por ello su `uso es altamente recomendado`
+
+<h2>Parando el flujo de los eventos</h2>
+
+. Algunos elementos tienen un `comportamiento por defecto` (por ejemplo cuando clickamos un link, la página carga su URL).
+
+Esta acción por defecto es ejecutada al final de la cola ,como última acción delevento (si tenemos otras funciones asignadas al evento)
+Para desactivar la acción por defecto, podemos usar el método [`e.preventDefault()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
+.Podemos parar la [propagación del evento]()
+

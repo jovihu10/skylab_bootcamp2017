@@ -7,9 +7,9 @@
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week1">WEEK 1 </a>- Basic JS
 
-<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week2">WEEK 2</a>- HTML, CSS, Bootstrap, SASS
+<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week2">WEEK 2</a>- HTML, CSS, Bootstrap, SASS, Jasmine
 
-<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3">WEEK 3</a> - JQuery, AngularJS
+<a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week3">WEEK 3</a> - JQuery, AngularJS, Ajax, Json
 
 <a href="https://github.com/jovihu10/skylab_bootcamp2017/tree/master/COURSE/week4">WEEK 4</a>- FrontEnd Project
 
