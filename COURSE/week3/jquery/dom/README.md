@@ -346,11 +346,11 @@ Esto no cambia el contenido de la etiqueta `title`.
 
 <h2>Selección avanzada de elementos</h2>
 
-###http://mootools.net/slickspeed/
+<h4>http://mootools.net/slickspeed/</h4>
 
-###http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
+<h4>http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier</h4>
 
-###http://www.quirksmode.org/css/contents.html
+<h4>http://www.quirksmode.org/css/contents.html</h4>
 
 
 
