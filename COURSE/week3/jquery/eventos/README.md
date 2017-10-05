@@ -112,7 +112,8 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
     - También podemos crear [nuestro propio tipo de evento](http://api.jquery.com/category/events/event-object/)
 - [`$().trigger()`](http://api.jquery.com/trigger): Nos permit ejecutar todos los handlers asociados a un evento.
 
+```
     .trigger( eventType, extraParameters )
-    
+```
 
 
