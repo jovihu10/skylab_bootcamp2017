@@ -118,7 +118,9 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
 
 - [`$().toggle()`](http://api.jquery.com/toggle-event/): Adjunta muchas funciones a un elemento que será ejecutado en muchos clicks
 
-`.toggle( handler(eventObject), handler(eventObject), [ handler(eventObject) ] )`]
+```
+.toggle( handler(eventObject), handler(eventObject), [ handler(eventObject) ] ) 
+```
 
 - [`event.preventDefault()`](http://api.jquery.com/event.preventDefault/):el cross-browsing `e.preventDefault`
 - [`event.stopPropagation()`](http://api.jquery.com/event.stopPropagation/): el cross-browsing `e.stopPropagation`
