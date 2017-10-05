@@ -75,11 +75,21 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
 
 .Cuando [`la función asignada al evento devuelve`](http://stackoverflow.com/questions/1357118/javascript-event-preventdefault-vs-return-false) `false`, los métodos [`e.preventDefault()`] y `e.stopPropagation()` son aplicados automáticamente.
 
+</br>
 
 <h2>Delegación de eventos</h2>
 
-http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/
-http://lab.distilldesign.com/event-delegation/
+<h6>http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/</h6>
+<h6>http://lab.distilldesign.com/event-delegation/</h6>
+
+.Hablando de la ventaja de la propagación de eventos y la detección del target_ , podemos optimizar (en algunos casos) nuestro control de eventos con el **event s delegation**.
+
+.Para los casos que tenemos que capturar los eventos de muchos elementos (por ejemplo, los clicks en una table), podemos capturar el evento del container (el table) y detectar cual de sus hijos (qué celda) activó el evento.
+
+. Las principales ventajas de este sistema son:
+
+ - Muchas menos definiciones de eventos. Menos espacio de memoria y mejor eficiencia.
+ - No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
 
 
 
