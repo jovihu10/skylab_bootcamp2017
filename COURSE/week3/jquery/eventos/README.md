@@ -77,7 +77,7 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
 
 </br>
 
-<h2>Delegación de eventos</h2>
+<div id="delegacion-eventos"><h2>Delegación de eventos</h2></div>
 
 <h6>http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/</h6>
 <h6>http://lab.distilldesign.com/event-delegation/</h6>
@@ -93,7 +93,7 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
     - No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
 
 
-<h2>Eventos de jQuery</h2>
+<div id="eventos-jquery"><h2>Eventos de jQuery</h2></div>
 
 <h6>http://api.jquery.com/category/events/</h6>
 
