@@ -82,14 +82,14 @@ Para desactivar la acción por defecto, podemos usar el método [`e.preventDefau
 <h6>http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/</h6>
 <h6>http://lab.distilldesign.com/event-delegation/</h6>
 
-.Hablando de la ventaja de la propagación de eventos y la detección del target_ , podemos optimizar (en algunos casos) nuestro control de eventos con el **event s delegation**.
+. Hablando de la ventaja de la propagación de eventos y la detección del target_ , podemos optimizar (en algunos casos) nuestro control de eventos con el **event s delegation**.
 
-.Para los casos que tenemos que capturar los eventos de muchos elementos (por ejemplo, los clicks en una table), podemos capturar el evento del container (el table) y detectar cual de sus hijos (qué celda) activó el evento.
+. Para los casos que tenemos que capturar los eventos de muchos elementos (por ejemplo, los clicks en una table), podemos capturar el evento del container (el table) y detectar cual de sus hijos (qué celda) activó el evento.
 
 . Las principales ventajas de este sistema son:
 
- - Muchas menos definiciones de eventos. Menos espacio de memoria y mejor eficiencia.
- - No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
+1- Muchas menos definiciones de eventos. Menos espacio de memoria y mejor eficiencia.
+2- No necesidad de volver a capturar eventos para los elementos que han sido añadidos dinámicamente. 
 
 
 
