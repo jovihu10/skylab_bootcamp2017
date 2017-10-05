@@ -1,3 +1,5 @@
+<a href="https://skylabcoders.github.io/bootcamp-julio2017/?full#114">Slides del Bootcamp</a>
+
 <h1>BOM (Browser Object Model)</h1>
 
 `Es formado por todos los objetos que están fuera del archivo cargado y son parte del objeto window`
@@ -258,7 +260,47 @@ CSSStyleDeclaration length=0
 <p style="border: 2px dotted blue;">
 ```
 
-. También podemos copiar elementos existentes con [`cloneNode()](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode)
+. También podemos copiar elementos existentes con [`cloneNode()``](https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode). `cloneNode` acepta uun parámetro boleano (Si es `true`, copia de verdad el nodo con todos sus hijos, y si es `false`, sólo copia el nodo)
+
+```
+>>> var el = document.getElementsByTagName('p')[1];
+<p><em>second</em> paragraph</p>
+>>> document.body.appendChild(el.cloneNode(false))
+>>> document.body.appendChild(document.createElement('p'));
+>>> document.body.appendChild(el.cloneNode(true))
+```
+
+. Con [`insertBefore()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore), podemos especificar el elemento después del cual queremos insertar los nuestros.
+
+```
+document.body.insertBefore(
+    document.createTextNode('boo!'), 
+    document.body.firstChild
+);
+```
+
+. Para **eliminar** los nodos del DOM podemos usar [`removeChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) o [`replaceChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild).
+
+`removeChild()` elimina los elementos y `replaceChild()` los reemplaza por otro que ha sido pasado como parámetro.
+
+`replaceChild()` y `removeChild()` devuelven el nodo eliminado.
+
+`
+>>> var myp = document.getElementsByTagName('p')[1];
+>>> var removed = document.body.removeChild(myp);
+>>> removed
+<p>
+>>> removed.firstChild
+<em>
+>>> var p = document.getElementsByTagName('p')[1];
+>>> p
+<p id="closer">
+>>> var replaced = document.body.replaceChild(removed, p);
+>>> replaced
+<p id="closer">
+`
+
+
 
 - http://learn.jquery.com/using-jquery-core/selecting-elements/
 
