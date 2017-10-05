@@ -9,7 +9,7 @@
 
 - Cuando clickamos a un link ( `a` ), también hacemos click en su contenedor ( `li`, `ul` ), en el `body` y finalmente en el documento. Ésto es lo que es llamado **propagación de evento**
 
-<h2>Capturando eventos</h2>
+<div id="capturando-eventos"><h2>Capturando eventos</h2></div>
 
 <h6>http://ejohn.org/projects/flexible-javascript-events/</h6>
 
