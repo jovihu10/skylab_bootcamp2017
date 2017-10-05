@@ -71,5 +71,15 @@ El [`soporte a addEventListener](http://caniuse.com/#feat=addeventlistener) es b
 Esta acción por defecto es ejecutada al final de la cola ,como última acción delevento (si tenemos otras funciones asignadas al evento)
 Para desactivar la acción por defecto, podemos usar el método [`e.preventDefault()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-.Podemos parar la [propagación del evento]()
+.Podemos parar la [propagación del evento](https://developer.mozilla.org/en/Gecko_DOM_Reference/Examples#Example_5:_Event_Propagation) con este método [`e.stopPropagation()`](https://developer.mozilla.org/en/DOM/event.stopPropagation)
+
+.Cuando [`la función asignada al evento devuelve`](http://stackoverflow.com/questions/1357118/javascript-event-preventdefault-vs-return-false) `false`, los métodos [`e.preventDefault()`] y `e.stopPropagation()` son aplicados automáticamente.
+
+
+<h2>Delegación de eventos</h2>
+
+http://blogs.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/
+http://lab.distilldesign.com/event-delegation/
+
+
 
