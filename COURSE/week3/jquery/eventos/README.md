@@ -1,6 +1,6 @@
 <h1>Eventos</h1>
 
-http://www.quirksmode.org/js/introevents.html
+######http://www.quirksmode.org/js/introevents.html
 http://www.sprymedia.co.uk/article/Visual+Event
 
 . Cada acción (click, change..) que sucede en el navegador es comunicado(a quien lo quiere recibir) como un `evento`. Desde Javascript podemos escuchar esos eventos y **asociarlos a una función** (incluso un handler), que será ejecutado cuando el evento sucede.
