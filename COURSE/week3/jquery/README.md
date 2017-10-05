@@ -18,7 +18,8 @@ Algunos [`ejemplos`](http://jsfiddle.net/juanma/pp3h1hpo/)
 
 [`8- Métodos de utilidad`](http://learn.jquery.com/using-jquery-core/utility-methods/)
 
-[`9- Usando jQuery Core`] (http://learn.jquery.com/using-jquery-core/)
+[`9- Usando jQuery Core`](http://learn.jquery.com/using-jquery-core/)
+
 [`Iterando`](http://learn.jquery.com/using-jquery-core/iterating/)
 
 [`10- Eventos`](http://learn.jquery.com/events/)
