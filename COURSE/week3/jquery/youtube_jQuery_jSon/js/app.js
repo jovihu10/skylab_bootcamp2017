@@ -1,4 +1,5 @@
 //He mirado como se hace aquí http://api.jquery.com/jquery.getjson/
+//https://www.w3schools.com/jquery/html_attr.asp
 const url = "youtube.json";
 console.log(url)
 
@@ -12,7 +13,7 @@ $.getJSON(url)
         $("#title").text(data.data.items[0].title);
 
         //attr (atribute) nos permite decir donde poner lo que extraigamos del json.
-        //(en este caso un anchor y un src)
+        //(en este caso un anchor y un src∫)
         $("a").attr("href", data.data.items[0].player.default);
         $("img").attr("src", data.data.items[0].thumbnail.hqDefault);
     })
