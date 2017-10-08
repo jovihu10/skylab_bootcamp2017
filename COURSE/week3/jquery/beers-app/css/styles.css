@@ -1,0 +1,22 @@
+body{
+	background: #cccc00;
+
+}
+
+
+
+#beer-logo{
+	width: 50%;
+	margin-top:11%;
+	margin-right:5%;
+}
+
+.btn{
+	background: black;
+	border:1px solid-black;
+}
+
+
+.search{
+	margin-top:5%;
+	}
