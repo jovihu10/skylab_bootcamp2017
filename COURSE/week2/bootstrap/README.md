@@ -3,9 +3,10 @@
 
 1. Asegurarme de tener el meta <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">viewport</a> en el head.
 2. Poner los <a href="https://www.bootstrapcdn.com/">CDN</a> dentro de scripts y styles
-3. Cargar Jquery. Siempre **jquery primero** y luego el cdn de bootstrap
+3. Cargar Jquery. Siempre **jquery primero** y luego el cdn de bootstrap.
 4. La hoja de estilos propia cargarla **después** de la de bootstrap para que sobrescriba
-<br>
+
+</br>
 
 
 <h2>GRID</h2>
@@ -13,11 +14,11 @@
 ```
 el grid trabaja con 12 columnas.
 
-http://getbootstrap.com/css/#grid
+(http://getbootstrap.com/css/#grid)
 
-https://scotch.io/tutorials/understanding-the-bootstrap-3-grid-system
+(https://scotch.io/tutorials/understanding-the-bootstrap-3-grid-system)
 
-http://getbootstrap.com/examples/grid/
+(http://getbootstrap.com/examples/grid/)
 
 https://codepen.io/SitePoint/full/dPbaXo
 ```

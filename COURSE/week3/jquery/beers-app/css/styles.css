@@ -5,18 +5,52 @@ body{
 
 
 
-#beer-logo{
-	width: 50%;
-	margin-top:11%;
-	margin-right:5%;
-}
+
 
 .btn{
-	background: black;
+	background: #333333;
 	border:1px solid-black;
 }
 
 
 .search{
-	margin-top:5%;
+	margin-top:40px;
+	
+
 	}
+
+.img-responsive{
+	border-radius:15px;
+	margin-top:5%;
+}
+
+#beerTitle{
+	color: white;
+
+}
+
+#beerDescription{
+	color: white;
+
+}
+
+.content{
+	background: black;
+	padding: 2%;
+	border-radius: 5px;
+}
+
+#list-beers{
+	padding:10%;
+}
+
+
+
+@media screen and (max-width: 620px) {
+
+.search{
+
+	margin-left:5%;
+}
+
+}

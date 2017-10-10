@@ -5,42 +5,50 @@
     <meta charset="UTF-8">
     <title>Beers app</title>
     <link rel="icon" href="img/beer.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="jumbotron jumbotron-fluid">
-        
-            
-                <div class="row">
-                    <div class="col-lg-5 col-md-5">
-                        <h1 class="display-3">Beers App</h1>
-                        <p class="lead">Search the beer what you want</p>
-                    </div>
-                    <div class="col-lg-3 col-md-3">
-                        <img id="beer-logo" src="img/beer-logo.png">
-                    </div>
-
-                            <!--Search -->
-            
-                <div id="custom-search-input">
-                    <div class="input-group col-md-3 search">
-                        <input type="text" class="  search-query form-control" placeholder="Search" />
-                        <span class="input-group-btn">
-                                    <button class="btn btn-danger" type="button">
+    <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <h1 class="display-3">Beers App</h1>
+                    <p class="lead">Search the beer what you want</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                </div>
+                <!--Search -->
+                <form>
+                    <div id="custom-search-input">
+                        <!-- hacer el input text con onclick?! -->
+                        <div class="input-group col-lg-5 col-md-4 col-sm-5 col-xs-6 search">
+                            <input type="text" id="inputBeer" class="search-query form-control" placeholder="Search" />
+                            <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="submit" id="submit">
                                         <span class=" glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
+                            </button>
+                            </span>
+                        </div>
                     </div>
-                </div>
-            
-            <!--End Search -->
-                </div>
-            
-
+                </form>
+                <!--End Search -->
             </div>
+            <!--le damos al select también la clase hidden para que no quede visible si no clickamos -->
+            <select class="list-beers hidden" id="list-beers">
+                <div id="name"></div>
+                <div id="subInfo"></div>
+                <div id="description"></div>
+                </select>
+
+            <div class="content hidden">
+                <h3 id="beerTitle"></h3>
+                <p id="beerDescription"></p>
+            </div>
+            <div id="beerImage" type="image"></div>
+                    </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
