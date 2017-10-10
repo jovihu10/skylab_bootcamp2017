@@ -1,5 +1,7 @@
 <h1>Beers App</h1>
 
+<img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/beers-app/img/screen.jpg">
+
 Crea una app con jQuery y Bootstrap que lea el valor entrado por el usuario en un input y usa este valor para buscar las cervezas que encajan con la consulta usando la siguiente URL.
 
 ```
