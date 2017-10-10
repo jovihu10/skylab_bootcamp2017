@@ -11,7 +11,7 @@
 
 <h2>GRID</h2>
 
-```
+
 el grid trabaja con 12 columnas.
 
 [`http://getbootstrap.com/css/#grid`](http://getbootstrap.com/css/#grid)
@@ -21,7 +21,7 @@ el grid trabaja con 12 columnas.
 [`https://scotch.io/tutorials/understanding-the-bootstrap-3-grid-system`](http://getbootstrap.com/examples/grid/)
 
 [`https://scotch.io/tutorials/understanding-the-bootstrap-3-grid-system`](https://codepen.io/SitePoint/full/dPbaXo)
-```
+
 
 
 - container fluid ➡ siempre estirará la pantalla y la adaptará. 
