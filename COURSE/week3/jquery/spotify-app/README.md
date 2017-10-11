@@ -32,6 +32,9 @@ https://github.com/juanmaguitar/exercises-javascript/tree/master/04-jquery-spoti
 
 [`La api de Spotify requiere access token`](https://developer.spotify.com/news-stories/2017/01/27/removing-unauthenticated-calls-to-the-web-api/)
 
+</br>
+
+
 Para conseguir tu token tienes que:
 
 1- ir a [`My applications`](https://developer.spotify.com/my-applications/#!/) en Spotify Developer
