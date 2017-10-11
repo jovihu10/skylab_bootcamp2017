@@ -10,10 +10,13 @@ Crea una app que:
 
 Resources:
 
--https://developer.spotify.com/web-api/
--https://developer.spotify.com/web-api/search-item/
--https://developer.spotify.com/web-api/get-artists-albums/
--https://developer.spotify.com/web-api/get-albums-tracks/
+- https://developer.spotify.com/web-api/
+
+- https://developer.spotify.com/web-api/search-item/
+
+- https://developer.spotify.com/web-api/get-artists-albums/
+
+- https://developer.spotify.com/web-api/get-albums-tracks/
 
 Hints:
 
@@ -25,5 +28,11 @@ Hints:
 
 ```
 
+https://github.com/juanmaguitar/exercises-javascript/tree/master/04-jquery-spotify-API
 
 [`La api de Spotify requiere access token`](https://developer.spotify.com/news-stories/2017/01/27/removing-unauthenticated-calls-to-the-web-api/)
+
+Para conseguir tu token tienes que:
+
+1- ir a [`My applications`](https://developer.spotify.com/my-applications/#!/)
+
