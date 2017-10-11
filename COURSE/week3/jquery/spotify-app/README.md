@@ -42,7 +42,7 @@ Para conseguir tu token tienes que:
 
 <img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/spotify-app/img/auth-window.jpeg">
 
-3- [`Ves al sandbox]`(https://developer.spotify.com/web-api/console/get-search-item/) y genera un token clickando en **GET AUTH TOKEN**
+3- [`Ves al sandbox`](https://developer.spotify.com/web-api/console/get-search-item/) y genera un token clickando en **GET AUTH TOKEN**
 
 4- Clicka directamente en **REQUEST TOKEN** (no necesitamos marcar ningún checkbox)
 
