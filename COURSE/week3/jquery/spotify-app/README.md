@@ -34,6 +34,8 @@ https://github.com/juanmaguitar/exercises-javascript/tree/master/04-jquery-spoti
 
 </br>
 
+</br>
+
 
 Para conseguir tu token tienes que:
 
