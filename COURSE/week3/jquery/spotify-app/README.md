@@ -68,7 +68,7 @@ Para conseguir tu token tienes que:
     var token = 'BQAYEJLwOQoF03BzsUP0dRHaduLOEx-hZgDZOnIYUq_cM59jLN3VHjTsIPgXeCU-geVfQsJeqJS6UCh4jWOgfJaCXXXXXXXXXXXXXXXXXXXXXXXev8ojT3QoT1gBTVSHA2BZoi0vccbyoLp8b'
 
     $.ajax({
-      url: 'https://api.spotify.com/v1/search?type=artist&query=beatles'
+      url: 'https://api.spotify.com/v1/search?type=artist&query=beatles',
       headers: {
         Authorization: 'Bearer ' + token
       }

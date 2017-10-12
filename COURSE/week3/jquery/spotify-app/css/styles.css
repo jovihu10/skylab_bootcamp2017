@@ -1,0 +1,41 @@
+
+
+
+
+
+body{
+	width: 100%;
+	background-image: url("../img/background.png");
+	
+
+
+}
+
+header{
+	background: black;
+	
+	height: 80px;
+	border: 1px solid black;
+}
+
+form{
+	margin-top:2%;
+	
+}
+
+.list-artists{
+	background: black;
+	border: 1px solid black;
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 5px;
+	color: white;
+	
+}
+
+#logo{
+	width:30%;
+	margin-top:1%;
+	margin-left:1%;
+}
+
