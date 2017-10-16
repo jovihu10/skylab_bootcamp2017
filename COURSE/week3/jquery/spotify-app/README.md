@@ -1,5 +1,7 @@
 <h1>Spotify APP</h1>
 
+<img src="https://github.com/jovihu10/skylab_bootcamp2017/blob/master/COURSE/week3/jquery/spotify-app/img/screen.png">
+
 Crea una app que:
 
 .Nos permita buscar por artista.
