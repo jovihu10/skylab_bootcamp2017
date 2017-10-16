@@ -1,0 +1,123 @@
+
+
+
+
+
+body{
+	width: 100%;
+	background-image: url("../img/background.png");
+	
+
+
+}
+
+header{
+	background: black;
+	
+	height: 80px;
+	border: 1px solid black;
+}
+
+form{
+	margin-top:2%;
+	
+}
+
+.list-artists{
+	background: black;
+	border: 1px solid black;
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 5px;
+	color: white;
+	
+}
+
+.list-albums{
+	background: #25D34E;
+	border: 1px solid black;
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 5px;
+	color: white;
+	margin-left:10%;
+
+	
+}
+
+.list-albums option{
+	color: white;
+}
+
+
+
+
+#logo{
+	width:30%;
+	margin-top:1%;
+	margin-left:1%;
+}
+
+#selectAlbum{
+	margin-top:1%;
+}
+
+.info{
+	
+	height:370px;
+	border-radius: 5px;
+	margin-top:5%;
+	padding-top:8%;
+	background:black;
+	margin-left:2%;
+	
+	opacity:1;
+}
+
+#albumImage{
+	border-radius:5px;
+	margin-top:18%;
+	margin-left:6%;
+}
+
+.songs{
+	background: #404040;
+	border-radius: 5px;
+	
+}
+
+#songPreview a {
+	color: white;
+	}
+
+#artists{
+
+}
+
+#artistH2{
+	color:white;
+}
+
+#listSongs{
+	list-style: none;
+
+}
+
+
+
+#listSongs li{
+	padding:2px;
+
+}
+
+#link{
+	font-size:100%;
+}
+
+#albumName{
+	color:grey;
+}
+
+#albumType{
+	color:grey;
+}

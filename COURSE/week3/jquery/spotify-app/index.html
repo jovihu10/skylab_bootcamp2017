@@ -11,43 +11,79 @@
 </head>
 
 <body>
-    
-
-<div class="container-fluid">
-    <div class="row">
-        <header>
-            <div class="col-lg-6 col-md-6 col-sm-4">
-                <img id="logo" src="img/spotify-logo.png">
-            </div>
-            <!--Search -->
-            <form>
-                <div id="custom-search-input">
-                    <!-- hacer el input text con onclick?! -->
-                    <div class="input-group col-lg-5 col-md-4 col-sm-4 col-xs-3 search">
-                        <input type="text" id="inputArtist" class="search-query form-control" placeholder="Search" />
-                        <span class="input-group-btn">
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <div class="col-lg-6 col-md-6 col-sm-4">
+                    <img id="logo" src="img/spotify-logo.png">
+                </div>
+                <!--Search -->
+                <form>
+                    <div id="custom-search-input">
+                        <!-- hacer el input text con onclick?! -->
+                        <div class="input-group col-lg-5 col-md-4 col-sm-4 col-xs-3 search">
+                            <input type="text" id="inputArtist" class="search-query form-control" placeholder="Search" />
+                            <span class="input-group-btn">
                                     <button class="btn btn-success" type="submit" id="submit">
                                         <span class=" glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
+                            </button>
+                            </span>
+                        </div>
                     </div>
+                </form>
+                <!--End Search -->
+            </header>
+            <form>
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <div id="artists" class=" container hidden">
+                            <h2>Sellection of artists</h2>
+                            <div id="artistImage">
+                            </div>
+                            <select class="list-artists hidden" id="list-artists">
+                            </select>
+
+                            </div>
+                            <div class="col-lg-6">
+                            <div id="selectAlbum" class="hidden">
+                                
+
+                                <img id="albumImage"></img>
+                                <div class="col-lg-6">
+                                <div class="row">
+                                <select class="list-albums hidden" id="list-albums">
+                                </select>
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                            <div class="info hidden">
+                            <h2 id="artistH2">Artist</h2>
+                                <h3 id="albumName"></h3>
+                                <div id="albumType"></div>
+
+                                <div id="albumId"></div>
+                                <a id="link" href="#">Link</a>
+                                
+                                <div id="albumUrl"></div>
+                                <div id="albumImage"></div>
+                                <div id="albumDescription"></div>
+                                
+                            </div>
+                        </div>
+                    
+                    <div id="listSongs" class="col-lg-6">
+                    <h3 id="songH3" class="hidden">Songs</h3>
+                    <div id="songPreview"></div>
+                </div>
                 </div>
             </form>
-            <!--End Search -->
-        </header>
-        <div id="artists" class=" container hidden">
-            <select class="list-artists hidden" id="list-artists">
-                <div id="name"></div>
-                <div id="subInfo"></div>
-                <div id="description"></div>
-                <div id="artistImage"></div>
-                <div id="artistTitle"></div>
-                <div id="albumName"></div>
-            </select>
-            <h2>Sellection of artists</h2>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="js/app.js"></script>
 </body>
+
 </html>
