@@ -6,10 +6,12 @@
 
 .en el botón que queremos que haga click, le ponemos  un ng-click.
 
-.el input donde pondremos el nombre, es un input ng-model
+.el input donde pondremos el nombre, es un input ng-model (la data)
 
 .donde queremos que nos muestre la lista de artistas, será otro ng-controller
 
 el select será otro ng-model, en este caso con la clase ng-change, para poder cambiar.
 
 Como queremos que nos muestre todos los resultados que encuentre, usaremos un ng-repeat 
+
+El scope siempre va después del controller

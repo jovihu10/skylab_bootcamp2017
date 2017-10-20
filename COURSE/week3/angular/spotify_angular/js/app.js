@@ -1,8 +1,11 @@
 //https://developer.spotify.com/web-api/console/get-search-item/
-console.log("receiving")
+
+angular.module('spotyApp', [])
+
+//console.log("receiving")
 //1- Pasamos el token. Creamos una funcion onclick recoja los artista que cumplan la búsqueda
-var token = 'BQBK3-HaWnVF5nvm7dDLdhgBWVcCNh6znXLv55eLSM7MCON-2BnoO_KsRL0YHXo8Sm5QRBxULDBYTBjuw09fWZBDg4Z9y-6ARXdEm99jLoP4PZj7QNChzMaNHqvH-iVu5f3NnCfN'
-var albumId
+//var token = 'BQBK3-HaWnVF5nvm7dDLdhgBWVcCNh6znXLv55eLSM7MCON-2BnoO_KsRL0YHXo8Sm5QRBxULDBYTBjuw09fWZBDg4Z9y-6ARXdEm99jLoP4PZj7QNChzMaNHqvH-iVu5f3NnCfN'
+//var albumId
 
 /*
 $("#submit").on('click', function(event) {
