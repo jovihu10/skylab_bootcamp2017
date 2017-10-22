@@ -1,0 +1,16 @@
+body {
+  margin: 30px;
+  padding: 30px;
+  font-family: 'arial'; }
+
+/*# sourceMappingURL=styles.css.map */
+.newbie {
+  background: #3498db;
+  padding: 20px; }
+  .newbie #p1 {
+    color: white; }
+    .newbie #p1 .primary-link {
+      color: black;
+      background: orange; }
+
+/*# sourceMappingURL=styles.css.map */

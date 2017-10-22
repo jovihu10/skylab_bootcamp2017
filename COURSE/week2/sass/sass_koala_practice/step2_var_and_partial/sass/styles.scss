@@ -1,0 +1,20 @@
+//IMPORT PARTIAL
+@import 'partial';
+@import 'color';
+
+body{
+	margin: $margin;
+	padding: $padding;
+	background: $background
+}
+
+.dummy {
+	.cta{
+		margin: $margin;
+		a{
+			color: $blue;
+			background: $black;
+
+		}
+	}
+}

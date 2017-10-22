@@ -1,0 +1,46 @@
+
+@import '../bower_components/breakpoint-sass/stylesheets/breakpoint';
+
+//Hay que importar el bower poniendo la ruta de la carpeta
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.primary-nav {
+    background: #3498db;
+    padding: 20px;
+    overflow: hidden;
+    //En esta clase estamos añadiendo un breakpoint. Se hace con un include
+    //Si el tamaño de la pantalla es 200 de ancho y 300 de alto, hazme esto 
+    @include breakpoint(400px 600px){
+    	background: #e74c3c;
+
+    }
+}
+
+.brand-logo {
+    float: left;
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    @include breakpoint(350px 500px){
+    	margin-left: 40%;
+    }
+}
+
+.menu-nav {
+    color: white;
+    float: right;
+    li {
+        float: left;
+        padding-left: 20px;
+        display: block;
+    }
+    @include breakpoint(350px 500px){
+    	display: none;
+    }
+}
+
+//El ultimo breakpoint hace que cuando el tamaño sea 350 500, que se oculte el nav

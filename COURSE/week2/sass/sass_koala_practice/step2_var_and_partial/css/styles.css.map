@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IAAI;EACH,MAAM,ECJE,IAAI;EDKZ,OAAO,ECJE,IAAI;EDKb,UAAU,ECHE,KAAK;;ADOjB,WAAI;EACH,MAAM,ECXC,IAAI;EDYX,aAAC;IACA,KAAK,EEdD,OAAO;IFeX,UAAU,EEdL,OAAO",
+"sources": ["../sass/styles.scss","../sass/_partial.scss","../sass/_color.scss"],
+"names": [],
+"file": "styles.css"
+}

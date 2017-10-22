@@ -1,0 +1,12 @@
+body {
+  margin: 50px;
+  padding: 50px;
+  background: black; }
+
+.dummy .cta {
+  margin: 50px; }
+  .dummy .cta a {
+    color: #3498db;
+    background: #202020; }
+
+/*# sourceMappingURL=styles.css.map */
